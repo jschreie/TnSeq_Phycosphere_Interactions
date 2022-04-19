@@ -1,0 +1,204 @@
+Gene ID	spo	Name	Function	
+637287506	SPO0013	ribokinase	COG0524	
+637287533	SPO0040	ABC transporter, permease protein	COG1682	
+637287571	SPO0077	PTS IIA-like nitrogen-regulatory protein PtsN	COG1762	
+637287576	SPO0082	arabinose 5-phosphate isomerase	COG0794	
+637287697	SPO0205	MmgE/PrpD family protein	COG2079	
+637287720	SPO0228	hypothetical protein	COG0697	
+637287729	SPO0237	carbohydrate ABC transporter ATP-binding protein, CUT1 family (TC 3.A.1.1.-)	COG3839	
+637287730	SPO0238	carbohydrate ABC transporter membrane protein 2, CUT1 family (TC 3.A.1.1.-)	COG0395	
+637287731	SPO0239	carbohydrate ABC transporter membrane protein 1, CUT1 family (TC 3.A.1.1.-)	COG1175	
+637287732	SPO0240	carbohydrate ABC transporter substrate-binding protein, CUT1 family (TC 3.A.1.1.-)	COG1653	
+637287753	SPO0261	hypothetical protein	COG0697	
+637287755	SPO0263	membrane protein	COG0697	
+637287844	SPO0352	(3S)-malyl-CoA thioesterase	COG2301	
+637287896	SPO0404	phosphoglycerate mutase family protein	COG0406	
+637287966	SPO0474	alkylphosphonate utilization protein PhnN	COG3709	
+637288044	SPO0552	phosphoglycerate mutase family protein	COG0406	
+637288082	SPO0591	TRAP dicarboxylate transporter, DctP subunit	COG1638	
+637288083	SPO0592	TRAP dicarboxylate transporter, DctQ subunit	COG3090	
+637288084	SPO0593	TRAP dicarboxylate transporter, DctM subunit	COG1593	
+637288099	SPO0608	carbohydrate ABC transporter substrate-binding protein, CUT1 family (TC 3.A.1.1.-)	COG1653	
+637288100	SPO0609	carbohydrate ABC transporter ATP-binding protein, CUT1 family (TC 3.A.1.1.-)	COG3839	
+637288101	SPO0610	carbohydrate ABC transporter ATP-binding protein, CUT1 family (TC 3.A.1.1.-)	COG3839	
+637288102	SPO0611	carbohydrate ABC transporter membrane protein 1, CUT1 family (TC 3.A.1.1.-)	COG1175	
+637288103	SPO0612	carbohydrate ABC transporter membrane protein 2, CUT1 family (TC 3.A.1.1.-)	COG0395	
+637288188	SPO0701	glyceraldehyde-3-phosphate dehydrogenase (NAD+) (EC 1.2.1.12)	COG0057	
+637288194	SPO0707	transcriptional regulator, DeoR family	COG1349	
+637288201	SPO0714	PTS system IIA component, Man family	COG2893	
+637288202	SPO0715	phosphocarrier protein HPr	COG1925	
+637288218	SPO0731	transcriptional regulator, DeoR family	COG1349	
+637288223	SPO0736	TRAP dicarboxylate transporter, DctM subunit	COG1593	
+637288225	SPO0738	TRAP dicarboxylate transporter, DctP subunit	COG1638	
+637288266	SPO0779	ribulose-5-phosphate 3-epimerase (EC 5.1.3.1)	COG0036	
+637288272	SPO0785	2-keto-3-deoxygalactonate kinase (EC 2.7.1.58)	COG3734	
+637288335	SPO0848	glycosyl transferase, group 2 family protein	COG1216	
+637288340	SPO0853	glycosyl transferase, group 2 family protein	COG1216	
+637288342	SPO0855	xylulokinase	COG1070	
+637288343	SPO0856	D-xylose isomerase (EC 5.3.1.5)	COG2115	
+637288344	SPO0857	aldose 1-epimerase (EC 5.1.3.3)	COG2017	
+637288347	SPO0860	xylose repressor, putative	COG1940	
+637288348	SPO0861	xylose-binding protein	COG4213	
+637288349	SPO0862	xylose ABC transporter, permease protein	COG4214	
+637288351	SPO0864	glucokinase (EC 2.7.1.2)	COG0837	
+637288359	SPO0872	polysaccharide deacetylase family protein	COG0726	
+637288362	SPO0875	glyceraldehyde-3-phosphate dehydrogenase, type I	COG0057	
+637288433	SPO0946	phosphomannomutase/phosphoglucomutase	COG1109	
+637288436	SPO0949	capsular polysaccharide export ATP-binding protein	COG1134	
+637288444	SPO0957	ABC transporter, permease protein	COG1682	
+637288456	SPO0970	aquaporin Z	COG0580	
+637288562	SPO1076	trkA-C domain protein	COG0471	
+637288571	SPO1085	hypothetical protein	COG2513	
+637288579	SPO1093	drug resistance transporter, Bcr/CflA family	COG2814	
+637288598	SPO1112	TRAP transporter, periplasmic protein	COG1638	
+637288600	SPO1114	TRAP dicarboxylate transporter, DctM subunit	COG1593	
+637288631	SPO1145	TRAP dicarboxylate transporter, DctM subunit	COG1593	
+637288632	SPO1146	TRAP dicarboxylate transporter, DctQ subunit	COG3090	
+637288633	SPO1147	TRAP dicarboxylate transporter, DctP subunit	COG1638	
+637288810	SPO1327	ribose-5-phosphate isomerase (EC 5.3.1.6)	COG0120	
+637288841	SPO1359	pyruvate phosphate dikinase (EC 2.7.9.1)	COG0574	
+637288846	SPO1364	phosphoglucosamine mutase (EC 5.4.2.10)	COG1109	
+637288868	SPO1386	HIT family protein	COG0537	
+637288878	SPO1396	transporter, putative	COG2814	
+637288936	SPO1454	TRAP dicarboxylate transporter, DctP subunit	COG1638	
+637288938	SPO1456	TRAP transporter, DctM subunit	COG1593	
+637288946	SPO1464	TRAP dicarboxylate transporter, DctQ subunit, putative	COG3090	
+637288947	SPO1465	TRAP dicarboxylate transporter, DctP subunit, putative	COG1638	
+637288952	SPO1470	isocitrate lyase family protein	COG2513	
+637288967	SPO1485	sodium:galactoside symporter family protein	COG2211	
+637288990	SPO1508	quinoprotein ethanol dehydrogenase	COG4993	
+637289046	SPO1564	MOFRL domain protein	COG2379	
+637289047	SPO1565	beta-methylmalyl-CoA/L-malyl-CoA lyase (EC 4.1.3.24)	COG2301	
+637289081	SPO1599	MmgE/PrpD family protein	COG2079	
+637289179	SPO1699	MmgE/PrpD family protein	COG2079	
+637289200	SPO1719	TRAP dicarboxylate transporter, DctM subunit	COG1593	
+637289201	SPO1720	TRAP dicarboxylate transporter, DctQ subunit	COG3090	
+637289202	SPO1721	TRAP dicarboxylate transporter, DctP subunit, putative	COG1638	
+637289204	SPO1723	D-mannonate dehydratase (EC 4.2.1.8)	COG1312	
+637289205	SPO1724	D-mannonate oxidoreductase	COG0246	
+637289214	SPO1733	fructose-1,6-bisphosphatase, class II	COG1494	
+637289252	SPO1771	TRAP dicarboxylate transporter, DctM subunit	COG1593	
+637289253	SPO1772	TRAP dicarboxylate transporter, DctQ subunit	COG3090	
+637289254	SPO1773	TRAP dicarboxylate transporter, DctP subunit, putative	COG1638	
+637289260	SPO1779	membrane protein, major facilitator transporter family	COG2814	
+637289295	SPO1814	TRAP dicarboxylate transporter, DctP subunit, putative	COG1638	
+637289297	SPO1816	TRAP dicarboxylate transporter, DctM subunit, putative	COG1593	
+637289301	SPO1820	carbohydrate ABC transporter substrate-binding protein, CUT1 family (TC 3.A.1.1.-)	COG1653	
+637289302	SPO1821	carbohydrate ABC transporter membrane protein 2, CUT1 family (TC 3.A.1.1.-)	COG0395	
+637289303	SPO1822	carbohydrate ABC transporter membrane protein 1, CUT1 family (TC 3.A.1.1.-)	COG1175	
+637289304	SPO1823	carbohydrate ABC transporter ATP-binding protein, CUT1 family (TC 3.A.1.1.-)	COG3839	
+637289316	SPO1835	carbohydrate ABC transporter ATP-binding protein, CUT1 family (TC 3.A.1.1.-)	COG3839	
+637289318	SPO1837	carbohydrate ABC transporter membrane protein 2, CUT1 family (TC 3.A.1.1.-)	COG0395	
+637289319	SPO1838	carbohydrate ABC transporter membrane protein 1, CUT1 family (TC 3.A.1.1.-)	COG1175	
+637289320	SPO1839	carbohydrate ABC transporter substrate-binding protein, CUT1 family (TC 3.A.1.1.-)	COG1653	
+637289322	SPO1841	BadF/BadG/BcrA/BcrD ATPase family protein	COG2971	
+637289325	SPO1844	N-acetylglucosamine 6-phosphate deacetylase (EC 3.5.1.25)	COG1820	
+637289346	SPO1865	transketolase (EC 2.2.1.1)	COG0021	
+637289370	SPO1889	alcohol dehydrogenase, zinc-containing	COG1064	
+637289379	SPO1899	fructose-bisphosphate aldolase (EC 4.1.2.13)	COG3588	
+637289420	SPO1940	hypothetical protein	COG2133	
+637289443	SPO1963	phosphoglycerate mutase family protein	COG0406	
+637289450	SPO1970	phosphoglycerate mutase (EC 5.4.2.1)	COG0406	
+637289525	SPO2046	glucose-6-phosphate isomerase (EC 5.3.1.9)	COG0166	
+637289526	SPO2047	6-phosphogluconolactonase (EC 3.1.1.31)	COG0363	
+637289527	SPO2048	glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)	COG0364	
+637289539	SPO2060	kinase, pfkB family	COG0524	
+637289550	SPO2071	drug resistance transporter, Bcr/CflA subfamily	COG2814	
+637289574	SPO2095	MmgE/PrpD family protein	COG2079	
+637289591	SPO2112	transmembrane drug/metabolite transporter family protein	COG0697	
+637289607	SPO2128	transporter, putative	COG2814	
+637289627	SPO2148	hypothetical protein	COG2861	
+637289678	SPO2198	glyceraldehyde-3-phosphate dehydrogenase (NAD+) (EC 1.2.1.12)	COG0057	
+637289715	SPO2235	phosphoglycerate kinase (EC 2.7.2.3)	COG0126	
+637289787	SPO2309	hypothetical protein	COG0697	
+637289834	SPO2356	TRAP dicarboxylate transporter, DctM subunit, putative	COG1593	
+637289835	SPO2357	TRAP dicarboxylate transporter, DctQ subunit	COG3090	
+637289836	SPO2358	TRAP dicarboxylate transporter, DctP subunit, putative	COG1638	
+637289882	SPO2410	dihydroxy-acid dehydratase	COG0129	
+637289892	SPO2420	2-keto-3-deoxygluconate kinase (EC 2.7.1.45)	COG0524	
+637289902	SPO2430	hydrolase, UxaA family	COG2721	
+637289917	SPO2445	drug resistance transporter, Bcr/CflA subfamily	COG2814	
+637289946	SPO2474	enolase (EC 4.2.1.11)	COG0148	
+637289973	SPO2502	beta-N-acetylhexosaminidase, putative	COG1472	
+637290016	SPO2545	TRAP dicarboxylate transporter, DctP subunit, putative	COG1638	
+637290017	SPO2546	TRAP dicarboxylate transporter, DctQ subunit	COG3090	
+637290018	SPO2547	TRAP dicarboxylate transporter, DctM subunit	COG1593	
+637290028	SPO2559	gluconolactonase (EC 3.1.1.17)	COG3386	
+637290031	SPO2562	hypothetical protein	COG0235	
+637290032	SPO2563	hydroxypyruvate isomerase, putative	COG3622	
+637290090	SPO2621	triosephosphate isomerase (EC 5.3.1.1)	COG0149	
+637290095	SPO2626	TRAP transporter, DctM subunit	COG1593	
+637290096	SPO2627	TRAP transporter, DctQ subunit	COG3090	
+637290097	SPO2628	TRAP transporter solute receptor, DctP family	COG1638	
+637290358	SPO2890	glucosyltransferase MdoH	COG2943	
+637290396	SPO2928	phosphopentomutase	COG1015	
+637290420	SPO2952	trkA domain protein	COG0471	
+637290426	SPO2958	inositol monophosphatase family protein	COG0483	
+637290438	SPO2971	hypothetical protein	COG2814	
+637290442	SPO2976	metallo-beta-lactamase family protein	COG2220	
+637290459	SPO2993	MOFRL family protein	COG2379	
+637290478	SPO3012	inositol-1-monophosphatase, putative	COG0483	
+637290492	SPO3026	strictosidine synthase family protein	COG3386	
+637290497	SPO3031	2-keto-3-deoxy-phosphogluconate aldolase (EC 4.1.2.14)	COG0800	
+637290498	SPO3032	6-phosphogluconate dehydratase (EC 4.2.1.12)	COG0129	
+637290499	SPO3033	glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)	COG0364	
+637290533	SPO3068	hypothetical protein	COG2220	
+637290593	SPO3128	transaldolase (EC 2.2.1.2)	COG0176	
+637290645	SPO3180	ribose-5-phosphate isomerase (EC 5.3.1.6)	COG0698	
+637290770	SPO3305	phosphoglycerate mutase family protein	COG0406	
+637290777	SPO3312	hypothetical protein	COG2513	
+637290779	SPO3314	dihydroxyacid dehydratase (EC 4.2.1.9)	COG0129	
+637290908	SPO3443	inositol monophosphatase family protein	COG0483	
+637290946	SPO3481	hypothetical protein	COG2814	
+637290969	SPO3504	S-adenosylmethionine uptake transporter	COG0697	
+637290970	SPO3505	hypothetical protein	COG2814	
+637291019	SPO3554	hypothetical protein	COG0697	
+637291047	SPO3582	kinase, pfkB family	COG0524	
+637291065	SPO3600	pyruvate kinase (EC 2.7.1.40)	COG0469	
+637291073	SPO3608	beta-methylmalyl-CoA/L-malyl-CoA lyase (EC 4.1.3.24)	COG2301	
+637291106	SPO3641	ABC transporter, permease protein	COG1682	
+637291129	SPO3663	TRAP dicarboxylate family transporter, DctM subunit	COG1593	
+637291130	SPO3664	hypothetical protein	COG3090	
+637291131	SPO3665	bacterial extracellular solute-binding protein, family 7	COG1638	
+637291153	SPO3686	2,4-dihydroxyhept-2-enedioate aldolase (EC 4.1.2.-)	COG3836	
+637291160	SPO3693	TRAP dicarboxylate transporter, DctP subunit	COG1638	
+637291162	SPO3695	TRAP dicarboxylate transporter, DctM subunit, putative	COG1593	
+637291178	SPO3711	hypothetical protein	COG2814	
+637291202	SPO3735	major facilitator family protein	COG2814	
+637291216	SPO3749	hypothetical protein	COG0235	
+637291228	SPO3760	sugar fermentation stimulation protein A	COG1489	
+637291230	SPO3762	HAD-superfamily hydrolase, subfamily IA, variant 1	COG0637	
+637291251	SPO3783	carbohydrate ABC transporter ATP-binding protein, CUT1 family (TC 3.A.1.1.-)	COG3839	
+637291252	SPO3784	carbohydrate ABC transporter ATP-binding protein, CUT1 family (TC 3.A.1.1.-)	COG3839	
+637291253	SPO3785	carbohydrate ABC transporter membrane protein 1, CUT1 family (TC 3.A.1.1.-)	COG1175	
+637291254	SPO3786	carbohydrate ABC transporter membrane protein 2, CUT1 family (TC 3.A.1.1.-)	COG0395	
+637291255	SPO3787	carbohydrate ABC transporter substrate-binding protein, CUT1 family (TC 3.A.1.1.-)	COG1653	
+637291278	SPO3810	phosphoglycerate mutase (EC 5.4.2.1)	COG0696	
+637291288	SPO3820	transmembrane transporter, major facilitator family	COG2814	
+637291346	SPO3878	glyceraldehyde-3-phosphate dehydrogenase (NAD+) (EC 1.2.1.12)	COG0057	
+637613652	SPOA0108	hypothetical protein	COG2814	
+637613782	SPOA0238	TRAP dicarboxylate transporter, DctP subunit	COG1638	
+637613784	SPOA0240	TRAP transporter, DctM subunit	COG1593	
+637613785	SPOA0241	gluconolactonase (EC 3.1.1.17)	COG3386	
+637613793	SPOA0249	TRAP dicarboxylate transporter, DctP subunit	COG1638	
+637613794	SPOA0250	TRAP dicarboxylate transporter, DctM subunit	COG1593	
+637613795	SPOA0251	TRAP dicarboxylate transporter, DctQ subunit	COG3090	
+637613797	SPOA0253	monosaccharide ABC transporter substrate-binding protein, CUT2 family (TC 3.A.1.2.-)	COG1879	
+637613798	SPOA0254	monosaccharide ABC transporter membrane protein, CUT2 family (TC 3.A.1.2.-)	COG1172	
+637613800	SPOA0256	monosaccharide ABC transporter substrate-binding protein, CUT2 family (TC 3.A.1.2.-)	COG1879	
+637613801	SPOA0257	monosaccharide ABC transporter membrane protein, CUT2 family (TC 3.A.1.2.-)	COG1172	
+637613802	SPOA0258	monosaccharide ABC transporter ATP-binding protein, CUT2 family (TC 3.A.1.2.-)	COG1129	
+637613820	SPOA0276	fructokinase	COG0524	
+637613822	SPOA0278	TRAP dicarboxylate transporter, DctM subunit	COG1593	
+637613823	SPOA0279	TRAP dicarboxylate transporter, DctQ subunit	COG3090	
+637613824	SPOA0280	TRAP dicarboxylate transporter, DctP subunit, putative	COG1638	
+637613871	SPOA0329	methylglyoxal synthase	COG1803	
+637613872	SPOA0330	2-keto-3-deoxy-phosphogluconate aldolase (EC 4.1.2.14)	COG0800	
+637613873	SPOA0331	2-dehydro-3-deoxygluconokinase, putative	COG0524	
+637613874	SPOA0332	dihydroxy-acid dehydratase	COG0129	
+637613889	SPOA0347	hypothetical protein	COG2814	
+637613891	SPOA0349	S-adenosylmethionine uptake transporter	COG0697	
+637613914	SPOA0372	TRAP dicarboxylate transporter, DctQ subunit	COG3090	
+637613915	SPOA0373	TRAP dicarboxylate transporter, DctM subunit	COG1593	
+637613916	SPOA0374	TRAP dicarboxylate transporter, DctP subunit	COG1638	
+637613973	SPOA0431	tetracycline resistance protein	COG2814	

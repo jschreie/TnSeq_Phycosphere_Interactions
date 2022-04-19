@@ -1,0 +1,94 @@
+Gene ID	spo	Name	Function	
+637287500	SPO0007	dITPase (EC 3.6.1.-)	COG0127	
+637287554	SPO0060	mutator mutT protein	COG1051	
+637287776	SPO0284	dihydroorotase (EC 3.5.2.3)	COG0044	
+637287779	SPO0287	aspartate carbamoyltransferase (EC 2.1.3.2)	COG0540	
+637287786	SPO0294	hydrolase, NUDIX family	COG1051	
+637287858	SPO0366	purine-nucleoside phosphorylase (EC 2.4.2.1)	COG0813	
+637287901	SPO0409	deoxyuridine 5'-triphosphate nucleotidohydrolase (EC 3.6.1.23)	COG0756	
+637287999	SPO0507	Adenylate kinase (EC 2.7.4.3)	COG0563	
+637288140	SPO0653	xanthine dehydrogenase, molybdenum binding subunit apoprotein (EC 1.17.1.4)	COG4631	
+637288141	SPO0654	xanthine dehydrogenase, A subunit	COG4630	
+637288250	SPO0763	glutamine amidotransferase, class I	COG0518	
+637288358	SPO0871	transthyretin family protein	COG2351	
+637288359	SPO0872	polysaccharide deacetylase family protein	COG3195	
+637288360	SPO0873	ureidoglycolate hydrolase	COG3194	
+637288361	SPO0874	xanthine/uracil permease family protein	COG2233	
+637288379	SPO0892	5-(carboxyamino)imidazole ribonucleotide synthase	COG0026	
+637288380	SPO0893	5-(carboxyamino)imidazole ribonucleotide mutase	COG0041	
+637288401	SPO0914	thymidine kinase (EC 2.7.1.21)	COG1435	
+637288410	SPO0923	carbamoyl-phosphate synthase large subunit	COG0458	
+637288483	SPO0997	sulfate thiol esterase SoxB	COG0737	
+637288557	SPO1071	glutamine amidotransferase	COG0518	
+637288603	SPO1117	phosphatase, Ppx/GppA family	COG0248	
+637288758	SPO1273	thymidylate synthase	COG1351	
+637288784	SPO1301	glutamine amidotransferase, class I	COG0518	
+637288795	SPO1312	CTP synthase (EC 6.3.4.2)	COG0504	
+637288801	SPO1318	Adenylosuccinate synthetase (EC 6.3.4.4)	COG0104	
+637288827	SPO1345	phosphoribosylamine--glycine ligase (EC 6.3.4.13)	COG0151	
+637288852	SPO1370	aminotransferase family protein	COG0075	
+637288859	SPO1377	carbamoyl-phosphate synthase small subunit	COG0505	
+637288868	SPO1386	HIT family protein	COG0537	
+637288901	SPO1419	iron-sulfur cluster-binding protein	COG1146	
+637289039	SPO1557	Formate-tetrahydrofolate ligase (EC 6.3.4.3)	COG2759	
+637289049	SPO1567	aminotransferase, putative	COG0075	
+637289142	SPO1662	uridylate kinase (EC 2.7.4.22)	COG0528	
+637289258	SPO1777	dihydroorotate oxidase B, catalytic subunit (EC 1.3.3.1)/dihydropyrimidine dehydrogenase (NADP+) (EC 1.3.1.2)/dihydrouracil dehydrogenase (NAD+) (EC 1.3.1.1)	COG0167	
+637289264	SPO1783	dihydropyrimidinase (EC 3.5.2.2)	COG0044	
+637289293	SPO1812	Adenylate kinase (EC 2.7.4.3)	COG0563	
+637289351	SPO1870	phosphoribosylformylglycinamidine synthase subunit II (EC 6.3.5.3)	COG0046	
+637289368	SPO1887	phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)	COG0152	
+637289369	SPO1888	phosphoribosylformylglycinamidine synthase, PurS protein	COG1828	
+637289371	SPO1890	phosphoribosylformylglycinamidine synthase subunit I (EC 6.3.5.3)	COG0047	
+637289425	SPO1945	guanylate kinase (EC 2.7.4.8)	COG0194	
+637289507	SPO2028	HD domain protein	COG1896	
+637289518	SPO2039	inosine-5'-monophosphate dehydrogenase (EC 1.1.1.205)	COG0516	
+637289540	SPO2061	indigoidine synthase A family protein	COG2313	
+637289576	SPO2097	hypoxanthine phosphoribosyltransferase (EC 2.4.2.8)	COG0634	
+637289588	SPO2109	GMP synthase (glutamine-hydrolyzing) (EC 6.3.5.2)	COG0518,COG0519	
+637289647	SPO2168	formyltetrahydrofolate-dependent phosphoribosylglycinamide formyltransferase (EC 2.1.2.2)	COG0299	
+637289648	SPO2169	phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)	COG0150	
+637289674	SPO2194	atrazine chlorohydrolase	COG0402	
+637289771	SPO2293	YjeF family protein	COG0062,COG0063	
+637289783	SPO2305	Adenylosuccinate lyase (EC 4.3.2.2)	COG0015	
+637289861	SPO2386	5-hydroxyisourate hydrolase	COG2351	
+637289916	SPO2444	nucleoside diphosphate kinase (EC 2.7.4.6)	COG0105	
+637289942	SPO2470	inosine-uridine preferring nucleoside hydrolase	COG1957	
+637289969	SPO2498	dCTP deaminase (EC 3.5.4.13)	COG0717	
+637289976	SPO2505	deoxyguanosinetriphosphate triphosphohydrolase, putative	COG0232	
+637290122	SPO2653	dihydroorotase (EC 3.5.2.3)	COG0418	
+637290123	SPO2654	orotate phosphoribosyltransferase (EC 2.4.2.10)	COG0461	
+637290146	SPO2677	amidophosphoribosyltransferase (EC 2.4.2.14)	COG0034	
+637290207	SPO2740	thymidylate kinase (EC 2.7.4.9)	COG0125	
+637290274	SPO2806	cytosine deaminase	COG0402	
+637290372	SPO2904	Ser/Thr protein phosphatase/nucleotidase, putative	COG0737	
+637290375	SPO2907	dihydroorotate oxidase A (EC 1.3.3.1)	COG0167	
+637290394	SPO2926	uracil phosphoribosyltransferase (EC 2.4.2.9)	COG0035	
+637290395	SPO2927	adenosine deaminase (EC 3.5.4.4)	COG1816	
+637290397	SPO2929	thymidine phosphorylase (EC 2.4.2.4)	COG0213	
+637290398	SPO2930	cytidine deaminase (EC 3.5.4.5)	COG0295	
+637290407	SPO2939	ATP-NAD kinase, putative	COG0061	
+637290424	SPO2956	guanine deaminase (EC 3.5.4.3)	COG0402	
+637290425	SPO2957	hydroxydechloroatrazine ethylaminohydrolase	COG0402	
+637290495	SPO3029	serine--glyoxylate transaminase, putative	COG0075	
+637290511	SPO3045	glutamine amidotransferase, class I	COG0518	
+637290526	SPO3060	methylthioadenosine phosphorylase (EC 2.4.2.28)	COG0005	
+637290531	SPO3066	adenine phosphoribosyltransferase (EC 2.4.2.7)	COG0503	
+637290568	SPO3103	Formate-tetrahydrofolate ligase (EC 6.3.4.3)	COG2759	
+637290616	SPO3151	HAD-superfamily subfamily IIA hydrolase, TIGR01459	COG0647	
+637290624	SPO3159	ribose-phosphate pyrophosphokinase	COG0462	
+637290659	SPO3194	ribonucleoside-diphosphate reductase class II (EC 1.17.4.-)	COG0209	
+637290743	SPO3278	orotidine-5'-phosphate decarboxylase (EC 4.1.1.23)	COG0284	
+637290744	SPO3279	NUDIX domain protein	COG1051	
+637290832	SPO3367	deoxyribose-phosphate aldolase	COG0274	
+637290839	SPO3374	IMP cyclohydrolase (EC 3.5.4.10)/phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)	COG0138	
+637291006	SPO3541	hydrolase, NUDIX family	COG2816	
+637291007	SPO3542	2`,3`-cyclic-nucleotide 2`-phosphodiesterase, putative	COG0737	
+637291212	SPO3745	AMP nucleosidase	COG0775	
+637291213	SPO3746	Adenine deaminase (EC 3.5.4.2)	COG1001	
+637291261	SPO3793	acetoin catabolism protein X	COG3199	
+637291331	SPO3863	HD domain protein	COG1896	
+637613557	SPOA0012	DNA topology modulation kinase FlaR, putative	COG0563	
+637613561	SPOA0017	cytidylate kinase (EC 2.7.4.14)	COG0283	
+637613690	SPOA0144	serine-glyoxylate aminotransferase apoenzyme (EC 2.6.1.45)	COG0075	
+637613974	SPOA0432	3-carboxy-cis,cis-muconate cycloisomerase (EC 5.5.1.2)	COG0015	

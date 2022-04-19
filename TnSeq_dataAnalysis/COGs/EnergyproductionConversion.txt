@@ -1,0 +1,275 @@
+Gene ID	spo	Name	Function	
+637287505	SPO0012	phosphate acetyltransferase	COG0280,COG0281	
+637287578	SPO0084	betaine aldehyde dehydrogenase (EC 1.2.1.8)	COG1012	
+637287591	SPO0097	aldehyde dehydrogenase family protein	COG1012	
+637287598	SPO0104	glycerol kinase (EC 2.7.1.30)	COG0554	
+637287599	SPO0105	hypothetical protein	COG0654	
+637287609	SPO0115	phosphate acetyltransferase	COG0280	
+637287610	SPO0116	acetate kinase (EC 2.7.2.1)	COG0282	
+637287622	SPO0130	cytochrome c family protein	COG3474	
+637287656	SPO0164	oxidoreductase, FMN-binding/pyridine nucleotide-disulfide oxidoreductase	COG1902	
+637287658	SPO0166	N-methylproline demethylase, putative	COG1902	
+637287678	SPO0186	bordetella uptake gene family protein	COG3181	
+637287702	SPO0210	3-isopropylmalate dehydrogenase	COG0473	
+637287716	SPO0224	polyphosphate kinase, putative	COG2326	
+637287723	SPO0231	alcohol dehydrogenase, zinc-containing	COG0604	
+637287724	SPO0232	quinone oxidoreductase, putative	COG0604	
+637287727	SPO0235	aldehyde dehydrogenase family protein	COG1012	
+637287748	SPO0256	copper-binding protein, plastocyanin/azurin family	COG3794	
+637287763	SPO0271	ubiquinol-cytochrome c reductase, iron-sulfur subunit	COG0723	
+637287764	SPO0272	ubiquinol--cytochrome c reductase, cytochrome B	COG1290	
+637287765	SPO0273	ubiquinol--cytochrome c reductase, cytochrome c1	COG2857	
+637287767	SPO0275	cytochrome b, putative	COG3658	
+637287798	SPO0306	formate dehydrogenase accessory protein FdhD	COG1526	
+637287808	SPO0316	electrotransfer ubiquinone oxidoreductase family protein	COG0644	
+637287832	SPO0340	2-oxoglutarate dehydrogenase, E3 component, dihydrolipoamide dehydrogenase	COG1249	
+637287835	SPO0343	2-oxoglutarate dehydrogenase E2 component (EC 2.3.1.61)	COG0508	
+637287836	SPO0344	2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2)	COG0567	
+637287838	SPO0346	succinyl-CoA synthetase (ADP-forming) alpha subunit (EC 6.2.1.5)	COG0074	
+637287839	SPO0347	succinyl-CoA synthetase (ADP-forming) beta subunit (EC 6.2.1.5)	COG0045	
+637287841	SPO0349	malate dehydrogenase (NAD) (EC 1.1.1.37)	COG0039	
+637287850	SPO0358	succinate dehydrogenase subunit C (EC 1.3.5.1)	COG2009	
+637287851	SPO0359	succinate dehydrogenase subunit D (EC 1.3.5.1)	COG2142	
+637287852	SPO0360	succinate dehydrogenase subunit A (EC 1.3.5.1)	COG1053	
+637287853	SPO0361	succinate dehydrogenase subunit B (EC 1.3.5.1)	COG0479	
+637287862	SPO0370	crotonyl-CoA carboxylase/reductase (EC 1.3.1.85)	COG0604	
+637287875	SPO0383	acyl carrier protein phosphodiesterase, putative	COG1182	
+637288009	SPO0517	HAD-superfamily hydrolase, subfamily IA, variant 1	COG0546	
+637288032	SPO0540	mercuric reductase, putative	COG1249	
+637288059	SPO0568	indolepyruvate ferredoxin oxidoreductase	COG4231	
+637288076	SPO0585	branched-chain alpha-keto acid dehydrogenase E1 component (EC 1.2.4.4)	COG0022,COG1071	
+637288080	SPO0589	oxidoreductase, NAD-binding/iron-sulfur cluster-binding protein	COG1018	
+637288089	SPO0598	FMN-dependent alpha-hydroxy acid dehydrogenase family protein	COG1304	
+637288097	SPO0606	predicted aconitase subunit 1 (EC 4.2.1.3)/predicted aconitase subunit 2 (EC 4.2.1.3)	COG1679	
+637288107	SPO0616	oxidoreductase, zinc-binding dehydrogenase family	COG0604	
+637288119	SPO0632	2-hydroxyacid dehydrogenase	COG1052	
+637288121	SPO0634	oxidoreductase, FAD-binding	COG0277	
+637288169	SPO0682	3-(3-hydroxy-phenyl)propionate hydroxylase	COG0654	
+637288196	SPO0709	phosphoenolpyruvate carboxykinase	COG1866	
+637288206	SPO0719	electron transfer flavoprotein alpha subunit apoprotein	COG2025	
+637288207	SPO0720	electron transfer flavoprotein beta subunit	COG2086	
+637288219	SPO0732	homodimeric glycerol 3-phosphate dehydrogenase (quinone) (EC 1.1.5.3)	COG0578	
+637288222	SPO0735	phenylacetic acid degradation protein PaaZ	COG1012	
+637288240	SPO0753	phenylacetic acid degradation oxidoreductase PaaK	COG1018,COG0633	
+637288253	SPO0766	iron-sulfur cluster-binding protein	COG0633	
+637288256	SPO0769	hypothetical protein	COG3181	
+637288274	SPO0787	phosphoglycolate phosphatase	COG0546	
+637288300	SPO0813	L-lactate dehydrogenase, putative	COG1304	
+637288317	SPO0830	xanthine dehydrogenase, molybdenum binding subunit apoprotein (EC 1.17.1.4)	COG1529,COG2080	
+637288318	SPO0831	xanthine dehydrogenase family protein, medium subunit	COG1319	
+637288320	SPO0833	NAD-dependent formate dehydrogenase flavoprotein subunit	COG1905,COG1894	
+637288400	SPO0913	D-isomer specific 2-hydroxyacid dehydrogenase family protein	COG1052	
+637288422	SPO0935	nitroreductase family protein	COG0778	
+637288477	SPO0991	sulfur oxidation V protein	COG0785	
+637288484	SPO0998	sulfur dehydrogenase subunit SoxC (EC 1.-.-.-)	COG2041	
+637288485	SPO0999	sulfur dehydrogenase subunit SoxD (EC 1.-.-.-)	COG3474	
+637288486	SPO1000	sulfide dehydrogenase (flavocytochrome c), cytochrome c subunit (EC 1.8.2.3)	COG3474,COG2863	
+637288492	SPO1006	NADH-ubiquinone oxidoreductase	COG3761	
+637288559	SPO1073	bordetella uptake gene family protein	COG3181	
+637288563	SPO1077	nitroreductase family protein	COG0778	
+637288623	SPO1137	succinate semialdehyde dehydrogenase (EC 1.2.1.16)	COG1012	
+637288657	SPO1171	pyruvate carboxylase	COG1038	
+637288658	SPO1172	FMN-dependent alpha-hydroxy acid dehydrogenase family protein	COG1304	
+637288741	SPO1256	polyphosphate kinase 2	COG2326	
+637288811	SPO1328	NADPH-glutathione reductase (EC 1.8.1.7)	COG1249	
+637288830	SPO1348	iron-sulfur cluster-binding protein	COG0633	
+637288853	SPO1371	2-octaprenyl-6-methoxyphenyl hydroxylase	COG0654	
+637288865	SPO1383	cytochrome c oxidase, aa3-type, subunit I	COG0843	
+637288934	SPO1452	oxidoreductase NAD-binding domain/2Fe-2S iron-sulfur cluster binding domain protein	COG1018	
+637288941	SPO1459	indolepyruvate oxidoreductase, IorA subunit, putative	COG4231	
+637288942	SPO1460	indolepyruvate ferredoxin oxidoreductase	COG1014	
+637288951	SPO1469	3-ketosteroid dehydrogenase, putative	COG1053	
+637288980	SPO1498	fumarase, class I, homodimeric (EC 4.2.1.2)	COG1951,COG1838	
+637288991	SPO1509	cytochrome c family protein	COG3474	
+637288999	SPO1517	carbon monoxide dehydrogenase operon G protein	COG3427	
+637289000	SPO1518	carbon-monoxide dehydrogenase, small subunit	COG2080	
+637289001	SPO1519	xanthine dehydrogenase, molybdenum binding subunit apoprotein (EC 1.17.1.4)	COG1529	
+637289002	SPO1520	carbon monoxide dehydrogenase, medium subunit, putative	COG1319	
+637289037	SPO1555	NAD-dependent formate dehydrogenase flavoprotein subunit	COG1905,COG1894	
+637289050	SPO1568	malate thiokinase large subunit (EC 6.2.1.9)	COG0045	
+637289051	SPO1569	malate thiokinase small subunit (EC 6.2.1.9)	COG0074	
+637289052	SPO1570	2-hydroxyacid dehydrogenase	COG1052	
+637289053	SPO1571	Phosphoenolpyruvate carboxylase, type 1 (EC 4.1.1.31)	COG2352	
+637289063	SPO1581	oxidoreductase NAD-binding domain/2Fe-2S iron-sulfur cluster binding domain protein	COG1018	
+637289075	SPO1593	alcohol dehydrogenase, zinc-containing	COG0604	
+637289085	SPO1603	malate/L-lactate dehydrogenase family protein	COG2055	
+637289094	SPO1612	twin-arginine translocation pathway signal sequence domain protein	COG1252	
+637289208	SPO1727	polyphosphate kinase 2, putative	COG2326	
+637289274	SPO1793	WD-40 repeat-containing protein	COG3474	
+637289275	SPO1794	formate dehydrogenase gamma subunit (EC 1.2.1.2)	COG2864	
+637289276	SPO1795	formate dehydrogenase beta subunit (EC 1.2.1.2)	COG0437	
+637289277	SPO1796	formate dehydrogenase alpha subunit (EC 1.2.1.2)	COG0243	
+637289287	SPO1806	flavin reductase domain protein	COG1853	
+637289291	SPO1810	sodium/solute symporter family protein	COG4147	
+637289315	SPO1834	acetamidase/formamidase family protein	COG2421	
+637289326	SPO1845	oxidoreductase, molybdopterin-binding	COG0243	
+637289333	SPO1852	oxidoreductase, zinc-binding dehydrogenase family	COG0604	
+637289354	SPO1873	indolepyruvate ferredoxin oxidoreductase	COG4231	
+637289358	SPO1877	cytochrome c-type biogenesis protein CcmE	COG2332	
+637289361	SPO1880	cytochrome c-type biogenesis protein CcmF	COG1138	
+637289362	SPO1881	cytochrome c biogenesis family protein	COG3088	
+637289376	SPO1896	cytochrome c-type biogenesis protein CcdA	COG0785	
+637289385	SPO1905	fumarase, class II (EC 4.2.1.2)	COG0114	
+637289393	SPO1914	oxidoreductase, zinc-binding dehydrogenase family	COG0604	
+637289449	SPO1969	oxidoreductase, zinc-binding dehydrogenase family	COG0604	
+637289578	SPO2099	cytochrome c-554	COG3909	
+637289579	SPO2100	diheme cytochrome c-type	COG2010	
+637289636	SPO2157	citrate synthase (EC 2.3.3.1)	COG0372	
+637289639	SPO2160	corrinoid methyltransferase protein, putative	COG5012	
+637289683	SPO2203	methylmalonate-semialdehyde dehydrogenase [acylating] (EC 1.2.1.27)	COG1012	
+637289702	SPO2222	dihydrolipoamide dehydrogenase (EC 1.8.1.4)	COG1249	
+637289720	SPO2240	pyruvate dehydrogenase complex, E1 component, alpha subunit	COG1071	
+637289721	SPO2241	dihydrolipoamide acetyltransferase	COG0022	
+637289722	SPO2242	pyruvate dehydrogenase complex, E2 component, dihydrolipoamide acetyltransferase	COG0508	
+637289755	SPO2277	cytochrome, putative	COG3038	
+637289790	SPO2312	aconitase (EC 4.2.1.3)	COG1048	
+637289827	SPO2349	cytochrome c-type biogenesis protein CycH	COG4235	
+637289853	SPO2377	ferredoxin	COG0633	
+637289857	SPO2382	tricarboxylate transporter family protein	COG3181	
+637289862	SPO2387	oxidoreductase, FAD-binding	COG0277	
+637289864	SPO2389	oxidoreductase, molybdopterin-binding	COG0243	
+637289867	SPO2393	carbon monoxide dehydrogenase G protein, putative	COG3427	
+637289871	SPO2397	carbon monoxide dehydrogenase, large subunit apoprotein	COG1529	
+637289872	SPO2398	carbon monoxide dehydrogenase, small subunit	COG2080	
+637289873	SPO2399	carbon monoxide dehydrogenase, medium subunit	COG1319	
+637289881	SPO2409	oxidoreductase, short chain dehydrogenase/reductase family	COG4221	
+637289894	SPO2422	D-isomer specific 2-hydroxyacid dehydrogenase family protein	COG1052	
+637289981	SPO2510	salicylate hydroxylase	COG0654	
+637290019	SPO2548	oxidoreductase, zinc-binding dehydrogenase family	COG0604	
+637290077	SPO2608	aldehyde dehydrogenase, putative	COG1012	
+637290078	SPO2609	alcohol dehydrogenase, iron-containing	COG1454	
+637290084	SPO2615	NADH-dependent flavin oxidoreductase, Oye family	COG1902	
+637290106	SPO2637	ferredoxin--NADP reductase	COG1018	
+637290148	SPO2679	oxidoreductase, short-chain dehydrogenase/reductase family	COG4221	
+637290163	SPO2694	cytochrome c'	COG3909	
+637290166	SPO2697	acyl-CoA synthetase, putative	COG1042	
+637290177	SPO2708	aldehyde dehydrogenase (acceptor) (EC 1.2.99.3)	COG1012	
+637290180	SPO2711	CaiB/BaiF family protein	COG1853	
+637290218	SPO2751	HAD-superfamily hydrolase, subfamily IA, variant 1 family protein	COG0546	
+637290230	SPO2763	NADH dehydrogenase subunit N (EC 1.6.5.3)	COG1007	
+637290231	SPO2764	NADH dehydrogenase subunit M (EC 1.6.5.3)	COG1008	
+637290232	SPO2765	NADH dehydrogenase subunit L (EC 1.6.5.3)	COG1009	
+637290233	SPO2766	NADH dehydrogenase subunit K (EC 1.6.5.3)	COG0713	
+637290234	SPO2767	NADH dehydrogenase subunit J (EC 1.6.5.3)	COG0839	
+637290237	SPO2770	NADH dehydrogenase subunit I (EC 1.6.5.3)	COG1143	
+637290239	SPO2772	NADH dehydrogenase subunit H (EC 1.6.5.3)	COG1005	
+637290241	SPO2774	NADH dehydrogenase subunit G (EC 1.6.5.3)	COG1034	
+637290244	SPO2777	NADH dehydrogenase subunit F (EC 1.6.5.3)	COG1894	
+637290247	SPO2780	NADH dehydrogenase subunit E (EC 1.6.5.3)	COG1905	
+637290249	SPO2782	NADH dehydrogenase subunit D (EC 1.6.5.3)	COG0649	
+637290251	SPO2784	NADH dehydrogenase subunit C (EC 1.6.5.3)	COG0852	
+637290252	SPO2785	NADH dehydrogenase subunit B (EC 1.6.5.3)	COG0377	
+637290253	SPO2786	NADH dehydrogenase subunit A (EC 1.6.5.3)	COG0838	
+637290264	SPO2796	phosphoglycolate phosphatase	COG0546	
+637290287	SPO2819	NAD(P)+ transhydrogenase, beta subunit	COG1282	
+637290288	SPO2820	NAD(P) transhydrogenase subunit alpha	COG3288	
+637290294	SPO2826	isoquinoline 1-oxidoreductase, alpha subunit	COG2080	
+637290295	SPO2827	isoquinoline 1-oxidoreductase, beta subunit, putative	COG1529	
+637290307	SPO2839	malate synthase (EC 2.3.3.9)	COG2225	
+637290349	SPO2881	xanthine dehydrogenase, molybdenum binding subunit apoprotein (EC 1.17.1.4)	COG1529	
+637290361	SPO2893	multisubunit potassium/proton antiporter, PhaA subunit (TC 2.A.63.1.1)/multisubunit potassium/proton antiporter, PhaB subunit (TC 2.A.63.1.1)	COG1009	
+637290363	SPO2895	multisubunit potassium/proton antiporter, PhaD subunit (TC 2.A.63.1.1)	COG0651	
+637290367	SPO2899	selenophosphate synthase (EC 2.7.9.3)	COG1252	
+637290400	SPO2932	phosphate acetyltransferase	COG0281,COG0280	
+637290428	SPO2960	oxidoreductase, zinc-binding dehydrogenase family	COG0604	
+637290455	SPO2989	cytochrome b562	COG3038	
+637290457	SPO2991	nitroreductase family protein	COG0778	
+637290485	SPO3019	xanthine dehydrogenase family protein, large subunit	COG1529	
+637290522	SPO3056	hypothetical protein	COG1853	
+637290532	SPO3067	oxidoreductase, FAD-binding	COG0277	
+637290538	SPO3073	cytochrome c oxidase, subunit III	COG1845	
+637290539	SPO3074	cytochrome C oxidase assembly protein	COG3175	
+637290541	SPO3076	cytochrome c oxidase, subunit II	COG1622	
+637290612	SPO3147	putative manganese-dependent inorganic pyrophosphatase	COG1227	
+637290618	SPO3153	monooxygenase, putative	COG0654	
+637290626	SPO3161	ATP synthase F1 subcomplex epsilon subunit	COG0355	
+637290627	SPO3162	ATP synthase F1 subcomplex beta subunit	COG0055	
+637290628	SPO3163	ATP synthase F1 subcomplex gamma subunit	COG0224	
+637290629	SPO3164	ATP synthase F1 subcomplex alpha subunit	COG0056	
+637290630	SPO3165	ATP synthase F1 subcomplex delta subunit	COG0712	
+637290648	SPO3183	oxidoreductase, molybdopterin-binding	COG0243	
+637290652	SPO3187	malate/L-lactate dehydrogenase family protein	COG2055	
+637290656	SPO3191	aldehyde dehydrogenase family protein	COG1012	
+637290687	SPO3222	putative glutathione S-transferase	COG0435	
+637290698	SPO3233	ATP synthase F0 subcomplex B subunit	COG0711	
+637290699	SPO3234	ATP synthase F0, B' subunit	COG0711	
+637290701	SPO3236	ATP synthase F0 subcomplex A subunit	COG0356	
+637290702	SPO3237	ATP synthase F0, subunit I	COG5336	
+637290719	SPO3254	5,6-dimethylbenzimidazole synthase (EC 1.14.99.40)/cob(II)yrinic acid a,c-diamide reductase (EC 1.16.8.1)	COG0778	
+637290735	SPO3270	sulfoxide reductase heme-binding subunit YedZ	COG2717	
+637290736	SPO3271	sulfoxide reductase catalytic subunit YedY	COG2041	
+637290793	SPO3328	succinate-semialdehyde dehydrogenase	COG1012	
+637290794	SPO3329	globin domain protein	COG1017	
+637290833	SPO3368	aldehyde dehydrogenase family protein	COG1012	
+637290847	SPO3382	aldehyde dehydrogenase family protein	COG1012	
+637290864	SPO3399	alcohol dehydrogenase, zinc-containing	COG0604	
+637290884	SPO3419	2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase (EC 1.14.13.-)/2-octaprenyl-6-methoxyphenol hydroxylase (EC 1.14.13.-)	COG0654	
+637290905	SPO3440	20-beta-hydroxysteroid dehydrogenase, putative	COG4221	
+637290943	SPO3478	glycolate oxidase, GlcD subunit	COG0277	
+637290944	SPO3479	glycolate oxidase, GlcE subunit	COG0277	
+637290945	SPO3480	glycolate oxidase, iron-sulfur subunit	COG0247	
+637290987	SPO3522	iron-sulfur-binding protein, RdxA/RdxB/FixG family	COG0348	
+637290988	SPO3523	cytochrome c oxidase, cbb3-type, subunit III	COG2010	
+637290989	SPO3524	cytochrome c oxidase, cbb3-type, subunit IV	COG4736	
+637290990	SPO3525	cytochrome c oxidase, cbb3-type, subunit II	COG2993	
+637290991	SPO3526	cytochrome c oxidase, cbb3-type, subunit I	COG3278	
+637291003	SPO3538	cytochrome c552	COG3474	
+637291022	SPO3557	dimethyl sulfoxide reductase, C subunit, putative	COG3302	
+637291023	SPO3558	iron-sulfur cluster-binding protein	COG0437	
+637291024	SPO3559	oxidoreductase, molybdopterin-binding	COG0243	
+637291025	SPO3560	phosphotransacetylase (EC 2.3.1.8)	COG0280	
+637291038	SPO3573	NADPH-dependent FMN reductase domain protein	COG0431	
+637291051	SPO3586	2,4-dienoyl-CoA reductase (EC 1.3.1.34)	COG1902	
+637291108	SPO3901	carbon monoxide dehydrogenase G protein, putative	COG3427	
+637291159	SPO3692	3-hydroxybenzoate 6-hydroxylase (EC 1.14.13.24)	COG0654	
+637291259	SPO3791	acetoin dehydrogenase complex, E1 component, beta subunit	COG0022	
+637291260	SPO3792	acetoin dehydrogenase complex, E1 component, alpha subunit	COG1071	
+637291296	SPO3828	soluble pyridine nucleotide transhydrogenase	COG1249	
+637291323	SPO3855	glycerol-3-phosphate dehydrogenase (NAD(P)+)	COG0240	
+637613565	SPOA0021	oxidoreductase, FAD-binding	COG0277	
+637613566	SPOA0022	cytochrome c5	COG3245	
+637613571	SPOA0027	5-carboxy-2-hydroxymuconate semialdehyde dehydrogenase	COG1012	
+637613572	SPOA0028	Na(+)-translocating NADH-quinone reductase subunit A	COG1726	
+637613573	SPOA0029	Na(+)-translocating NADH-quinone reductase subunit B	COG1805	
+637613574	SPOA0030	Na(+)-translocating NADH-quinone reductase subunit C	COG2869	
+637613575	SPOA0031	NADH-ubiquinone oxidoreductase	COG1347	
+637613576	SPOA0032	Na(+)-translocating NADH-quinone reductase subunit E	COG2209	
+637613577	SPOA0033	Na(+)-translocating NADH-quinone reductase subunit F	COG2871	
+637613590	SPOA0046	4-hydroxybenzoate 3-monooxygenase	COG0654	
+637613599	SPOA0055	cytochrome c family protein	COG3474	
+637613637	SPOA0093	FAD binding domain protein	COG0277	
+637613648	SPOA0104	aldehyde dehydrogenase family protein	COG1012	
+637613656	SPOA0110	indolepyruvate ferredoxin oxidoreductase	COG1014	
+637613657	SPOA0111	indolepyruvate oxidoreductase, IorA subunit, putative	COG4231	
+637613658	SPOA0112	aldehyde dehydrogenase (acceptor) (EC 1.2.99.3)	COG1012	
+637613666	SPOA0120	hypothetical protein	COG3181	
+637613679	SPOA0133	oxidoreductase FAD-binding domain/oxidoreductase NAD-binding domain/2Fe-2S iron-sulfur cluster binding domain protein	COG1018	
+637613697	SPOA0151	cytochrome c family protein	COG2863	
+637613721	SPOA0175	oxidoreductase FAD-binding domain/oxidoreductase NAD-binding domain/2Fe-2S iron-sulfur cluster binding domain protein	COG1018	
+637613724	SPOA0180	cytochrome c family protein	COG3474	
+637613728	SPOA0184	heme-copper respiratory oxidase family	COG0843	
+637613729	SPOA0185	cytochrome c oxidase,ba3-type, subunit I, putative	COG1622	
+637613731	SPOA0187	cytochrome c oxidase, cbb3-type, subunit III	COG2010	
+637613732	SPOA0188	cytochrome c oxidase, cbb3-type, subunit IV	COG4736	
+637613733	SPOA0189	cytochrome c oxidase, cbb3-type, subunit II	COG2993	
+637613734	SPOA0190	cytochrome c oxidase, cbb3-type, subunit I	COG3278	
+637613737	SPOA0193	cytochrome c-type biogenesis protein CycJ	COG2332	
+637613740	SPOA0196	cytochrome c-type biogenesis protein CycL	COG3088	
+637613742	SPOA0198	cytochrome c-type biogenesis protein CycK	COG1138	
+637613752	SPOA0208	oxidoreductase, FAD-binding	COG0277	
+637613757	SPOA0213	nitric oxide reductase E protein, putative	COG1845	
+637613764	SPOA0220	dissimilatory nitrite reductase (NO-forming), cytochrome cd1 type apoprotein	COG2010	
+637613766	SPOA0222	cytochrome c55X	COG2010	
+637613787	SPOA0243	aldehyde dehydrogenase family protein	COG1012	
+637613804	SPOA0260	aldehyde dehydrogenase family protein	COG1012	
+637613819	SPOA0275	succinate semialdehyde dehydrogenase (EC 1.2.1.16)	COG1012	
+637613831	SPOA0287	acyl-CoA synthetase, putative	COG1042	
+637613857	SPOA0315	isocitrate dehydrogenase, NADP-dependent	COG2838	
+637613861	SPOA0319	transketolase, putative	COG2609	
+637613895	SPOA0353	aldehyde dehydrogenase family protein	COG1012	
+637613919	SPOA0377	aldehyde dehydrogenase (acceptor) (EC 1.2.99.3)	COG1012	
+637613930	SPOA0388	acetyl-CoA synthetase, putative	COG1042	
+637613949	SPOA0407	anthraniloyl-CoA monooxygenase	COG1902,COG0654	
+637613954	SPOA0412	xanthine dehydrogenase family protein, medium subunit	COG1319	
+637613955	SPOA0413	xanthine dehydrogenase family protein, small subunit	COG2080	
+637613956	SPOA0414	xanthine dehydrogenase, molybdenum binding subunit apoprotein (EC 1.17.1.4)	COG1529	

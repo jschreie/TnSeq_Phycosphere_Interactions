@@ -1,0 +1,207 @@
+Gene ID	spo	Name	Function	
+637287494	SPO0001	glucose-inhibited division protein A	COG0445	
+637287495	SPO0002	16S rRNA m(7)G-527 methyltransferase (EC 2.1.1.170)	COG0357	
+637287501	SPO0008	RNAse PH (EC 2.7.7.56)	COG0689	
+637287522	SPO0029	23S rRNA m(5)U-1939 methyltransferase (EC 2.1.1.190)	COG2265	
+637287555	SPO0061	bacterial translation initiation factor 2 (bIF-2)	COG0532	
+637287558	SPO0064	ribosome maturation factor RimP	COG0779	
+637287572	SPO0078	SSU ribosomal protein S30P/sigma 54 modulation protein	COG1544	
+637287640	SPO0148	SSU ribosomal protein S20P	COG0268	
+637287652	SPO0160	hypothetical protein	COG1690	
+637287711	SPO0219	iojap-related protein	COG0799	
+637287712	SPO0220	23S rRNA (pseudouridine1915-N3)-methyltransferase	COG1576	
+637287758	SPO0266	HD domain protein	COG1418	
+637287769	SPO0277	MiaB-like tRNA modifying enzyme	COG0621	
+637287789	SPO0297	translation factor SUA5	COG0009	
+637287813	SPO0321	hypothetical protein	COG4123	
+637287872	SPO0380	ribosomal-protein-alanine acetyltransferase, putative	COG0456	
+637287873	SPO0381	protease, putative	COG1214	
+637287884	SPO0392	tryptophanyl-tRNA synthetase (EC 6.1.1.2)	COG0180	
+637287891	SPO0399	tetrapyrrole methylase family protein	COG0313	
+637287893	SPO0401	glutathione synthase (EC 6.3.2.3)	COG0189	
+637287913	SPO0421	23S rRNA (adenine2030-N6)-methyltransferase	COG2961	
+637287922	SPO0430	glutamate--tRNA(Gln) ligase (EC 6.1.1.24)/glutamyl-tRNA synthetase (EC 6.1.1.17)	COG0008	
+637287947	SPO0455	lysyl-tRNA synthetase, class I (EC 6.1.1.6)	COG1384	
+637287976	SPO0484	LSU ribosomal protein L2P	COG0090	
+637287977	SPO0485	SSU ribosomal protein S19P	COG0185	
+637287978	SPO0486	LSU ribosomal protein L22P	COG0091	
+637287979	SPO0487	SSU ribosomal protein S3P	COG0092	
+637287980	SPO0488	LSU ribosomal protein L16P	COG0197	
+637287985	SPO0493	LSU ribosomal protein L29P	COG0255	
+637287986	SPO0494	SSU ribosomal protein S17P	COG0186	
+637287987	SPO0495	LSU ribosomal protein L14P	COG0093	
+637287988	SPO0496	LSU ribosomal protein L24P	COG0198	
+637287989	SPO0497	LSU ribosomal protein L5P	COG0094	
+637287990	SPO0498	SSU ribosomal protein S14P	COG0199	
+637287991	SPO0499	SSU ribosomal protein S8P	COG0096	
+637287992	SPO0500	LSU ribosomal protein L6P	COG0097	
+637287993	SPO0501	LSU ribosomal protein L18P	COG0256	
+637287994	SPO0502	SSU ribosomal protein S5P	COG0098	
+637287995	SPO0503	LSU ribosomal protein L30P	COG1841	
+637287997	SPO0505	LSU ribosomal protein L15P	COG0200	
+637288001	SPO0509	SSU ribosomal protein S13P	COG0099	
+637288002	SPO0510	SSU ribosomal protein S11P	COG0100	
+637288004	SPO0512	LSU ribosomal protein L17P	COG0203	
+637288008	SPO0516	ribosomal large subunit pseudouridine synthase C (EC 5.4.99.24)	COG0564	
+637288026	SPO0534	tRNA 2-thiocytidine biosynthesis protein TtcA	COG0037	
+637288029	SPO0537	ribonuclease P protein component	COG0594	
+637288154	SPO0667	histidyl-tRNA synthetase (EC 6.1.1.21)	COG0124	
+637288178	SPO0691	GTP-binding protein Era	COG1159	
+637288215	SPO0728	translation elongation factor 1A (EF-1A/EF-Tu)	COG0050	
+637288289	SPO0802	SSU ribosomal protein S1P	COG0539	
+637288298	SPO0811	peptidyl-tRNA hydrolase (EC 3.1.1.29)	COG0193	
+637288299	SPO0812	LSU ribosomal protein L25P	COG1825	
+637288304	SPO0817	GTP-binding protein YchF	COG0012	
+637288334	SPO0847	non-ribosomal peptide synthetase	COG0223	
+637288399	SPO0912	chaperonin csaA	COG0073	
+637288413	SPO0926	aspartyl-tRNA synthetase (EC 6.1.1.12)	COG0173	
+637288416	SPO0929	type II DNA modification methyltransferase, putative	COG4725	
+637288431	SPO0944	SSU ribosomal protein S12P methylthiotransferase (EC 2.-.-.-)	COG0621	
+637288452	SPO0965	acetyltransferase, GNAT family	COG0456	
+637288458	SPO0972	ATP-dependent helicase HrpB	COG1643	
+637288460	SPO0974	LSU ribosomal protein L28P	COG0227	
+637288469	SPO0983	GTP-binding protein LepA	COG0481	
+637288558	SPO1072	hypothetical protein	COG0217	
+637288607	SPO1121	prolyl-tRNA synthetase (EC 6.1.1.15)	COG0442	
+637288636	SPO1150	RNA methyltransferase, TrmH family, group 3	COG0566	
+637288664	SPO1178	MraZ, putative	COG2001	
+637288665	SPO1179	S-adenosyl-methyltransferase MraW	COG0275	
+637288730	SPO1244	translation elongation factor P (EF-P)	COG0231	
+637288767	SPO1282	Ser-tRNA(Thr) hydrolase (EC 3.1.1.-)/threonyl-tRNA synthetase (EC 6.1.1.3)	COG0441	
+637288837	SPO1355	glycyl-tRNA synthetase alpha chain (EC 6.1.1.14)	COG0752	
+637288840	SPO1358	glycyl-tRNA synthetase beta chain (EC 6.1.1.14)	COG0751	
+637288885	SPO1403	methionyl-tRNA synthetase (EC 6.1.1.10)	COG0143	
+637288890	SPO1408	ribosomal large subunit pseudouridine synthase D (EC 5.4.99.-)	COG0564	
+637288893	SPO1411	transcriptional regulator, TraR/DksA family	COG1734	
+637288900	SPO1418	heat shock protein Hsp15	COG1188	
+637288971	SPO1489	indole acetimide hydrolase	COG0154	
+637289141	SPO1661	tRNA delta(2)-isopentenylpyrophosphate transferase	COG0324	
+637289144	SPO1664	ribosome recycling factor	COG0233	
+637289156	SPO1676	acetyltransferase, GNAT family	COG1670	
+637289157	SPO1677	tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase (EC 2.1.1.61)	COG0482	
+637289166	SPO1686	glucose-inhibited division protein A	COG1206	
+637289171	SPO1691	LSU ribosomal protein L13P	COG0102	
+637289172	SPO1692	SSU ribosomal protein S9P	COG0103	
+637289219	SPO1738	dehalogenase, putative	COG1600	
+637289339	SPO1858	23S rRNA Um-2552 2'-O-methyltransferase (EC 2.1.1.166)	COG0293	
+637289374	SPO1893	RNAse E (EC 3.1.26.12)	COG1530	
+637289402	SPO1923	Ala-tRNA(Pro) hydrolase (EC 3.1.1.-)	COG2872	
+637289455	SPO1975	translation elongation factor Ts (EF-Ts)	COG0264	
+637289456	SPO1976	SSU ribosomal protein S2P	COG0052	
+637289467	SPO1987	acetyltransferase, GNAT family	COG1670	
+637289469	SPO1989	LSU ribosomal protein L27P	COG0211	
+637289470	SPO1990	LSU ribosomal protein L21P	COG0261	
+637289512	SPO2033	alanyl-tRNA synthetase (EC 6.1.1.7)	COG0013	
+637289516	SPO2037	NOL1/NOP2/sun family protein	COG0144	
+637289534	SPO2055	RNA methyltransferase, TrmH family, group 1	COG0565	
+637289542	SPO2063	acetyltransferase, GNAT family	COG0456	
+637289559	SPO2080	GTP-binding protein HflX (EC 3.1.5.-)	COG2262	
+637289568	SPO2089	tRNA-U20-dihydrouridine synthase	COG0042	
+637289573	SPO2094	actC domain protein	COG0456	
+637289575	SPO2096	aromatic-rich family protein	COG2867	
+637289610	SPO2131	cysteinyl-tRNA synthetase (EC 6.1.1.16)	COG0215	
+637289635	SPO2156	glutamyl-tRNA synthetase (EC 6.1.1.17)	COG0008	
+637289646	SPO2167	ribonuclease D	COG0349	
+637289706	SPO2226	S-adenosylmethionine:tRNA ribosyltransferase-isomerase	COG0809	
+637289728	SPO2248	transcriptional regulator, TraR/DksA family	COG1734	
+637289751	SPO2273	acetyltransferase, GNAT family	COG1670	
+637289759	SPO2281	SSU ribosomal protein S6P	COG0360	
+637289760	SPO2282	SSU ribosomal protein S18P	COG0238	
+637289761	SPO2283	LSU ribosomal protein L9P	COG0359	
+637289803	SPO2325	seryl-tRNA synthetase (EC 6.1.1.11)	COG0172	
+637289851	SPO2374	tRNA-U16,U17-dihydrouridine synthase	COG0042	
+637289884	SPO2412	aldolase, putative	COG0684	
+637289930	SPO2458	dimethyladenosine transferase (EC 2.1.1.-)	COG0030	
+637289932	SPO2460	[protein release factor]-glutamine N5-methyltransferase (EC 2.1.1.-)	COG2890	
+637289933	SPO2461	bacterial peptide chain release factor 1 (bRF-1)	COG0216	
+637289955	SPO2484	tyrosyl-tRNA synthetase (EC 6.1.1.1)	COG0162	
+637289963	SPO2492	LSU ribosomal protein L32P	COG0333	
+637289975	SPO2504	arginyl-tRNA synthetase (EC 6.1.1.19)	COG0018	
+637289982	SPO2511	transcriptional regulator, TraR/DksA family	COG1734	
+637289991	SPO2520	SAM-dependent methyltransferase (EC 2.1.1.-)	COG1092	
+637289995	SPO2524	YbaK/prolyl-tRNA synthetase domain protein	COG2606	
+637289998	SPO2527	6-aminohexanoate-cyclic-dimer hydrolase	COG0154	
+637290034	SPO2565	ribosome-associated GTPase	COG1162	
+637290052	SPO2583	amidase	COG0154	
+637290054	SPO2585	bacterial peptide chain release factor 2 (bRF-2)	COG1186	
+637290085	SPO2616	tRNA-guanine transglycosylase (EC 2.4.2.29)	COG0343	
+637290091	SPO2622	acetyltransferase, GNAT family	COG0456	
+637290107	SPO2638	bacterial translation initiation factor 3 (bIF-3)	COG0290	
+637290164	SPO2695	bacterial peptide chain release factor 3 (bRF-3)	COG4108	
+637290227	SPO2760	metallo-beta-lactamase family protein	COG0595	
+637290315	SPO2847	aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B (EC 6.3.5.-)	COG0064	
+637290368	SPO2900	tRNA 2-selenouridine synthase	COG2603	
+637290406	SPO2938	amidase	COG0154	
+637290433	SPO2965	LSU ribosomal protein L33P	COG0267	
+637290436	SPO2969	aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit A (EC 6.3.5.-)	COG0154	
+637290437	SPO2970	aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit C (EC 6.3.5.-)	COG0721	
+637290448	SPO2982	hypothetical protein	COG1720	
+637290449	SPO2983	tRNA-adenosine deaminase (EC 3.5.4.-)	COG0590	
+637290450	SPO2984	RNA pseudouridylate synthase family protein	COG1187	
+637290458	SPO2992	D-tyrosyl-tRNA deacylase	COG1490	
+637290488	SPO3022	valyl-tRNA synthetase (EC 6.1.1.9)	COG0525	
+637290534	SPO3069	ribosomal-protein-alanine acetyltransferase, putative	COG1670	
+637290571	SPO3106	PP-loop family protein	COG0037	
+637290585	SPO3120	[LSU ribosomal protein L11P]-lysine N-methyltransferase (EC 2.1.1.-)	COG2264	
+637290601	SPO3136	Isoleucyl-tRNA synthetase (EC 6.1.1.5)	COG0060	
+637290608	SPO3143	tRNA pseudouridine synthase A	COG0101	
+637290646	SPO3181	SSU ribosomal protein S4P	COG0522	
+637290649	SPO3184	acetyltransferase, GNAT family	COG1670	
+637290681	SPO3216	methionyl-tRNA formyltransferase (EC 2.1.2.9)	COG0223	
+637290682	SPO3217	peptide deformylase	COG0242	
+637290683	SPO3218	peptide deformylase	COG0242	
+637290684	SPO3219	peptide deformylase (EC 3.5.1.88)	COG0242	
+637290712	SPO3247	acetyltransferase, GNAT family	COG1670	
+637290713	SPO3248	acetyltransferase, GNAT family	COG1670	
+637290714	SPO3249	acetyltransferase, GNAT family	COG1670	
+637290715	SPO3250	acetyltransferase, GNAT family	COG1670	
+637290716	SPO3251	hypothetical protein	COG1670	
+637290718	SPO3253	SSU ribosomal protein S16P	COG0228	
+637290720	SPO3255	16S rRNA processing protein RimM	COG0806	
+637290721	SPO3256	LSU ribosomal protein L31P	COG0254	
+637290722	SPO3257	LSU ribosomal protein L19P	COG0335	
+637290724	SPO3259	tRNA (Guanine37-N(1)-) methyltransferase (EC 2.1.1.31)	COG0336	
+637290811	SPO3346	23S rRNA m(2)A-2503 methyltransferase (EC 2.1.1.192)	COG0820	
+637290841	SPO3376	ribosomal RNA small subunit methyltransferase B, putative	COG0144	
+637290854	SPO3389	polyribonucleotide nucleotidyltransferase	COG1185	
+637290857	SPO3392	ribosomal large subunit pseudouridine synthase A (EC 5.4.99.-)	COG0564	
+637290883	SPO3418	amidase family protein	COG0154	
+637290897	SPO3432	leucyl-tRNA synthetase (EC 6.1.1.4)	COG0495	
+637290954	SPO3489	phenylalanyl-tRNA synthetase beta subunit (EC 6.1.1.20)	COG0072	
+637290963	SPO3498	translation elongation factor 1A (EF-1A/EF-Tu)	COG0050	
+637290964	SPO3499	translation elongation factor 2 (EF-2/EF-G)	COG0480	
+637290965	SPO3500	SSU ribosomal protein S7P	COG0049	
+637290966	SPO3501	SSU ribosomal protein S12P	COG0048	
+637290974	SPO3509	LSU ribosomal protein L12P	COG0222	
+637290975	SPO3510	LSU ribosomal protein L10P	COG0244	
+637290978	SPO3513	LSU ribosomal protein L1P	COG0081	
+637290979	SPO3514	LSU ribosomal protein L11P	COG0080	
+637290998	SPO3533	translation elongation factor G, putative	COG0480	
+637291018	SPO3553	hypothetical protein	COG4121	
+637291032	SPO3567	ribonuclease T2 family protein	COG3719	
+637291059	SPO3594	phenylalanyl-tRNA synthetase, alpha subunit (EC 6.1.1.20)	COG0016	
+637291063	SPO3598	LSU ribosomal protein L20P	COG0292	
+637291064	SPO3599	LSU ribosomal protein L35P	COG0291	
+637291094	SPO3629	16S rRNA (uracil1498-N3)-methyltransferase	COG1385	
+637291121	SPO3655	16S rRNA m(2)G 1207 methyltransferase (EC 2.1.1.52)	COG2813	
+637291205	SPO3738	methyltransferase, putative	COG0742	
+637291218	SPO3751	ExsB	COG0603	
+637291221	SPO3753	GTP cyclohydrolase family protein	COG0780	
+637291229	SPO3761	methionine aminopeptidase, type I (EC 3.4.11.18)	COG0024	
+637291231	SPO3763	iron-sulfur cluster-binding protein	COG1600	
+637291291	SPO3823	LSU ribosomal protein L23P	COG0089	
+637291292	SPO3824	LSU ribosomal protein L4P	COG0088	
+637291293	SPO3825	LSU ribosomal protein L3P	COG0087	
+637291294	SPO3826	SSU ribosomal protein S10P	COG0051	
+637291303	SPO3835	ribosome-binding factor A	COG0858	
+637291305	SPO3837	tRNA pseudouridine synthase B (EC 4.2.1.70)	COG0130	
+637291308	SPO3840	SSU ribosomal protein S15P	COG0184	
+637291322	SPO3854	O-sialoglycoprotein endopeptidase (EC 3.4.24.57)	COG0533	
+637291337	SPO3869	conserved hypothetical protein TIGR00150	COG0802	
+637291363	SPO3895	tRNA modification GTPase trmE	COG0486	
+637613547	SPOA0002	tRNA-i(6)A37 thiotransferase enzyme MiaB	COG0621	
+637613553	SPOA0008	conserved hypothetical protein TIGR00043	COG0319	
+637613559	SPOA0014	tRNA (guanine-N(7)-)-methyltransferase (EC 2.1.1.33)	COG0220	
+637613621	SPOA0077	bacterial translation initiation factor 1 (bIF-1)	COG0361	
+637613623	SPOA0079	ribonuclease, Rne/Rng family	COG1530	
+637613864	SPOA0322	putative N6-adenine-specific DNA methylase	COG0116	

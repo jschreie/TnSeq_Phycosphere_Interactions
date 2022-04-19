@@ -1,0 +1,896 @@
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 12:07:01
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/1_TnT0_S1_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/1_TnT0_S1 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/1_TnT0_S1_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 11273142
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 4360270
+# reads1_mapped: 3857733
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 3857733 
+# read_count (TA sites only, for Himar1): 3857733
+# template_count: 3857733
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 49548
+# density: 0.011
+# max_count (among templates): 6921
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 77.9
+# FR_corr (Fwd templates vs. Rev templates): 0.034
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 347097 reads (3.1%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 12:14:54
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/2_TnT0_S2_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/2_TnT0_S2 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/2_TnT0_S2_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 8118575
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 3620276
+# reads1_mapped: 3161913
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 3161913 
+# read_count (TA sites only, for Himar1): 3161913
+# template_count: 3161913
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 52877
+# density: 0.011
+# max_count (among templates): 5623
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 59.8
+# FR_corr (Fwd templates vs. Rev templates): 0.038
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 291985 reads (3.6%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 12:21:32
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/3_TnT0_S3_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/3_TnT0_S3 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/3_TnT0_S3_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 6893616
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 3030343
+# reads1_mapped: 2626152
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 2626152 
+# read_count (TA sites only, for Himar1): 2626152
+# template_count: 2626152
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 55549
+# density: 0.012
+# max_count (among templates): 4941
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 47.3
+# FR_corr (Fwd templates vs. Rev templates): 0.039
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 200310 reads (2.9%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 12:29:54
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/4_TnT0_S4_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/4_TnT0_S4 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/4_TnT0_S4_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 8915564
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 4357750
+# reads1_mapped: 3780643
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 3780643 
+# read_count (TA sites only, for Himar1): 3780643
+# template_count: 3780643
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 59618
+# density: 0.013
+# max_count (among templates): 7022
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 63.4
+# FR_corr (Fwd templates vs. Rev templates): 0.038
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 214607 reads (2.4%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 13:19:05
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/All_1_S25_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/All_1_S25 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/All_1_S25_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 4762902
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 810063
+# reads1_mapped: 742781
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 742781 
+# read_count (TA sites only, for Himar1): 742781
+# template_count: 742781
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 45144
+# density: 0.010
+# max_count (among templates): 1898
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 16.5
+# FR_corr (Fwd templates vs. Rev templates): 0.034
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 23742 reads (0.5%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 13:26:44
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/All_2_S26_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/All_2_S26 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/All_2_S26_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 8278437
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 1786446
+# reads1_mapped: 1640589
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 1640589 
+# read_count (TA sites only, for Himar1): 1640589
+# template_count: 1640589
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 44020
+# density: 0.010
+# max_count (among templates): 3998
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 37.3
+# FR_corr (Fwd templates vs. Rev templates): 0.036
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 49753 reads (0.6%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 13:32:37
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/All_3_S27_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/All_3_S27 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/All_3_S27_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 6359470
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 1413777
+# reads1_mapped: 1264975
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 1264975 
+# read_count (TA sites only, for Himar1): 1264975
+# template_count: 1264975
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 46895
+# density: 0.010
+# max_count (among templates): 3195
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 27.0
+# FR_corr (Fwd templates vs. Rev templates): 0.035
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 56184 reads (0.9%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 13:45:43
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/All_4_S28_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/All_4_S28 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/All_4_S28_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 14212015
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 2929608
+# reads1_mapped: 2582185
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 2582185 
+# read_count (TA sites only, for Himar1): 2582185
+# template_count: 2582185
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 48619
+# density: 0.011
+# max_count (among templates): 6748
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 53.1
+# FR_corr (Fwd templates vs. Rev templates): 0.036
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 150692 reads (1.1%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 14:36:22
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_1_S9_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_1_S9 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_1_S9_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 10970318
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 812423
+# reads1_mapped: 683144
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 683144 
+# read_count (TA sites only, for Himar1): 683144
+# template_count: 683144
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 46549
+# density: 0.010
+# max_count (among templates): 1546
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 14.7
+# FR_corr (Fwd templates vs. Rev templates): 0.030
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 2363520 reads (21.5%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 14:47:07
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_2_S10_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_2_S10 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_2_S10_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 11962253
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 3513203
+# reads1_mapped: 2942767
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 2942767 
+# read_count (TA sites only, for Himar1): 2942767
+# template_count: 2942767
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 50647
+# density: 0.011
+# max_count (among templates): 8492
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 58.1
+# FR_corr (Fwd templates vs. Rev templates): 0.038
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 223586 reads (1.9%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 14:54:29
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_3_S11_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_3_S11 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_3_S11_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 8166359
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 2380137
+# reads1_mapped: 1957370
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 1957370 
+# read_count (TA sites only, for Himar1): 1957370
+# template_count: 1957370
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 51329
+# density: 0.011
+# max_count (among templates): 5082
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 38.1
+# FR_corr (Fwd templates vs. Rev templates): 0.039
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 182947 reads (2.2%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 15:02:15
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_4_S12_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_4_S12 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_4_S12_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 8683279
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 1822029
+# reads1_mapped: 1544658
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 1544658 
+# read_count (TA sites only, for Himar1): 1544658
+# template_count: 1544658
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 45396
+# density: 0.010
+# max_count (among templates): 3762
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 34.0
+# FR_corr (Fwd templates vs. Rev templates): 0.034
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 125463 reads (1.4%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 15:12:34
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_5_S13_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_5_S13 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_5_S13_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 11393707
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 4487366
+# reads1_mapped: 3715394
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 3715394 
+# read_count (TA sites only, for Himar1): 3715394
+# template_count: 3715394
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 55868
+# density: 0.012
+# max_count (among templates): 9246
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 66.5
+# FR_corr (Fwd templates vs. Rev templates): 0.036
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 279443 reads (2.5%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 15:21:37
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_6_S14_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_6_S14 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_6_S14_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 9853435
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 4381006
+# reads1_mapped: 3585978
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 3585978 
+# read_count (TA sites only, for Himar1): 3585978
+# template_count: 3585978
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 56235
+# density: 0.012
+# max_count (among templates): 9289
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 63.8
+# FR_corr (Fwd templates vs. Rev templates): 0.036
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 316885 reads (3.2%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 15:30:03
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_7_S15_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_7_S15 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_7_S15_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 9327733
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 4147107
+# reads1_mapped: 3394275
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 3394275 
+# read_count (TA sites only, for Himar1): 3394275
+# template_count: 3394275
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 55480
+# density: 0.012
+# max_count (among templates): 8948
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 61.2
+# FR_corr (Fwd templates vs. Rev templates): 0.037
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 287501 reads (3.1%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 15:42:08
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_8_S16_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_8_S16 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_8_S16_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 13316456
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 5120057
+# reads1_mapped: 4185367
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 4185367 
+# read_count (TA sites only, for Himar1): 4185367
+# template_count: 4185367
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 56566
+# density: 0.012
+# max_count (among templates): 10996
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 74.0
+# FR_corr (Fwd templates vs. Rev templates): 0.036
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 667004 reads (5.0%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 12:40:40
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Mari_1_S21_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Mari_1_S21 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Mari_1_S21_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 12035705
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 2706510
+# reads1_mapped: 2340246
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 2340246 
+# read_count (TA sites only, for Himar1): 2340246
+# template_count: 2340246
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 49335
+# density: 0.011
+# max_count (among templates): 6013
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 47.4
+# FR_corr (Fwd templates vs. Rev templates): 0.035
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 127631 reads (1.1%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 12:53:34
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Mari_2_S22_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Mari_2_S22 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Mari_2_S22_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 14060261
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 3623641
+# reads1_mapped: 3133965
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 3133965 
+# read_count (TA sites only, for Himar1): 3133965
+# template_count: 3133965
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 52420
+# density: 0.011
+# max_count (among templates): 8317
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 59.8
+# FR_corr (Fwd templates vs. Rev templates): 0.038
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 175503 reads (1.2%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 13:02:02
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Mari_3_S23_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Mari_3_S23 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Mari_3_S23_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 9409195
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 3318129
+# reads1_mapped: 2788195
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 2788195 
+# read_count (TA sites only, for Himar1): 2788195
+# template_count: 2788195
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 54893
+# density: 0.012
+# max_count (among templates): 7820
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 50.8
+# FR_corr (Fwd templates vs. Rev templates): 0.037
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 195609 reads (2.1%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 13:14:37
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Mari_4_S24_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Mari_4_S24 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Mari_4_S24_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 14070202
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 3475382
+# reads1_mapped: 3047851
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 3047851 
+# read_count (TA sites only, for Himar1): 3047851
+# template_count: 3047851
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 49675
+# density: 0.011
+# max_count (among templates): 7704
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 61.4
+# FR_corr (Fwd templates vs. Rev templates): 0.035
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 180325 reads (1.3%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 13:58:07
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_N1_S5_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_N1_S5 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_N1_S5_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 13031512
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 7475583
+# reads1_mapped: 5747010
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 5747010 
+# read_count (TA sites only, for Himar1): 5747010
+# template_count: 5747010
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 64711
+# density: 0.014
+# max_count (among templates): 13569
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 88.8
+# FR_corr (Fwd templates vs. Rev templates): 0.037
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 855796 reads (6.6%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 14:05:41
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_N2_S6_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_N2_S6 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_N2_S6_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 8118636
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 4440750
+# reads1_mapped: 3639152
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 3639152 
+# read_count (TA sites only, for Himar1): 3639152
+# template_count: 3639152
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 61155
+# density: 0.013
+# max_count (among templates): 8541
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 59.5
+# FR_corr (Fwd templates vs. Rev templates): 0.035
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 316672 reads (3.9%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 14:17:17
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_N3_S7_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_N3_S7 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_N3_S7_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 12337099
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 7556319
+# reads1_mapped: 6171602
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 6171602 
+# read_count (TA sites only, for Himar1): 6171602
+# template_count: 6171602
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 65095
+# density: 0.014
+# max_count (among templates): 15001
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 94.8
+# FR_corr (Fwd templates vs. Rev templates): 0.035
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 583308 reads (4.7%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 14:26:47
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_N4_S8_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_N4_S8 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_N4_S8_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 10193647
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 5833144
+# reads1_mapped: 4685168
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 4685168 
+# read_count (TA sites only, for Himar1): 4685168
+# template_count: 4685168
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 63213
+# density: 0.014
+# max_count (among templates): 11593
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 74.1
+# FR_corr (Fwd templates vs. Rev templates): 0.037
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 455935 reads (4.5%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 15:52:38
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Vib_1_S17_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Vib_1_S17 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Vib_1_S17_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 12039463
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 2386758
+# reads1_mapped: 2094851
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 2094851 
+# read_count (TA sites only, for Himar1): 2094851
+# template_count: 2094851
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 47374
+# density: 0.010
+# max_count (among templates): 5234
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 44.2
+# FR_corr (Fwd templates vs. Rev templates): 0.034
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 106635 reads (0.9%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 16:03:39
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Vib_2_S18_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Vib_2_S18 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Vib_2_S18_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 12488290
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 3063769
+# reads1_mapped: 2681615
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 2681615 
+# read_count (TA sites only, for Himar1): 2681615
+# template_count: 2681615
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 49295
+# density: 0.011
+# max_count (among templates): 6994
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 54.4
+# FR_corr (Fwd templates vs. Rev templates): 0.034
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 131134 reads (1.1%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 16:13:40
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Vib_3_S19_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Vib_3_S19 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Vib_3_S19_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 11230683
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 2336137
+# reads1_mapped: 2035010
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 2035010 
+# read_count (TA sites only, for Himar1): 2035010
+# template_count: 2035010
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 47213
+# density: 0.010
+# max_count (among templates): 4804
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 43.1
+# FR_corr (Fwd templates vs. Rev templates): 0.035
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 94043 reads (0.8%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp
+# title: Tn-Seq Pre-Processor
+# date: 02/17/2020 16:27:07
+# command: python /home/jeremy/Desktop/transit-master/src/tpp.py -bwa /usr/local/bin/bwa -bwa-alg aln -ref /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna -reads1 /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Vib_4_S20_merged.fastq -output /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Vib_4_S20 -protocol Tn5 -primer AGATGTGTATAAGAGACAG -primer-start-window 0,60 -mismatches 1
+# transposon type: Tn5
+# protocol type: Tn5
+# bwa flags: 
+# read1: /home/jeremy/Desktop/TnSeqRun_Mega_Chrom_Sep/fastq_tpp_processed/Tn_Vib_4_S20_merged.fastq
+# read2: 
+# ref_genome: /home/jeremy/Desktop/Sequencing_Info/DSS3mega.fna
+# replicon_ids: 
+# total_reads (or read pairs): 15247311
+# trimmed_reads (reads with valid Tn prefix, and insert size>20bp): 2809497
+# reads1_mapped: 2458482
+# reads2_mapped: 0
+# mapped_reads (both R1 and R2 map into genome, and R2 has a proper barcode): 2458482 
+# read_count (TA sites only, for Himar1): 2458482
+# template_count: 2458482
+# template_ratio (reads per template): 1.00
+# TA_sites: 4601097
+# TAs_hit: 48850
+# density: 0.011
+# max_count (among templates): 6107
+# max_site (coordinate): 3882475
+# NZ_mean (among templates): 50.3
+# FR_corr (Fwd templates vs. Rev templates): 0.036
+# BC_corr (reads vs. templates, summed over both strands): 1.000
+# primer_matches: 0 reads (0.0%) contain CTAGAGGGCCCAATTCGCCCTATAGTGAGT (Himar1)
+# vector_matches: 0 reads (0.0%) contain CTAGACCGTCCAGTCTGGCAGGCCGGAAAC (phiMycoMarT7)
+# adapter_matches: 134641 reads (0.9%) contain GATCGGAAGAGCACACGTCTGAACTCCAGTCAC (Illumina/TruSeq index)
+# misprimed_reads: 0 reads (0.0%) contain Himar1 prefix but don't end in TGTTA
+# read_length: 76 bp
+# mean_R1_genomic_length: 22.0 bp

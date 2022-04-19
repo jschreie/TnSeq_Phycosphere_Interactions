@@ -1,0 +1,536 @@
+Gene ID	spo	Name	Function	
+637287511	SPO0018	argininosuccinate synthase (EC 6.3.4.5)	COG0137	
+637287513	SPO0020	L-threonine ammonia-lyase (EC 4.3.1.19)	COG1171	
+637287539	SPO0046	glycine oxidase (EC 1.4.3.19)	COG0665	
+637287553	SPO0059	glutamate N-acetyltransferase (EC 2.3.1.35)	COG1364	
+637287593	SPO0099	peptide/opine/nickel uptake family ABC transporter, permease protein	COG1173	
+637287594	SPO0100	peptide/opine/nickel uptake family ABC transporter, permease protein	COG0601	
+637287595	SPO0101	peptide/opine/nickel uptake family ABC transporter, periplasmic substrate-binding protein	COG0747	
+637287613	SPO0120	inner membrane transporter RhtA	COG5006	
+637287621	SPO0129	peptidase, T4 family	COG3191	
+637287644	SPO0152	transporter, LysE family	COG1280	
+637287699	SPO0207	dimethylglycine dehydrogenase (EC 1.5.99.2)	COG0665,COG0404	
+637287702	SPO0210	3-isopropylmalate dehydrogenase	COG0473	
+637287707	SPO0215	isopropylmalate isomerase small subunit	COG0066	
+637287708	SPO0216	3-isopropylmalate dehydratase, large subunit (EC 4.2.1.33)	COG0065	
+637287714	SPO0222	L-alanine dehydrogenase (EC 1.4.1.1)	COG0686	
+637287720	SPO0228	hypothetical protein	COG0697	
+637287726	SPO0234	hypothetical protein	COG1748	
+637287745	SPO0253	branched chain amino acid aminotransferase apoenzyme (EC 2.6.1.42)	COG0115	
+637287753	SPO0261	hypothetical protein	COG0697	
+637287755	SPO0263	membrane protein	COG0697	
+637287759	SPO0267	chorismate synthase (EC 4.2.3.5)	COG0082	
+637287770	SPO0278	diaminopimelate epimerase (EC 5.1.1.7)	COG0253	
+637287782	SPO0290	transmembrane amino acid efflux protein	COG1280	
+637287797	SPO0305	AzlC family protein	COG1296	
+637287824	SPO0332	argininosuccinate lyase	COG0165	
+637287826	SPO0334	diaminopimelate decarboxylase	COG0019	
+637287856	SPO0364	ornithine decarboxylase (EC 4.1.1.17)	COG0019	
+637287880	SPO0388	branched-chain amino acid aminotransferase	COG0115	
+637287882	SPO0390	leucine dehydrogenase (EC 1.4.1.9)	COG0334	
+637287890	SPO0398	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637287905	SPO0413	Cys/Met metabolism PLP-dependent enzyme family protein	COG0626	
+637287906	SPO0414	peptidyl-dipeptidase Dcp (EC 3.4.15.5). Metallo peptidase. MEROPS family M03A	COG0339	
+637287914	SPO0422	2-isopropylmalate synthase (EC 2.3.3.13)	COG0119	
+637287920	SPO0428	amino acid deaminase, putative	COG0665	
+637287927	SPO0435	acyl-CoA thioesterase, putative	COG2755	
+637287942	SPO0450	hypothetical protein	COG5006	
+637288011	SPO0519	L-glutamate-binding protein/L-glutamine-binding protein/L-aspartate-binding protein/L-asparagine-binding protein	COG0834	
+637288012	SPO0520	L-glutamate ABC transporter membrane protein/L-glutamine ABC transporter membrane protein/L-aspartate ABC transporter membrane protein/L-asparagine ABC transporter membrane protein	COG4597	
+637288013	SPO0521	L-glutamate ABC transporter membrane protein/L-glutamine ABC transporter membrane protein/L-aspartate ABC transporter membrane protein/L-asparagine ABC transporter membrane protein	COG0765	
+637288014	SPO0522	L-glutamate ABC transporter ATP-binding protein/L-glutamine ABC transporter ATP-binding protein/L-aspartate ABC transporter ATP-binding protein/L-asparagine ABC transporter ATP-binding protein	COG1126	
+637288018	SPO0526	N-acetylglutamate kinase (EC 2.7.2.8)	COG0548	
+637288035	SPO0543	D-amino-acid dehydrogenase	COG0665	
+637288036	SPO0544	dimethylglycine dehydrogenase (EC 1.5.99.2)	COG0404,COG0665	
+637288050	SPO0558	oligopeptide ABC transporter, permease protein	COG1173	
+637288051	SPO0559	oligopeptide ABC transporter, permease protein	COG0601	
+637288052	SPO0560	oligopeptide ABC transporter, periplasmic oligopeptide-binding protein	COG0747	
+637288055	SPO0564	aminomethyl transferase family protein	COG0404,COG0665	
+637288058	SPO0567	oxidoreductase, FAD-binding	COG0665	
+637288075	SPO0584	aspartate aminotransferase	COG0436	
+637288078	SPO0587	hypothetical protein	COG0665	
+637288085	SPO0594	histidinol dehydrogenase (EC 1.1.1.23)	COG0141	
+637288087	SPO0596	sorbitol dehydrogenase, putative	COG1063	
+637288090	SPO0599	agmatinase (EC 3.5.3.11)	COG0010	
+637288091	SPO0600	carboxynorspermidine decarboxylase (EC 4.1.1.-)	COG0019	
+637288092	SPO0601	carboxynorspermidine dehydrogenase	COG1748	
+637288093	SPO0602	arginine decarboxylase (EC 4.1.1.19)	COG1166	
+637288098	SPO0607	proline racemase, putative	COG3938	
+637288120	SPO0633	gamma-glutamyltranspeptidase	COG0405	
+637288122	SPO0635	aminomethyl transferase family protein	COG0665,COG0404	
+637288129	SPO0642	oxidoreductase, FAD-binding	COG0665	
+637288147	SPO0660	peptide ABC transporter, periplasmic peptide-binding protein	COG0747	
+637288148	SPO0661	peptide ABC transporter, permease protein	COG0601	
+637288149	SPO0662	peptide ABC transporter, permease protein	COG1173	
+637288150	SPO0663	peptide ABC transporter, ATP-binding protein	COG0444	
+637288151	SPO0664	peptide ABC transporter, ATP-binding protein	COG0444,COG4608	
+637288155	SPO0668	ATP phosphoribosyltransferase regulatory subunit (EC 2.4.2.17)	COG3705	
+637288156	SPO0669	ATP phosphoribosyltransferase	COG0040	
+637288165	SPO0678	agmatinase (EC 3.5.3.11)	COG0010	
+637288189	SPO0702	oligopeptide ABC transporter, ATP-binding protein	COG4608	
+637288190	SPO0703	oligopeptide ABC transporter, ATP-binding protein	COG0444	
+637288191	SPO0704	oligopeptide ABC transporter, permease protein	COG1173	
+637288192	SPO0705	oligopeptide ABC transporter, permease protein	COG0601	
+637288193	SPO0706	oligopeptide ABC transporter, periplasmic oligopeptide-binding protein	COG0747	
+637288248	SPO0761	cyclase family protein	COG1878	
+637288252	SPO0765	glutamine synthetase family protein	COG0174	
+637288278	SPO0791	hydroxylysine kinase/5-phosphonooxy-L-lysine phospho-lyase apoenzyme	COG0160	
+637288293	SPO0806	phosphoribosylanthranilate isomerase (EC 5.3.1.24)	COG0135	
+637288295	SPO0808	tryptophan synthase, beta chain (EC 4.2.1.20)	COG0133	
+637288302	SPO0815	tryptophan synthase, alpha chain (EC 4.2.1.20)	COG0159	
+637288309	SPO0822	amino acid/amide ABC transporter ATP-binding protein 2, HAAT family (TC 3.A.1.4.-)	COG0410	
+637288310	SPO0823	amino acid/amide ABC transporter ATP-binding protein 1, HAAT family (TC 3.A.1.4.-)	COG0411	
+637288311	SPO0824	amino acid/amide ABC transporter membrane protein 1, HAAT family (TC 3.A.1.4.-)/amino acid/amide ABC transporter membrane protein 2, HAAT family (TC 3.A.1.4.-)	COG4177,COG0559	
+637288312	SPO0825	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637288322	SPO0835	cyclase, putative	COG1878	
+637288353	SPO0866	gamma-glutamyltransferase 2. Threonine peptidase. MEROPS family T03	COG0405	
+637288365	SPO0878	glycine cleavage system H protein	COG0509	
+637288398	SPO0911	pyrroline-5-carboxylate reductase	COG0345	
+637288410	SPO0923	carbamoyl-phosphate synthase large subunit	COG0458	
+637288411	SPO0924	aminodeoxychorismate synthase, subunit I (EC 2.6.1.85)	COG0147	
+637288412	SPO0925	4-amino-4-deoxychorismate lyase	COG0115	
+637288421	SPO0934	hypothetical protein	COG2981	
+637288449	SPO0962	acetylornithine aminotransferase apoenzyme (EC 2.6.1.11)	COG4992	
+637288450	SPO0963	ornithine carbamoyltransferase (EC 2.1.3.3)	COG0078	
+637288451	SPO0964	N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)	COG0002	
+637288463	SPO0977	ornithine cyclodeaminase (EC 4.3.1.12)	COG2423	
+637288467	SPO0981	histidinol dehydrogenase	COG0141	
+637288503	SPO1017	amino acid/amide ABC transporter ATP-binding protein 2, HAAT family (TC 3.A.1.4.-)	COG0410	
+637288504	SPO1018	amino acid/amide ABC transporter ATP-binding protein 1, HAAT family (TC 3.A.1.4.-)	COG0411	
+637288505	SPO1019	amino acid/amide ABC transporter membrane protein 2, HAAT family (TC 3.A.1.4.-)	COG4177	
+637288506	SPO1020	amino acid/amide ABC transporter membrane protein 1, HAAT family (TC 3.A.1.4.-)	COG0559	
+637288507	SPO1021	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637288511	SPO1025	sensor histidine kinase	COG0591	
+637288548	SPO1062	amino acid ABC transporter substrate-binding protein, PAAT family (TC 3.A.1.3.-)	COG0834	
+637288565	SPO1079	L-lysine exporter, putative	COG1279	
+637288593	SPO1107	phosphinothricin N-acetyltransferase, putative	COG1247	
+637288617	SPO1131	glycine betaine/proline ABC transporter, periplasmic substrate-binding protein	COG2113	
+637288618	SPO1132	glycine betaine/proline ABC transporter, ATP-binding protein	COG4175	
+637288619	SPO1133	glycine betaine/proline ABC transporter, permease protein	COG4176	
+637288626	SPO1140	peptidase, putative	COG0006	
+637288627	SPO1141	ornithine cyclodeaminase (EC 4.3.1.12)	COG2423	
+637288628	SPO1142	L-threonine ammonia-lyase (EC 4.3.1.19)	COG1171	
+637288634	SPO1148	transcriptional regulator, GntR family	COG1167	
+637288641	SPO1155	phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31)	COG0140	
+637288642	SPO1156	imidazole glycerol phosphate synthase subunit hisF (EC 4.1.3.-)	COG0107	
+637288644	SPO1158	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase (EC 5.3.1.16)	COG0106	
+637288648	SPO1162	imidazole glycerol phosphate synthase subunit hisH (EC 2.4.2.-)	COG0118	
+637288649	SPO1163	imidazoleglycerol-phosphate dehydratase (EC 4.2.1.19)	COG0131	
+637288683	SPO1197	amino acid/polyamine/organocation transporter, APC superfamily (TC 2.A.3)	COG0531	
+637288696	SPO1210	oligopeptide ABC transporter, periplasmic oligopeptide-binding protein	COG0747	
+637288697	SPO1211	oligopeptide ABC transporter, permease protein	COG0601	
+637288698	SPO1212	oligopeptide ABC transporter, permease protein	COG1173	
+637288701	SPO1215	carboxypeptidase	COG0624	
+637288749	SPO1264	aspartate aminotransferase	COG0436	
+637288783	SPO1300	L-glutamine synthetase (EC 6.3.1.2)	COG0174	
+637288785	SPO1302	glutamate--putrescine ligase	COG0174	
+637288786	SPO1303	fructosyl-amino acid oxidase, putative	COG0665	
+637288787	SPO1304	amino acid ABC transporter membrane protein 2, PAAT family (TC 3.A.1.3.-)	COG4160	
+637288788	SPO1305	amino acid ABC transporter membrane protein 1, PAAT family (TC 3.A.1.3.-)	COG4215	
+637288789	SPO1306	amino acid ABC transporter substrate-binding protein, PAAT family (TC 3.A.1.3.-)	COG0834	
+637288790	SPO1307	amino acid ABC transporter ATP-binding protein, PAAT family (TC 3.A.1.3.-)	COG4598	
+637288794	SPO1311	dipeptidase. Metallo peptidase. MEROPS family M19	COG2355	
+637288806	SPO1323	L-serine ammonia-lyase	COG1760	
+637288833	SPO1351	O-succinylhomoserine sulfhydrylase (EC 2.5.1.-)	COG0626	
+637288839	SPO1357	sodium/glutamate symporter	COG0786	
+637288848	SPO1366	ketol-acid reductoisomerase (EC 1.1.1.86)	COG0059	
+637288852	SPO1370	aminotransferase family protein	COG0075	
+637288859	SPO1377	carbamoyl-phosphate synthase small subunit	COG0505	
+637288892	SPO1410	renal dipeptidase family protein	COG2355	
+637288895	SPO1413	oligoendopeptidase F	COG1164	
+637288908	SPO1426	4-hydroxyphenylpyruvate dioxygenase (EC 1.13.11.27)	COG3185	
+637288913	SPO1431	O-acetylhomoserine sulfhydrylase (EC 2.5.1.49)	COG2873	
+637288928	SPO1446	cyclase, putative	COG1878	
+637288943	SPO1461	hypothetical protein	COG4126	
+637288950	SPO1468	aminotransferase family protein	COG0079	
+637288954	SPO1472	hydantoin utilization protein A	COG0145	
+637288955	SPO1473	hydantoin utilization protein B, putative	COG0146	
+637288958	SPO1476	3-isopropylmalate dehydratase, large subunit (EC 4.2.1.33)	COG0065	
+637288959	SPO1477	3-isopropylmalate dehydratase, small subunit (EC 4.2.1.33)	COG0066	
+637288972	SPO1490	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637288973	SPO1491	amino acid/amide ABC transporter membrane protein 1, HAAT family (TC 3.A.1.4.-)	COG0559	
+637288974	SPO1492	amino acid/amide ABC transporter membrane protein 2, HAAT family (TC 3.A.1.4.-)/amino acid/amide ABC transporter ATP-binding protein 1, HAAT family (TC 3.A.1.4.-)	COG0411,COG4177	
+637288975	SPO1493	amino acid/amide ABC transporter ATP-binding protein 2, HAAT family (TC 3.A.1.4.-)	COG0410	
+637288996	SPO1514	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637288998	SPO1516	amino acid ABC transporter substrate-binding protein, PAAT family (TC 3.A.1.3.-)	COG0834	
+637289024	SPO1542	dipeptidase AC. Metallo peptidase. MEROPS family M19	COG2355	
+637289025	SPO1543	peptide/opine/nickel uptake family ABC transporter, periplasmic substrate-binding protein	COG0747	
+637289026	SPO1544	peptide/opine/nickel uptake family ABC transporter, permease protein	COG0601	
+637289027	SPO1545	peptide/opine/nickel uptake family ABC transporter, permease protein	COG1173	
+637289028	SPO1546	peptide/opine/nickel uptake family ABC transporter, ATP-binding protein	COG0444	
+637289029	SPO1547	peptide/opine/nickel uptake family ABC transporter, ATP-binding protein	COG1124	
+637289030	SPO1548	glycine betaine/proline ABC transporter, periplasmic substrate-binding protein	COG2113	
+637289031	SPO1549	glycine betaine/proline ABC transporter, ATP-binding protein	COG4175	
+637289032	SPO1550	glycine betaine/proline ABC transporter, permease protein	COG4176	
+637289034	SPO1552	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637289040	SPO1558	chorismate mutase family protein	COG1605	
+637289044	SPO1562	glycine cleavage system T protein, putative	COG0404	
+637289049	SPO1567	aminotransferase, putative	COG0075	
+637289054	SPO1572	serine hydroxymethyltransferase	COG0112	
+637289055	SPO1573	gamma-glutamylmethylamide synthetase (EC 6.3.4.12)	COG0174	
+637289056	SPO1574	N-methylglutamate synthase subunit C precursor (EC 2.1.1.21)	COG0069	
+637289057	SPO1575	N-methylglutamate synthase subunit B (EC 2.1.1.21)	COG0070	
+637289058	SPO1576	N-methylglutamate synthase subunit A (EC 2.1.1.21)	COG0067	
+637289061	SPO1579	aminomethyltransferase (EC 2.1.2.10)	COG0404	
+637289067	SPO1585	sarcosine oxidase, gamma subunit family	COG4583	
+637289068	SPO1586	N-methylglutamate dehydrogenase subunit C (EC 1.5.99.5)	COG0404	
+637289069	SPO1587	sarcosine oxidase, delta subunit family	COG4311	
+637289070	SPO1588	N-methylglutamate dehydrogenase subunit A precursor (EC 1.5.99.5)	COG0665	
+637289074	SPO1592	aminomethyl transferase family protein	COG0665,COG0404	
+637289088	SPO1606	spermidine/putrescine ABC transporter, periplasmic substrate-binding protein	COG0687	
+637289089	SPO1607	spermidine/putrescine ABC transporter, permease protein	COG1177	
+637289090	SPO1608	spermidine/putrescine ABC transporter, permease protein	COG1176	
+637289091	SPO1609	spermidine/putrescine ABC transporter, ATP-binding component	COG3842	
+637289110	SPO1628	dimethylglycine dehydrogenase (EC 1.5.99.2)	COG0665,COG0404	
+637289116	SPO1634	shikimate kinase (EC 2.7.1.71)	COG0703	
+637289117	SPO1635	3-dehydroquinate synthase (EC 4.2.3.4)	COG0337	
+637289127	SPO1645	oligopeptide/dipeptide ABC transporter, permease protein	COG1173	
+637289128	SPO1646	oligopeptide/dipeptide ABC transporter, permease protein	COG0601	
+637289129	SPO1647	oligopeptide/dipeptide ABC transporter, periplasmic substrate-binding protein	COG0747	
+637289130	SPO1648	aminomethyl transferase family protein	COG0404	
+637289138	SPO1658	oligopeptide/dipeptide ABC transporter, permease protein	COG0601	
+637289139	SPO1659	oligopeptide/dipeptide ABC transporter, periplasmic substrate-binding protein	COG0747	
+637289164	SPO1684	phosphoribosyl-AMP cyclohydrolase (EC 3.5.4.19)	COG0139	
+637289170	SPO1690	transcriptional regulator, GntR family	COG1167	
+637289175	SPO1695	hydantoin utilization protein, putative	COG0145	
+637289176	SPO1696	hydantoinase/oxoprolinase family protein	COG0146	
+637289177	SPO1697	histidinol phosphate aminotransferase apoenzyme (EC 2.6.1.9)	COG0079	
+637289181	SPO1701	dihydrodipicolinate synthase family protein	COG0329	
+637289186	SPO1707	amino acid/amide ABC transporter ATP-binding protein 2, HAAT family (TC 3.A.1.4.-)	COG0410	
+637289188	SPO1708	amino acid/amide ABC transporter membrane protein 2, HAAT family (TC 3.A.1.4.-)	COG4177	
+637289189	SPO1709	amino acid/amide ABC transporter membrane protein 1, HAAT family (TC 3.A.1.4.-)	COG0559	
+637289190	SPO1710	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637289192	SPO1712	urease, gamma subunit	COG0831	
+637289193	SPO1713	urease, beta subunit	COG0832	
+637289194	SPO1714	urease, alpha subunit	COG0804	
+637289210	SPO1729	homoserine O-succinyltransferase (EC 2.3.1.46)	COG1897	
+637289215	SPO1734	homoserine dehydrogenase (EC 1.1.1.3)	COG0460	
+637289224	SPO1743	glutamate dehydrogenase	COG0334	
+637289225	SPO1744	sarcosine oxidase, beta subunit family	COG0665	
+637289226	SPO1745	sarcosine oxidase, delta subunit family	COG4311	
+637289227	SPO1746	sarcosine oxidase, alpha subunit family	COG0404	
+637289228	SPO1747	sarcosine oxidase, gamma subunit family	COG4583	
+637289257	SPO1776	pyridine nucleotide-disulphide oxidoreductase family protein	COG0493	
+637289262	SPO1781	N-carbamoyl-L-amino acid amidohydrolase	COG0624	
+637289271	SPO1790	phosphate ABC transporter ATP-binding protein, PhoT family (TC 3.A.1.7.1)	COG1126	
+637289306	SPO1825	glutamine synthetase family protein	COG0174	
+637289308	SPO1827	N-formylglutamate amidohydrolase	COG3931	
+637289310	SPO1829	amino acid/amide ABC transporter ATP-binding protein 1, HAAT family (TC 3.A.1.4.-)	COG0411	
+637289311	SPO1830	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637289312	SPO1831	amino acid/amide ABC transporter ATP-binding protein 2, HAAT family (TC 3.A.1.4.-)	COG0410	
+637289313	SPO1832	amino acid/amide ABC transporter membrane protein 1, HAAT family (TC 3.A.1.4.-)	COG0559	
+637289314	SPO1833	amino acid/amide ABC transporter membrane protein 2, HAAT family (TC 3.A.1.4.-)	COG4177	
+637289327	SPO1846	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637289329	SPO1848	amino acid/amide ABC transporter ATP-binding protein 2, HAAT family (TC 3.A.1.4.-)	COG0410	
+637289330	SPO1849	amino acid/amide ABC transporter ATP-binding protein 1, HAAT family (TC 3.A.1.4.-)	COG0411	
+637289331	SPO1850	amino acid/amide ABC transporter membrane protein 2, HAAT family (TC 3.A.1.4.-)	COG4177	
+637289332	SPO1851	amino acid/amide ABC transporter membrane protein 1, HAAT family (TC 3.A.1.4.-)	COG0559	
+637289343	SPO1862	metFprotein, homolog	COG0685	
+637289357	SPO1876	N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38)	COG0002	
+637289365	SPO1884	methionine synthase I	COG0646	
+637289392	SPO1913	dimethylsulfoniopropionate demethylase	COG0404	
+637289395	SPO1916	aminotransferase, class V	COG0520	
+637289400	SPO1921	pyridoxal-phosphate dependent enzyme	COG0031	
+637289415	SPO1935	amino acid/amide ABC transporter membrane protein 2, HAAT family (TC 3.A.1.4.-)	COG4177	
+637289416	SPO1936	amino acid/amide ABC transporter membrane protein 1, HAAT family (TC 3.A.1.4.-)	COG0559	
+637289417	SPO1937	amino acid/amide ABC transporter ATP-binding protein 2, HAAT family (TC 3.A.1.4.-)	COG0410	
+637289418	SPO1938	amino acid/amide ABC transporter ATP-binding protein 1, HAAT family (TC 3.A.1.4.-)	COG0411	
+637289419	SPO1939	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637289422	SPO1942	3-deoxy-D-arabinoheptulosonate-7-phosphate synthase (EC 2.5.1.54)	COG3200	
+637289453	SPO1973	3-dehydroquinate dehydratase (EC 4.2.1.10)	COG0757	
+637289464	SPO1984	glutamate-5-semialdehyde dehydrogenase (EC 1.2.1.41)	COG0014	
+637289465	SPO1985	glutamate 5-kinase (EC 2.7.2.11)	COG0263	
+637289468	SPO1988	transporter, LysE family	COG1280	
+637289481	SPO2001	oxidoreductase, FAD-binding	COG0665	
+637289486	SPO2006	spermidine/putrescine ABC transporter, ATP-binding protein	COG3842	
+637289487	SPO2007	spermidine/putrescine ABC transporter, periplasmic substrate-binding protein	COG0687	
+637289488	SPO2008	spermidine/putrescine ABC transporter, permease protein	COG1177	
+637289489	SPO2009	spermidine/putrescine ABC transporter, permease protein	COG1176	
+637289493	SPO2013	hypothetical protein	COG0421	
+637289494	SPO2014	cysteine desulfurase (EC 2.8.1.7)	COG0520	
+637289532	SPO2053	carboxypeptidase Taq (EC:3.4.17.19). Metallo peptidase. MEROPS family M32	COG2317	
+637289545	SPO2066	ABC transporter, periplasmic substrate-binding protein	COG4166	
+637289591	SPO2112	transmembrane drug/metabolite transporter family protein	COG0697	
+637289598	SPO2119	arginase (EC 3.5.3.1)	COG0010	
+637289600	SPO2121	ornithine cyclodeaminase (EC 4.3.1.12)	COG2423	
+637289604	SPO2125	acetyltransferase, GNAT family	COG1247	
+637289609	SPO2130	2-isopropylmalate synthase (EC 2.3.3.13)	COG0119	
+637289611	SPO2132	aspartate aminotransferase	COG0436	
+637289623	SPO2144	hypothetical protein	COG0436	
+637289625	SPO2146	anthranilate synthase, component I (EC 4.1.3.27)	COG0147	
+637289628	SPO2149	anthranilate synthase, component II (EC 4.1.3.27)	COG0512	
+637289629	SPO2150	anthranilate phosphoribosyltransferase (EC 2.4.2.18)	COG0547	
+637289630	SPO2151	indole-3-glycerol phosphate synthase (EC 4.1.1.48)	COG0134	
+637289671	SPO2192	histidine ammonia-lyase (EC 4.3.1.3)	COG2986	
+637289672	SPOA0448	N-formylglutamate amidohydrolase	COG3741	
+637289673	SPO2193	urocanate hydratase (EC 4.2.1.49)	COG2987	
+637289676	SPO2196	diaminopropionate ammonia-lyase	COG1171	
+637289726	SPO2246	cysteine synthase A	COG0031	
+637289727	SPO2247	serine O-acetyltransferase (EC 2.3.1.30)	COG1045	
+637289750	SPO2272	1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase (EC 5.3.1.16)	COG0106	
+637289772	SPO2294	nitrogen regulatory protein P-II family	COG0347	
+637289773	SPO2295	L-glutamine synthetase (EC 6.3.1.2)	COG0174	
+637289777	SPO2299	dimethylsulfoniopropionate lyase DddP (EC 4.4.1.3)	COG0006	
+637289787	SPO2309	hypothetical protein	COG0697	
+637289822	SPO2344	sarcosine oxidase, gamma subunit family	COG4583	
+637289823	SPO2345	sarcosine oxidase, alpha subunit family	COG0404	
+637289824	SPO2346	sarcosine oxidase, delta subunit family	COG4311	
+637289826	SPO2348	sarcosine oxidase, beta subunit family	COG0665	
+637289839	SPO2362	amino acid ABC transporter substrate-binding protein, PAAT family (TC 3.A.1.3.-)	COG0834	
+637289840	SPO2363	phosphoserine phosphatase	COG0560	
+637289841	SPO2364	amino acid ABC transporter substrate-binding protein, PAAT family (TC 3.A.1.3.-)	COG0834	
+637289842	SPO2365	amino acid ABC transporter membrane protein 1, PAAT family (TC 3.A.1.3.-)	COG4597	
+637289843	SPO2366	amino acid ABC transporter membrane protein 2, PAAT family (TC 3.A.1.3.-)	COG0765	
+637289844	SPO2367	amino acid ABC transporter ATP-binding protein, PAAT family (TC 3.A.1.3.-)	COG1126	
+637289847	SPO2370	sodium:alanine symporter family protein	COG1115	
+637289860	SPO2385	benzaldehyde lyase, putative	COG0028	
+637289863	SPO2388	translocator protein, LysE family	COG1280	
+637289882	SPO2410	dihydroxy-acid dehydratase	COG0129	
+637289890	SPO2418	transporter, LysE family	COG1280	
+637289896	SPO2424	L-idonate 5-dehydrogenase	COG1063	
+637289897	SPO2425	shikimate dehydrogenase (EC 1.1.1.25)	COG0169	
+637289908	SPO2436	dimethylglycine oxidase (EC 1.5.3.10)	COG0665,COG0404	
+637289912	SPO2440	metallopeptidase, family M24	COG0006	
+637289913	SPO2441	glycine betaine/proline ABC transporter, periplasmic glycine betaine/proline-binding protein	COG2113	
+637289914	SPO2442	glycine betaine/proline ABC transporter, permease protein	COG4176	
+637289915	SPO2443	glycine betaine/proline ABC transporter, ATP-binding protein	COG4175	
+637289920	SPO2448	membrane protein, MarC family	COG2095	
+637289925	SPO2453	leucyl aminopeptidase	COG0260	
+637289936	SPO2464	agmatinase (EC 3.5.3.11)	COG0010	
+637289939	SPO2467	agmatinase	COG0010	
+637290001	SPO2530	amino acid/amide ABC transporter membrane protein 2, HAAT family (TC 3.A.1.4.-)	COG4177	
+637290002	SPO2531	amino acid/amide ABC transporter membrane protein 1, HAAT family (TC 3.A.1.4.-)	COG0559	
+637290003	SPO2532	amino acid/amide ABC transporter ATP-binding protein 2, HAAT family (TC 3.A.1.4.-)	COG0410	
+637290004	SPO2533	amino acid/amide ABC transporter ATP-binding protein 1, HAAT family (TC 3.A.1.4.-)	COG0411	
+637290005	SPO2534	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637290022	SPO2551	peptide/opine/nickel uptake family ABC transporter, ATP-binding protein	COG4608	
+637290023	SPO2552	peptide/opine/nickel uptake family ABC transporter, permease/ATP-binding protein	COG1173,COG0444	
+637290024	SPO2553	peptide/opine/nickel uptake family ABC transporter, permease protein	COG0601	
+637290025	SPO2554	peptide/opine/nickel uptake family ABC transporter, periplasmic substrate-binding protein	COG0747	
+637290027	SPO2556	N-carbamoyl-L-amino acid amidohydrolase	COG0624	
+637290047	SPO2578	acetolactate synthase, large subunit (EC 2.2.1.6)	COG0028	
+637290048	SPO2579	acetolactate synthase, small subunit (EC 2.2.1.6)	COG0440	
+637290058	SPO2589	aminotransferase, classes I and II	COG0436	
+637290066	SPO2597	hypothetical protein	COG0624	
+637290072	SPO2603	N-formylglutamate amidohydrolase family protein	COG3931	
+637290076	SPO2607	L-glutamine synthetase (EC 6.3.1.2)	COG0174	
+637290092	SPO2623	transporter, LysE family	COG1280	
+637290104	SPO2635	phosphoadenylylsulfate reductase (thioredoxin) (EC 1.8.4.8)	COG0175	
+637290114	SPO2645	protease, S2 family	COG3591	
+637290126	SPO2657	D-cysteine desulfhydrase (EC 4.4.1.15)	COG2515	
+637290127	SPO2658	amino acid ABC transporter substrate-binding protein, PAAT family (TC 3.A.1.3.-)	COG0834	
+637290128	SPO2659	L-glutamate ABC transporter membrane protein/L-aspartate ABC transporter membrane protein	COG0765	
+637290129	SPO2660	amino acid ABC transporter membrane protein 2, PAAT family (TC 3.A.1.3.-)	COG0765	
+637290130	SPO2661	L-glutamate ABC transporter ATP-binding protein/L-aspartate ABC transporter ATP-binding protein	COG1126	
+637290132	SPO2663	aspartate ammonia-lyase	COG1027	
+637290133	SPO2664	amino acid ABC transporter ATP-binding protein, PAAT family (TC 3.A.1.3.-)	COG1126	
+637290134	SPO2665	amino acid ABC transporter membrane protein 2, PAAT family (TC 3.A.1.3.-)	COG0765	
+637290135	SPO2666	amino acid ABC transporter membrane protein 1, PAAT family (TC 3.A.1.3.-)	COG0765	
+637290136	SPO2667	amino acid ABC transporter substrate-binding protein, PAAT family (TC 3.A.1.3.-)	COG0834	
+637290158	SPO2689	iron ABC transporter, ATP-binding protein, putative	COG3842	
+637290168	SPO2699	opine/polyamine ABC transporter, permease protein	COG1177	
+637290169	SPO2700	opine/polyamine ABC transporter, permease protein	COG1176	
+637290170	SPO2701	opine/polyamine ABC transporter, periplasmic substrate-binding protein	COG0687	
+637290171	SPO2702	opine/polyamine ABC transporter, ATP-binding protein	COG3842	
+637290280	SPO2812	acetylornithine deacetylase	COG0624	
+637290282	SPO2814	peptide/opine/nickel uptake family ABC transporter, periplasmic substrate-binding protein	COG0747	
+637290283	SPO2815	peptide/nickel/opine uptake family ABC transporter, permease protein	COG0601	
+637290284	SPO2816	peptide/nickel/opine uptake family ABC transporter, permease protein	COG1173	
+637290292	SPO2824	Kynureninase (EC 3.7.1.3)	COG3844	
+637290299	SPO2831	oligopeptide ABC transporter, ATP-binding protein	COG4608,COG0444	
+637290300	SPO2832	dipeptide ABC transporter, ATP-binding protein	COG0444	
+637290301	SPO2833	dipeptide ABC transporter, permease protein	COG1173	
+637290302	SPO2834	dipeptide ABC trasnporter, permease protein	COG0601	
+637290303	SPO2835	dipeptide ABC transporter, periplasmic dipeptide-binding protein	COG0747	
+637290305	SPO2837	putative glutamine amidotransferase	COG2071	
+637290309	SPO2841	aminopeptidase N	COG0308	
+637290325	SPO2857	metallopeptidase, family M24	COG0006	
+637290350	SPO2882	dihydrodipicolinate synthase family protein	COG0329	
+637290351	SPO2883	acetolactate synthase-1/2/3 large subunit	COG0028	
+637290353	SPO2885	acetolactate synthase, catabolic, putative	COG0028	
+637290367	SPO2899	selenophosphate synthase (EC 2.7.9.3)	COG0709	
+637290408	SPO2940	serine hydroxymethyltransferase	COG0112	
+637290446	SPO2980	porphyromonas-type peptidyl-arginine deiminase family protein	COG2957	
+637290461	SPO2995	peptide/nickel/opine uptake family ABC transporter, periplasmic substrate-binding protein	COG0747	
+637290462	SPO2996	peptide/nickel/opine uptake family ABC transporter, permease protein	COG0601	
+637290463	SPO2997	peptide/nickel/opine uptake family ABC transporter, permease protein	COG1173	
+637290476	SPO3010	L-proline dehydrogenase (EC 1.5.99.8)/delta-1-pyrroline-5-carboxylate dehydrogenase (EC 1.5.1.12)	COG4230,COG0506	
+637290482	SPO3016	5,10-methylenetetrahydrofolate reductase (NAD(P)) (EC 1.5.1.20)	COG0685	
+637290493	SPO3027	histidinol-phosphate aminotransferase	COG0079	
+637290495	SPO3029	serine--glyoxylate transaminase, putative	COG0075	
+637290498	SPO3032	6-phosphogluconate dehydratase (EC 4.2.1.12)	COG0129	
+637290501	SPO3035	aspartate kinase (EC 2.7.2.4)	COG0527	
+637290505	SPO3039	amino acid ABC transporter substrate-binding protein, PAAT family (TC 3.A.1.3.-)	COG0834	
+637290506	SPO3040	amino acid ABC transporter substrate-binding protein, PAAT family (TC 3.A.1.3.-)	COG0834	
+637290507	SPO3041	amino acid ABC transporter membrane protein 1, PAAT family (TC 3.A.1.3.-)	COG0765	
+637290508	SPO3042	amino acid ABC transporter membrane protein 2, PAAT family (TC 3.A.1.3.-)	COG0765	
+637290509	SPO3043	amino acid ABC transporter ATP-binding protein, PAAT family (TC 3.A.1.3.-)	COG1126	
+637290514	SPO3048	dipeptide ABC transporter, permease protein	COG0601	
+637290515	SPO3049	dipeptide ABC transporter, periplasmic dipeptide-binding protein	COG0747	
+637290528	SPO3063	transmembrane efflux protein, homoserine/threonine (RhtB) family	COG1280	
+637290536	SPO3071	L-threonine synthase (EC 4.2.3.1)	COG0498	
+637290567	SPO3102	chorismate mutase (EC 5.4.99.5)	COG1605	
+637290600	SPO3135	L-aminopeptidase DmpA. Serine peptidase. MEROPS family S58	COG3191	
+637290621	SPO3156	L-threonine aldolase (EC 4.1.2.5)	COG2008	
+637290624	SPO3159	ribose-phosphate pyrophosphokinase	COG0462	
+637290641	SPO3176	prephenate dehydrogenase	COG0287	
+637290642	SPO3177	histidinol phosphate aminotransferase apoenzyme (EC 2.6.1.9)	COG0079	
+637290643	SPO3178	hypothetical protein	COG0520	
+637290650	SPO3185	transcriptional regulator, GntR family	COG1167	
+637290655	SPO3190	renal dipeptidase family protein	COG2355	
+637290674	SPO3209	transporter, LysE family	COG1280	
+637290685	SPO3220	aminotransferase, classes I and II	COG1168	
+637290689	SPO3224	L-threonine O-3-phosphate decarboxylase (EC 4.1.1.81)	COG0079	
+637290695	SPO3230	aminotransferase, classes I and II	COG1167	
+637290717	SPO3252	chorismate mutase (EC 5.4.99.5)	COG1605	
+637290737	SPO3272	glutamate synthase family protein	COG0069	
+637290747	SPO3282	N-formylglutamate amidohydrolase family protein	COG3741	
+637290755	SPO3290	amino acid/amide ABC transporter ATP-binding protein 2, HAAT family (TC 3.A.1.4.-)	COG0410	
+637290756	SPO3291	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637290757	SPO3292	amino acid/amide ABC transporter membrane protein 2, HAAT family (TC 3.A.1.4.-)	COG4177	
+637290759	SPO3294	amino acid/amide ABC transporter membrane protein 1, HAAT family (TC 3.A.1.4.-)	COG0559	
+637290760	SPO3295	amino acid/amide ABC transporter ATP-binding protein 1, HAAT family (TC 3.A.1.4.-)	COG0411	
+637290768	SPO3303	GDSL-like lipase/acylhydrolase, putative	COG2755	
+637290769	SPO3304	N-carbamoyl-L-amino acid amidohydrolase	COG0624	
+637290772	SPO3307	saccharopine dehydrogenase (NAD+, L-lysine-forming) (EC 1.5.1.7)	COG0686	
+637290774	SPO3309	saccharopine dehydrogenase, putative	COG1748	
+637290779	SPO3314	dihydroxyacid dehydratase (EC 4.2.1.9)	COG0129	
+637290792	SPO3327	creatinase	COG0006	
+637290797	SPO3332	succinyldiaminopimelate desuccinylase (EC 3.5.1.18)	COG0624	
+637290802	SPO3337	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase	COG2171	
+637290806	SPO3341	L-threonine ammonia-lyase (EC 4.3.1.19)	COG1171	
+637290809	SPO3344	cystathionine gamma-lyase	COG0626	
+637290814	SPO3349	asparaginase (EC 3.5.1.1)	COG4448	
+637290818	SPO3353	phosphoserine phosphatase	COG0560	
+637290819	SPO3354	phosphoserine aminotransferase apoenzyme (EC 2.6.1.52)	COG1932	
+637290824	SPO3359	L-threonine 3-dehydrogenase (EC 1.1.1.103)	COG1063	
+637290852	SPO3387	hypothetical protein	COG0665	
+637290859	SPO3394	GDSL-like lipase/acylhydrolase, putative	COG2755	
+637290861	SPO3396	FAD dependent oxidoreductase/aminomethyl transferase	COG0665,COG0404	
+637290863	SPO3398	homocysteine S-methyltransferase (EC 2.1.1.10)	COG2040	
+637290865	SPO3400	dimethylglycine dehydrogenase (EC 1.5.99.2)	COG0665,COG0404	
+637290867	SPO3402	transporter, LysE family	COG1280	
+637290876	SPO3411	gamma-glutamyltransferase 2. Threonine peptidase. MEROPS family T03	COG0405	
+637290882	SPO3417	aminotransferase, classes I and II	COG0436	
+637290930	SPO3465	hypothetical protein	COG0665	
+637290931	SPO3466	putrescine ABC transporter, permease protein	COG1177	
+637290932	SPO3467	putrescine ABC transporter, permease protein	COG1176	
+637290933	SPO3468	putrescine ABC transporter, ATP-binding protein	COG3842	
+637290934	SPO3469	putrescine ABC transporter, periplasmic putrescine-binding protein	COG0687	
+637290937	SPO3472	polyamine ABC transporter, ATP-binding protein	COG3842	
+637290938	SPO3473	polyamine ABC trasnporter, periplasmic polyamine-binding protein	COG0687	
+637290939	SPO3474	polyamine ABC transporter, permease protein	COG1176	
+637290940	SPO3475	polyamine ABC transporter, permease protein	COG1177	
+637290947	SPO3482	trypsin domain protein	COG3591	
+637290948	SPO3483	protease YdgD	COG3591	
+637290969	SPO3504	S-adenosylmethionine uptake transporter	COG0697	
+637290994	SPO3529	serine hydroxymethyltransferase (EC 2.1.2.1)	COG0112	
+637291002	SPO3537	oligopeptide/dipeptide uptake family ABC transporter, periplasmic substrate-binding protein	COG4166	
+637291004	SPO3539	prephenate dehydratase (EC 4.2.1.51)	COG0077	
+637291017	SPO3552	oxidoreductase, FAD-binding	COG0665	
+637291019	SPO3554	hypothetical protein	COG0697	
+637291021	SPO3556	dihydrodipicolinate synthase (EC 4.2.1.52)	COG0329	
+637291026	SPO3561	sulfoacetaldehyde acetyltransferase (EC 2.3.3.15)	COG0028	
+637291027	SPO3562	transcriptional regulator, GntR family	COG1167	
+637291049	SPO3584	membrane protein, drug/metabolite transporter (DMT) family	COG5006	
+637291062	SPO3597	amine oxidase, flavin-containing	COG1231	
+637291066	SPO3601	N-formylglutamate amidohydrolase family protein	COG3931	
+637291069	SPO3604	D-amino acid aminotransferase, putative	COG0115	
+637291078	SPO3613	transporter, LysE family	COG1280	
+637291126	SPO3660	urea amidolyase, homolog	COG1984	
+637291127	SPO3661	allophanate hydrolase family protein	COG2049	
+637291132	SPO3666	oxidoreductase, FAD-binding	COG0665	
+637291143	SPO3676	acetylornithine deacetylase (EC 3.5.1.16)	COG0624	
+637291154	SPO3687	decarboxylase, pyridoxal-dependent	COG0076	
+637291171	SPO3704	transcriptional regulator, XRE family with shikimate kinase activity	COG0703	
+637291172	SPO3705	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637291173	SPO3706	amino acid/amide ABC transporter ATP-binding protein 1, HAAT family (TC 3.A.1.4.-)	COG0411	
+637291174	SPO3707	amino acid/amide ABC transporter ATP-binding protein 2, HAAT family (TC 3.A.1.4.-)	COG0410	
+637291175	SPO3708	amino acid/amide ABC transporter membrane protein 1, HAAT family (TC 3.A.1.4.-)	COG0559	
+637291176	SPO3709	amino acid/amide ABC transporter membrane protein 2, HAAT family (TC 3.A.1.4.-)	COG4177	
+637291179	SPO3712	aspartate semialdehyde dehydrogenase (EC 1.2.1.11)	COG0136	
+637291184	SPO3717	cytosol aminopeptidase family protein	COG0260	
+637291187	SPO3720	aromatic amino acid aminotransferase apoenzyme (EC 2.6.1.57)	COG1448	
+637291191	SPO3724	nitrogen regulatory protein P-II family	COG0347	
+637291206	SPO3739	hydantoinase/oxoprolinase family protein	COG0145	
+637291236	SPO3768	glutamate synthase (NADPH) large subunit (EC 1.4.1.13)	COG0069	
+637291238	SPO3770	glutamate synthase (NADPH) small subunit (EC 1.4.1.13)	COG0493	
+637291242	SPO3774	oligopeptide/dipeptide ABC transporter, periplasmic substrate-binding protein	COG0747	
+637291243	SPO3775	oligopeptide/dipeptide ABC transporter, permease protein	COG0601	
+637291244	SPO3776	oligopeptide/dipeptide ABC transporter, permease protein	COG1173	
+637291245	SPO3777	oligopeptide/dipeptide ABC transporter, ATP-binding protein	COG0444	
+637291246	SPO3778	oligopeptide/dipeptide ABC transporter, ATP-binding protein	COG4608	
+637291289	SPO3821	ornithine cyclodeaminase/mu-crystallin family protein	COG2423	
+637291298	SPO3830	peptidase T. Metallo peptidase. MEROPS family M20B	COG2195	
+637291300	SPO3832	ornithine cyclodeaminase (EC 4.3.1.12)	COG2423	
+637291302	SPO3834	dihydrodipicolinate reductase (EC 1.3.1.26)	COG0289	
+637291359	SPO3891	shikimate dehydrogenase (EC 1.1.1.25)	COG0169	
+637613560	SPOA0015	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19)	COG0128	
+637613564	SPOA0020	alanine racemase domain protein	COG3616	
+637613601	SPOA0057	glycine cleavage system T protein	COG0404	
+637613602	SPOA0058	glycine cleavage system H protein	COG0509	
+637613603	SPOA0059	glycine dehydrogenase (decarboxylating) alpha subunit (EC 1.4.4.2)/glycine dehydrogenase (decarboxylating) beta subunit (EC 1.4.4.2)	COG0403,COG1003	
+637613607	SPOA0063	FAD dependent oxidoreductase/aminomethyl transferase	COG0404,COG0665	
+637613608	SPOA0064	NG,NG-dimethylarginine dimethylaminohydrolase, putative	COG1834	
+637613609	SPOA0065	acetolactate synthase-1/2/3 large subunit	COG0028	
+637613610	SPOA0066	aspartate aminotransferase, putative	COG0436	
+637613612	SPOA0068	amino acid ABC transporter ATP-binding protein, PAAT family (TC 3.A.1.3.-)	COG4598	
+637613613	SPOA0069	amino acid ABC transporter substrate-binding protein, PAAT family (TC 3.A.1.3.-)	COG0834	
+637613614	SPOA0070	amino acid ABC transporter membrane protein 1, PAAT family (TC 3.A.1.3.-)	COG4215	
+637613615	SPOA0071	amino acid ABC transporter membrane protein 2, PAAT family (TC 3.A.1.3.-)	COG4160	
+637613641	SPOA0097	amino acid/amide ABC transporter membrane protein 2, HAAT family (TC 3.A.1.4.-)	COG4177	
+637613642	SPOA0098	amino acid/amide ABC transporter membrane protein 1, HAAT family (TC 3.A.1.4.-)	COG0559	
+637613643	SPOA0099	amino acid/amide ABC transporter ATP-binding protein 2, HAAT family (TC 3.A.1.4.-)	COG0410	
+637613644	SPOA0100	amino acid/amide ABC transporter ATP-binding protein 1, HAAT family (TC 3.A.1.4.-)	COG0411	
+637613645	SPOA0101	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637613673	SPOA0127	cyclase family protein	COG1878	
+637613690	SPOA0144	serine-glyoxylate aminotransferase apoenzyme (EC 2.6.1.45)	COG0075	
+637613691	SPOA0145	pyridoxal-phosphate dependent enzyme	COG1171	
+637613692	SPOA0146	D-3-hydroxyaspartate aldolase (EC 4.1.3.41)	COG3616	
+637613693	SPOA0147	ornithine cyclodeaminase (EC 4.3.1.12)	COG2423	
+637613695	SPOA0149	transcriptional regulator, GntR family	COG1167	
+637613704	SPOA0158	D-cysteine desulfhydrase (EC 4.4.1.15)	COG2515	
+637613710	SPOA0164	transcriptional regulator, GntR family	COG1167	
+637613714	SPOA0168	oxidoreductase, FAD-binding	COG0665	
+637613743	SPOA0199	transcriptional regulator, GntR family	COG1167	
+637613746	SPOA0202	histidinol dehydrogenase (EC 1.1.1.23)	COG0141	
+637613753	SPOA0209	gamma-glutamylputrescine oxidase	COG0665	
+637613775	SPOA0231	glycine betaine/proline ABC transporter, periplasmic substrate-binding protein	COG2113	
+637613776	SPOA0232	glycine betaine/proline ABC transporter, ATP-binding protein	COG4175	
+637613777	SPOA0233	glycine betaine/proline ABC transporter, permease protein, putative	COG4176	
+637613778	SPOA0234	agmatinase, putative	COG0010	
+637613779	SPOA0235	agmatinase (EC 3.5.3.11)	COG0010	
+637613788	SPOA0244	dihydrodipicolinate synthase family protein	COG0329	
+637613806	SPOA0262	oxidoreductase, FAD-binding	COG0665	
+637613810	SPOA0266	proline racemase, putative	COG3938	
+637613811	SPOA0267	dihydroxydipicolinate synthase family protein	COG0329	
+637613818	SPOA0274	4-aminobutyrate aminotransferase apoenzyme (EC 2.6.1.19)	COG0160	
+637613835	SPOA0291	branched-chain amino acid aminotransferase, putative	COG0115	
+637613839	SPOA0295	hydantoin racemase	COG4126	
+637613840	SPOA0296	amino acid/amide ABC transporter ATP-binding protein 2, HAAT family (TC 3.A.1.4.-)	COG0410	
+637613841	SPOA0297	amino acid/amide ABC transporter ATP-binding protein 1, HAAT family (TC 3.A.1.4.-)	COG0411	
+637613842	SPOA0298	amino acid/amide ABC transporter membrane protein 2, HAAT family (TC 3.A.1.4.-)	COG4177	
+637613843	SPOA0299	amino acid/amide ABC transporter membrane protein 1, HAAT family (TC 3.A.1.4.-)	COG0559	
+637613844	SPOA0300	amino acid/amide ABC transporter substrate-binding protein, HAAT family (TC 3.A.1.4.-)	COG0683	
+637613851	SPOA0309	acetolactate synthase, large subunit (EC 2.2.1.6)	COG0028	
+637613852	SPOA0310	aminomethyl transferase family protein	COG0665,COG0404	
+637613853	SPOA0311	FAD dependent oxidoreductase/aminomethyl transferase	COG0665,COG0404	
+637613860	SPOA0318	methionine gamma-lyase	COG0626	
+637613862	SPOA0320	5-carboxymethyl-2-hydroxymuconate delta isomerase	COG3232	
+637613874	SPOA0332	dihydroxy-acid dehydratase	COG0129	
+637613881	SPOA0339	HAD-superfamily hydrolase, subfamily IB	COG0560	
+637613891	SPOA0349	S-adenosylmethionine uptake transporter	COG0697	
+637613896	SPOA0354	aminotransferase, class III	COG0160	
+637613908	SPOA0366	amino acid/polyamine/organocation transporter, APC superfamily (TC 2.A.3)	COG0531	
+637613917	SPOA0375	transcriptional regulator, GntR family	COG1167	
+637613921	SPOA0379	transcriptional regulator, GntR family	COG1167	
+637613922	SPOA0380	hypothetical protein	COG0665	
+637613923	SPOA0381	spermidine/putrescine ABC transporter, periplasmic substrate-binding protein	COG0687	
+637613924	SPOA0382	spermidine/putrescine ABC transporter, ATP-binding protein	COG3842	
+637613925	SPOA0383	spermidine/putrescine ABC transporter, permease protein	COG1176	
+637613926	SPOA0384	spermidine/putrescine ABC transporter, permease protein	COG1177	
+637613927	SPOA0385	hypothetical protein	COG0665	
+637613951	SPOA0409	Tryptophan 2,3-dioxygenase holoenzyme (EC 1.13.11.11)/Tryptophan 2,3-dioxygenase apoenzyme (EC 1.13.11.11)	COG3483	
+637613960	SPOA0418	acetolactate synthase, large subunit (EC 2.2.1.6)	COG0028	
+637613971	SPOA0429	carboxypeptidase PM20D1	COG0624	
+637613977	SPOA0435	pyridoxal-phosphate dependent enzyme	COG1171	

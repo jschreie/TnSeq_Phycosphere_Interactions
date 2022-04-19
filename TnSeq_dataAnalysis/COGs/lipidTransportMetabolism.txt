@@ -1,0 +1,220 @@
+Gene ID	spo	Name	Function	
+637287509	SPO0016	sterol carrier family protein	COG3255	
+637287606	SPO0112	poly(3-hydroxyalkanoate) polymerase family protein	COG3243	
+637287607	SPO0113	Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)	COG0623	
+637287609	SPO0115	phosphate acetyltransferase	COG2030	
+637287620	SPO0128	3-ketoacyl-(acyl-carrier-protein) reductase	COG1028	
+637287623	SPO0131	isopentenyl-diphosphate delta-isomerase (EC 5.3.3.2)	COG1443	
+637287634	SPO0142	beta-ketothiolase	COG0183	
+637287639	SPO0147	short chain enoyl-CoA hydratase (EC 4.2.1.17)	COG1024	
+637287682	SPO0190	oxidoreductase, GMC family	COG2303	
+637287728	SPO0236	glycerophosphoryl diester phosphodiesterase, putative	COG0584	
+637287739	SPO0247	1-deoxy-D-xylulose-5-phosphate synthase (EC 2.2.1.7)	COG1154	
+637287775	SPO0283	acyl-phosphate glycerol-3-phosphate acyltransferase	COG0344	
+637287790	SPO0298	acyl-CoA dehydrogenase family protein	COG1960	
+637287793	SPO0301	glycerophosphoryl diester phosphodiesterase family protein	COG0584	
+637287810	SPO0318	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC 2.7.1.148)	COG1947	
+637287817	SPO0325	3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100)/acetoacetyl-CoA reductase (EC 1.1.1.36)	COG1028	
+637287818	SPO0326	acetyl-CoA acetyltransferase (EC 2.3.1.9)	COG0183	
+637287820	SPO0328	hypothetical protein	COG3000	
+637287831	SPO0339	acyltransferase family protein	COG0204	
+637287847	SPO0355	L-erythro-3-methylmalyl-CoA dehydratase (EC 4.2.1.-)	COG2030	
+637287860	SPO0368	(R)-ethylmalonyl-CoA mutase	COG2185,COG1884	
+637287932	SPO0440	thioesterase family protein	COG1607	
+637288017	SPO0525	sterol desaturase, homolog	COG3000	
+637288019	SPO0527	oxidoreductase, short chain dehydrogenase/reductase family	COG1028	
+637288066	SPO0575	acyl-CoA dehydrogenase	COG1960	
+637288069	SPO0578	acetyl-CoA carboxylase carboxyltransferase	COG4799	
+637288070	SPO0579	acetyl-CoA carboxylase, biotin carboxylase, putative	COG4770	
+637288073	SPO0582	acyl-CoA dehydrogenase	COG1960	
+637288077	SPO0586	acyl-carrier domain protein	COG0331	
+637288086	SPO0595	gluconate 5-dehydrogenase	COG1028	
+637288089	SPO0598	FMN-dependent alpha-hydroxy acid dehydrogenase family protein	COG1304	
+637288110	SPO0619	C-5 sterol desaturase (EC 1.3.3.-)	COG3000	
+637288153	SPO0666	enoyl-CoA hydratase	COG1024	
+637288164	SPO0677	acyl-CoA synthase	COG0318	
+637288180	SPO0693	(2S)-methylsuccinyl-CoA dehydrogenase	COG1960	
+637288204	SPO0717	3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)	COG1250	
+637288222	SPO0735	phenylacetic acid degradation protein PaaZ	COG2030	
+637288226	SPO0739	3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)/short chain enoyl-CoA hydratase (EC 4.2.1.17)	COG1024,COG1250	
+637288227	SPO0740	Enoyl-CoA hydratase (EC 4.2.1.17)	COG1024	
+637288245	SPO0758	acetyl-CoA acetyltransferase	COG0183	
+637288259	SPO0772	3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)/short chain enoyl-CoA hydratase (EC 4.2.1.17)	COG1250,COG1024	
+637288260	SPO0773	acetyl-CoA acyltransferase/thiolase family protein	COG0183	
+637288261	SPO0774	acyl-CoA dehydrogenase family protein	COG1960	
+637288262	SPO0775	acyl-CoA dehydrogenase family protein	COG1960	
+637288264	SPO0777	Enoyl-CoA hydratase (EC 4.2.1.17)	COG1024	
+637288265	SPO0778	long-chain-fatty-acid--CoA ligase, putative	COG0318	
+637288273	SPO0786	thioesterase family protein	COG0824	
+637288279	SPO0792	6-phosphogluconate dehydrogenase domain protein	COG2084	
+637288288	SPO0801	4-coumarate:CoA ligase	COG0318	
+637288300	SPO0813	L-lactate dehydrogenase, putative	COG1304	
+637288301	SPO0814	MaoC domain protein	COG2030	
+637288307	SPO0820	CAIB/BAIF family protein	COG1804	
+637288323	SPO0836	acyl-CoA thioester hydrolase	COG0824	
+637288336	SPO0849	non-ribosomal peptide synthase	COG1028	
+637288366	SPO0879	acyl-CoA dehydrogenase family protein	COG1960	
+637288405	SPO0918	3-oxoacyl-(acyl carrier protein) synthase	COG0332	
+637288457	SPO0971	oxidoreductase, GMC family	COG2303	
+637288487	SPO1001	cytochrome-dependent sulfide dehydrogenase (flavoprotein) (EC 1.8.2.-)	COG0446	
+637288497	SPO1011	biotin carboxyl carrier protein	COG0511	
+637288499	SPO1013	acetyl-CoA acetyltransferase	COG0183	
+637288500	SPO1014	AMP-binding enzyme	COG0318	
+637288501	SPO1015	3-hydroxybutyrate dehydrogenase, putative	COG1028	
+637288544	SPO1058	acyltransferase, HtrB family	COG1560	
+637288574	SPO1088	choline dehydrogenase	COG2303	
+637288580	SPO1094	propionyl-CoA carboxylase carboxyltransferase subunit	COG4799	
+637288587	SPO1101	biotin carboxyl carrier protein/biotin carboxylase (EC 6.3.4.14)	COG4770	
+637288591	SPO1105	methylmalonyl-CoA mutase (EC 5.4.99.2)	COG1884,COG2185	
+637288658	SPO1172	FMN-dependent alpha-hydroxy acid dehydrogenase family protein	COG1304	
+637288771	SPO1286	hypothetical protein	COG2267	
+637288776	SPO1291	polyhydroxyalkanoate depolymerase, intracellular	COG4553	
+637288777	SPO1292	poly(3-hydroxyalkanoate) polymerase	COG3243	
+637288896	SPO1414	hydrolase, alpha/beta fold family	COG2267	
+637288918	SPO1436	3-hydroxybutyryl-CoA dehydrogenase	COG1250,COG0824	
+637288919	SPO1437	short chain dehydrogenase	COG1028	
+637288923	SPO1441	fatty acid desaturase family protein	COG3239	
+637288927	SPO1445	oxidoreductase, short chain dehydrogenase/reductase family	COG1028	
+637288930	SPO1448	hypothetical protein	COG0183	
+637288931	SPO1449	AMP-binding protein	COG0318	
+637288939	SPO1457	thioesterase family protein	COG0824	
+637288949	SPO1467	3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)	COG1250	
+637288965	SPO1483	cyclopropane-fatty-acyl-phospholipid synthase (EC 2.1.1.79)	COG2230	
+637289080	SPO1598	3-methylfumaryl-CoA hydratase	COG3777	
+637289145	SPO1665	Undecaprenyl pyrophosphate synthetase (EC 2.5.1.31)	COG0020	
+637289146	SPO1666	phosphatidate cytidylyltransferase	COG0575	
+637289147	SPO1667	1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)	COG0743	
+637289152	SPO1672	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.-)	COG0764	
+637289167	SPO1687	enoyl-CoA hydratase	COG1024	
+637289183	SPO1703	dimethylsulfoniopropionate cleavage enzyme DddD	COG1804	
+637289294	SPO1813	acetyl-coenzyme A synthetase (EC 6.2.1.1)	COG0365	
+637289328	SPO1847	AMP-binding enzyme	COG1022	
+637289363	SPO1882	Enoyl-CoA hydratase (EC 4.2.1.17)	COG1024	
+637289397	SPO1918	cyclopropane-fatty-acyl-phospholipid synthase (EC 2.1.1.79)	COG2230	
+637289411	SPO1931	acyl carrier protein, putative	COG0236	
+637289412	SPO1932	3-oxoacyl-[acyl-carrier-protein] synthase II (EC 2.3.1.41)	COG0304	
+637289435	SPO1955	glutaryl-CoA dehydrogenase	COG1960	
+637289438	SPO1958	acyl-CoA thioesterase II	COG1946	
+637289439	SPO1959	acetoacetyl-CoA synthase	COG0365	
+637289445	SPO1965	oxidoreductase, short chain dehydrogenase/reductase family	COG1028	
+637289446	SPO1966	oxidoreductase, short chain dehydrogenase/reductase family	COG1028	
+637289447	SPO1967	acyl-CoA dehydrogenase, putative	COG1960	
+637289448	SPO1968	acyl-CoA dehydrogenase family protein	COG1960	
+637289451	SPO1971	Enoyl-CoA hydratase (EC 4.2.1.17)	COG1024	
+637289452	SPO1972	nodulation protein N	COG2030	
+637289459	SPO1979	lyso-ornithine lipid acyltransferase	COG0204	
+637289519	SPO2040	CaiB/BaiF family protein	COG1804	
+637289524	SPO2045	methylmercaptopropionate CoA ligase	COG0318	
+637289544	SPO2065	D-beta-hydroxybutyrate dehydrogenase	COG1028	
+637289548	SPO2069	benzoate-coenzyme A ligase, putative	COG0318	
+637289569	SPO2090	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (EC 4.6.1.12)/2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60)	COG1211,COG0245	
+637289570	SPO2091	phosphatidylglycerophosphatase (EC 3.1.3.27)	COG1267	
+637289590	SPO2111	outer membrane transporter, OMPP1/FadL/TodX family	COG2067	
+637289621	SPO2142	Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)	COG0623	
+637289657	SPO2178	cardiolipin synthetase 2 (EC 2.7.8.-)	COG1502	
+637289691	SPO2211	acyl-CoA dehydrogenase	COG1960	
+637289692	SPO2212	enoyl-CoA hydratase/isomerase family protein	COG1024	
+637289693	SPO2213	3-hydroxyisobutyrate dehydrogenase (EC 1.1.1.31)	COG2084	
+637289749	SPO2271	3-oxoacyl-[acyl-carrier-protein] synthase II (EC 2.3.1.41)	COG0304	
+637289752	SPO2274	acyl carrier protein	COG0236	
+637289753	SPO2275	3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100)	COG1028	
+637289754	SPO2276	[Acyl-carrier-protein] S-malonyltransferase (EC 2.3.1.39)	COG0331	
+637289788	SPO2310	lipid A biosynthesis lauroyl acyltransferase, putative	COG1560	
+637289805	SPO2327	fatty acid desaturase	COG3239	
+637289817	SPO2339	Enoyl-CoA hydratase (EC 4.2.1.17)	COG1024	
+637289837	SPO2359	oxidoreductase, GMC family	COG2303	
+637289855	SPO2380	acyl-CoA dehydrogenase	COG1960	
+637289885	SPO2413	oxidoreductase, short chain dehydrogenase/reductase family	COG1028	
+637289888	SPO2416	3-hydroxyisobutyrate dehydrogenase family protein	COG2084	
+637289889	SPO2417	gluconate 5-dehydrogenase	COG1028	
+637289899	SPO2427	oxidoreductase, short chain dehydrogenase/reductase family	COG1028	
+637289900	SPO2428	6-phosphogluconate dehydrogenase domain protein	COG2084	
+637289923	SPO2451	acyltransferase, putative	COG0204	
+637289958	SPO2487	3-hydroxyacyl-CoA dehydrogenase, type II	COG1028	
+637289964	SPO2493	phosphate:acyl-[acyl carrier protein] acyltransferase	COG0416	
+637289965	SPO2494	3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41)	COG0332	
+637289999	SPO2528	acyl-CoA synthase	COG0318	
+637290009	SPO2538	acyl-CoA dehydrogenase famiy protein	COG1960	
+637290010	SPO2539	AMP-binding enzyme	COG0318	
+637290011	SPO2540	carbamoyl-phosphate synthase, putative	COG4770	
+637290012	SPO2541	propionyl-CoA carboxylase, putative	COG4799	
+637290029	SPO2560	2-hydroxy-3-oxopropionate reductase	COG2084	
+637290063	SPO2594	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (EC 1.17.4.3)	COG0821	
+637290161	SPO2692	oxidoreductase, short chain dehydrogenase/reductase family	COG1028	
+637290167	SPO2698	acyl-CoA dehydrogenase family protein	COG1960	
+637290174	SPO2705	3-hydroxyacyl-CoA dehydrogenase family protein	COG1250	
+637290175	SPO2706	short chain enoyl-CoA hydratase (EC 4.2.1.17)	COG1024	
+637290180	SPO2711	CaiB/BaiF family protein	COG1804	
+637290254	SPO2787	methylglutaconyl-CoA hydratase (EC 4.2.1.18)	COG1024	
+637290256	SPO2789	3-methylcrotonoyl-CoA carboxylase, alpha subunit (EC 6.4.1.4)	COG4770	
+637290258	SPO2790	methylcrotonyl-CoA carboxylase, beta subunit	COG4799	
+637290259	SPO2791	acetyl-coenzyme A synthetase	COG0365	
+637290261	SPO2793	isovaleryl-CoA dehydrogenase (EC 1.3.99.10)	COG1960	
+637290291	SPO2823	D-beta-hydroxybutyrate dehydrogenase	COG1028	
+637290310	SPO2842	oxidoreductase, short chain dehydrogenase/reductase family	COG1028	
+637290327	SPO2859	3-hydroxyisobutyrate dehydrogenase family protein	COG2084	
+637290354	SPO2886	CAIB/BAIF family protein	COG1804	
+637290383	SPO2915	acyl-CoA dehydrogenase family protein	COG1960	
+637290386	SPO2918	acetyl-CoA acetyltransferase	COG0183	
+637290388	SPO2920	3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)	COG1024,COG1250	
+637290402	SPO2934	propionyl-CoA synthetase (EC 6.2.1.17)	COG0365	
+637290468	SPO3002	lipase, putative	COG0657	
+637290469	SPO3003	acyl-CoA synthase	COG0318	
+637290491	SPO3025	enoyl-CoA hydratase	COG1024	
+637290517	SPO3051	oxidoreductase, short-chain dehydrogenase/reductase family	COG1028	
+637290540	SPO3075	protoheme IX farnesyltransferase	COG0109	
+637290547	SPO3082	3-oxoadipate CoA-succinyl transferase, alpha subunit	COG1788	
+637290548	SPO3083	3-oxoadipate CoA-succinyl transferase, beta subunit	COG2057	
+637290562	SPO3097	3-hydroxyisobutyrate dehydrogenase	COG2084	
+637290578	SPO3113	conserved hypothetical protein TIGR00051	COG0824	
+637290596	SPO3131	CDP-diacylglycerol-choline O-phosphatidyltransferase (EC 2.7.8.24)	COG1183	
+637290617	SPO3152	MaoC domain protein	COG2030	
+637290665	SPO3200	4'-phosphopantetheinyl transferase	COG0736	
+637290672	SPO3207	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.1.2)	COG0761	
+637290761	SPO3296	AMP-binding enzyme	COG1022	
+637290834	SPO3369	short chain dehydrogenase	COG1028	
+637290873	SPO3408	acetyl-CoA C-acetyltransferase	COG0183	
+637290904	SPO3439	enoyl-CoA hydratase/isomerase family protein	COG1024	
+637291074	SPO3609	short chain dehydrogenase	COG1028	
+637291081	SPO3616	acetyl-CoA carboxylase carboxyltransferase subunit alpha	COG0825	
+637291100	SPO3635	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5)	COG0558	
+637291103	SPO3638	short chain dehydrogenase	COG1028	
+637291112	SPO3646	enoyl-CoA hydratase	COG1024	
+637291113	SPO3647	CAIB/BAIF family protein	COG1804	
+637291117	SPO3651	fatty acid desaturase family protein	COG3239	
+637291120	SPO3654	7-alpha-hydroxysteroid dehydrogenase, putative	COG1028	
+637291163	SPO3696	feruloyl-CoA synthase	COG0318	
+637291164	SPO3697	benzoate-CoA ligase (EC 6.2.1.25)	COG0365	
+637291167	SPO3700	2,3-dihydro-2,3-dihydroxybenzoyl-CoA ring cleavage enzyme	COG1024	
+637291193	SPO3726	toluene tolerance family protein	COG2854	
+637291198	SPO3731	glycerophosphoryl diester phosphodiesterase, putative	COG0584	
+637291209	SPO3742	glutathione peroxidase famly protein	COG0386	
+637291217	SPO3750	C-5 sterol desaturase (EC 1.3.3.-)	COG3000	
+637291239	SPO3771	Undecaprenyl-diphosphatase (EC 3.6.1.27)	COG1968	
+637291272	SPO3804	3-methylmercaptopropionyl-CoA dehydrogenase	COG1960	
+637291273	SPO3805	methylthioacryloyl-CoA hydratase	COG1024	
+637291285	SPO3817	acetyl-CoA carboxylase carboxyltransferase subunit alpha	COG0777	
+637291316	SPO3848	C-5 sterol desaturase (EC 1.3.3.-)	COG3000	
+637291354	SPO3886	transporter, Tim44 family	COG4395	
+637613655	SPOA0109	4-hydroxybenzoyl-CoA thioesterase/acyl-CoA thioester hydrolase	COG0824	
+637613672	SPOA0126	oxidoreductase, short chain dehydrogenase/reductase family	COG1028	
+637613674	SPOA0128	oxidoreductase, short chain dehydrogenase/reductase family	COG1028	
+637613675	SPOA0129	hypothetical protein	COG0183	
+637613676	SPOA0130	AMP-binding enzyme family protein	COG0318	
+637613709	SPOA0163	3-hydroxy-3-methylglutaryl-coenzyme A reductase (EC 1.1.1.34)	COG1257	
+637613826	SPOA0282	malonyl-CoA synthase	COG0318	
+637613827	SPOA0283	oxidoreductase, GMC family	COG2303	
+637613829	SPOA0285	carnitinyl-CoA dehydratase	COG1024	
+637613832	SPOA0288	acyl-CoA dehydrogenase	COG1960	
+637613836	SPOA0292	phosphatidylserine decarboxylase	COG0688	
+637613837	SPOA0293	CDP-diacylglycerol--serine O-phosphatidyltransferase (EC 2.7.8.8)	COG1183	
+637613928	SPOA0386	oxidoreductase, GMC family	COG2303	
+637613943	SPOA0401	benzoate-coenzyme A ligase	COG0365	
+637613945	SPOA0403	acyl-CoA dehydrogenase family protein	COG1960	
+637613946	SPOA0404	Enoyl-CoA hydratase (EC 4.2.1.17)	COG1024	
+637613948	SPOA0406	D-beta-hydroxybutyrate dehydrogenase, putative	COG1028	
+637613966	SPOA0424	3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35)/short chain enoyl-CoA hydratase (EC 4.2.1.17)	COG1024,COG1250	
+637613967	SPOA0425	acetyl-CoA acetyltransferase	COG0183	
+637613981	SPOA0439	Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9)	COG0623	
+637613982	SPOA0440	3-oxoacyl-[acyl-carrier-protein] synthase I (EC 2.3.1.41)	COG0304	
+637613986	SPOA0444	3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60)	COG0764	

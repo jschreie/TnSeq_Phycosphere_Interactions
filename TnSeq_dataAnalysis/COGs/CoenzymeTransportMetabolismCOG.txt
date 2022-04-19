@@ -1,0 +1,208 @@
+Gene ID	spo	Name	Function	
+637287499	SPO0006	coproporphyrinogen III oxidase	COG0635	
+637287538	SPO0045	hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase	COG0351	
+637287540	SPO0046.1	thiamine biosynthesis protein ThiS	COG2104	
+637287541	SPO0047	thiazole-phosphate synthase	COG2022	
+637287542	SPO0048	thiamine-phosphate diphosphorylase	COG0352	
+637287543	SPO0049	thiamine biosynthesis protein ThiF	COG0476	
+637287545	SPO0051	TENA/THI-4 family protein	COG0819	
+637287560	SPO0066	proline iminopeptidase	COG0596	
+637287561	SPO0067	3-demethylubiquinone-9 3-methyltransferase (EC 2.1.1.64)	COG2227	
+637287567	SPO0073	ferrochelatase (EC 4.99.1.1)	COG0276	
+637287587	SPO0093	pyrazinamidase/nicotinamidase	COG1335	
+637287589	SPO0095	nicotinate phosphoribosyltransferase	COG1488	
+637287596	SPO0102	ketopantoate hydroxymethyltransferase (EC 2.1.2.11)	COG0413	
+637287597	SPO0103	pantothenate synthetase (EC 6.3.2.1)	COG0414	
+637287599	SPO0105	hypothetical protein	COG0654	
+637287636	SPO0144	2-octaprenylphenol hydroxylase (EC 1.14.13.-)	COG0661	
+637287637	SPO0145	2-octaprenyl-6-methoxy-1,4-benzoquinone methylase (EC 2.1.1.-)/demethylmenaquinone methyltransferase (EC 2.1.1.163)	COG2226	
+637287659	SPO0167	trimethylamine methyltransferase family protein	COG5598	
+637287722	SPO0230	ubiquinone biosynthesis protein COQ9	COG5590	
+637287739	SPO0247	1-deoxy-D-xylulose-5-phosphate synthase (EC 2.2.1.7)	COG1154	
+637287740	SPO0248	farnesyl-diphosphate synthase (EC 2.5.1.10)	COG0142	
+637287745	SPO0253	branched chain amino acid aminotransferase apoenzyme (EC 2.6.1.42)	COG0115	
+637287754	SPO0262	cob(I)yrinic acid a,c-diamide adenosyltransferase (EC 2.5.1.17)	COG2109	
+637287760	SPO0268	6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.78)	COG0054	
+637287783	SPO0291	molybdenum cofactor biosynthesis protein B	COG0521	
+637287799	SPO0307	molybdenum cofactor guanylyltransferase (EC 2.7.7.77)	COG0746	
+637287800	SPO0308	molybdopterin guanine dinucleotide biosynthesis accessory protein MobB	COG1763	
+637287802	SPO0310	molybdopterin molybdochelatase (EC 2.10.1.1)	COG0303	
+637287811	SPO0319	decaprenyl diphosphate synthase	COG0142	
+637287880	SPO0388	branched-chain amino acid aminotransferase	COG0115	
+637287893	SPO0401	glutathione synthase (EC 6.3.2.3)	COG0189	
+637287897	SPO0405	adenosylcobinamide kinase (EC 2.7.1.156)/adenosylcobinamide-phosphate guanylyltransferase (EC 2.7.7.62)	COG2087	
+637287900	SPO0408	Phosphopantothenate-cysteine ligase (EC 6.3.2.5)/Phosphopantothenoylcysteine decarboxylase (EC 4.1.1.36)	COG0452	
+637287902	SPO0410	molybdopterin biosynthesis protein MoeB, putative	COG0476	
+637287907	SPO0415	D-isomer specific 2-hydroxyacid dehydrogenase family protein	COG0111	
+637287918	SPO0426	NH(3)-dependent NAD(+) synthetase (EC 6.3.1.5)	COG0171	
+637287941	SPO0449	nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18)	COG1057	
+637288056	SPO0565	trimethylamine methyltransferase family protein	COG5598	
+637288111	SPO0620	hypothetical protein	COG2226	
+637288119	SPO0632	2-hydroxyacid dehydrogenase	COG1052	
+637288160	SPO0673	taurine--pyruvate aminotransferase	COG0161	
+637288169	SPO0682	3-(3-hydroxy-phenyl)propionate hydroxylase	COG0654	
+637288209	SPO0722	ATP:cob(I)alamin adenosyltransferase	COG2096	
+637288220	SPO0733	esterase, putative	COG0596	
+637288229	SPO0742	phenylacetate-CoA ligase (EC 6.2.1.30)	COG1541	
+637288334	SPO0847	non-ribosomal peptide synthetase	COG2141	
+637288364	SPO0877	hypothetical protein	COG0596	
+637288372	SPO0885	hydrolase, alpha/beta fold family	COG0596	
+637288400	SPO0913	D-isomer specific 2-hydroxyacid dehydrogenase family protein	COG1052	
+637288411	SPO0924	aminodeoxychorismate synthase, subunit I (EC 2.6.1.85)	COG0147	
+637288412	SPO0925	4-amino-4-deoxychorismate lyase	COG0115	
+637288453	SPO0966	ketopantoate reductase (EC 1.1.1.169)	COG1893	
+637288497	SPO1011	biotin carboxyl carrier protein	COG0511	
+637288622	SPO1136	L-2,4-diaminobutyrate transaminase	COG0161	
+637288652	SPO1166	aminotransferase, class III family	COG0161	
+637288728	SPO1242	adenosylcobyric acid synthase (glutamine-hydrolysing) (EC 6.3.5.10)	COG1492	
+637288743	SPO1258	hydrolase, alpha/beta fold family	COG0596	
+637288770	SPO1285	hypothetical protein	COG0596	
+637288774	SPO1289	hydrolase, alpha/beta fold family	COG0596	
+637288804	SPO1321	thiamine diphosphokinase	COG1564	
+637288834	SPO1352	GTP cyclohydrolase I (EC 3.5.4.16)	COG1469	
+637288844	SPO1362	dihydroneopterin aldolase, putative	COG1539	
+637288845	SPO1363	Dihydropteroate synthase (EC 2.5.1.15)	COG0294	
+637288848	SPO1366	ketol-acid reductoisomerase (EC 1.1.1.86)	COG0059	
+637288853	SPO1371	2-octaprenyl-6-methoxyphenyl hydroxylase	COG0654	
+637288856	SPO1374	pyrimidine 5'-nucleotidase	COG1011	
+637288870	SPO1388	transcriptional regulator, LuxR family/hydrolase, alpha/beta fold family	COG0596	
+637288871	SPO1389	lipoyltransferase	COG0321	
+637288883	SPO1401	hypothetical protein	COG0161	
+637288904	SPO1422	cobalamin-5'-phosphate synthase (EC 2.7.8.26)	COG0368	
+637288905	SPO1423	nicotinate-nucleotide-dimethylbenzimidazole phosphoribosyltransferase (EC 2.4.2.21)	COG2038	
+637288953	SPO1471	isochorismatase family protein	COG1335	
+637288981	SPO1499	hydrolase, alpha/beta fold family	COG0596	
+637288984	SPO1502	pyrroloquinoline quinone biosynthesis protein PqqC	COG5424	
+637289041	SPO1559	methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)/5,10-methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5)	COG0190	
+637289042	SPO1560	5,10-methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5)/methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)	COG0190	
+637289052	SPO1570	2-hydroxyacid dehydrogenase	COG1052	
+637289079	SPO1597	glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8)	COG0001	
+637289083	SPO1601	ketopantoate reductase (EC 1.1.1.169)	COG1893	
+637289084	SPO1602	trimethylamine methyltransferase family protein	COG5598	
+637289109	SPO1627	hypothetical protein	COG2068	
+637289180	SPO1700	D-isomer specific 2-hydroxyacid dehydrogenase family protein	COG0111	
+637289209	SPO1728	esterase, putative	COG0596	
+637289233	SPO1752	conserved hypothetical protein TIGR00149	COG0432	
+637289235	SPO1754	5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)/diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26)	COG1985,COG0117	
+637289240	SPO1759	riboflavin synthase alpha chain (EC 2.5.1.9)	COG0307	
+637289242	SPO1761	GTP cyclohydrolase II (EC 3.5.4.25)/3,4-dihydroxy-2-butanone 4-phosphate synthase (EC 4.1.99.12)	COG0108,COG0807	
+637289243	SPO1762	6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.78)	COG0054	
+637289285	SPO1804	hypothetical protein	COG0340	
+637289309	SPO1828	isochorismatase family protein	COG1335	
+637289485	SPO2005	aminotransferase, class III	COG0161	
+637289521	SPO2042	methyltransferase, UbiE/COQ5 family	COG2226	
+637289533	SPO2054	cytochrome c oxidase assembly protein	COG1612	
+637289535	SPO2056	thiamine-phosphate pyrophosphorylase, putative	COG0352	
+637289555	SPO2076	delta-aminolevulinic acid dehydratase	COG0113	
+637289571	SPO2092	competence/damage-inducible protein CinA domain protein	COG1546	
+637289581	SPO2102	lipoyl synthase	COG0320	
+637289587	SPO2108	trimethylamine methyltransferase family protein	COG5598	
+637289613	SPO2134	trimethylamine methyltransferase family protein	COG5598	
+637289620	SPO2141	Pyridoxamine 5'-phosphate oxidase (EC 1.4.3.5)	COG0259	
+637289622	SPO2143	xanthine phosphoribosyltransferase	COG2236	
+637289625	SPO2146	anthranilate synthase, component I (EC 4.1.3.27)	COG0147	
+637289628	SPO2149	anthranilate synthase, component II (EC 4.1.3.27)	COG0512	
+637289631	SPO2152	cyclic pyranopterin monophosphate synthase subunit MoaC (EC 4.1.99.18)	COG0315	
+637289632	SPO2153	molybdenum cofactor biosynthesis protein A	COG0303	
+637289680	SPO2200	Phosphopantetheine adenylyltransferase (EC 2.7.7.3)	COG0669	
+637289780	SPO2302	bioY family protein	COG1268	
+637289860	SPO2385	benzaldehyde lyase, putative	COG0028	
+637289894	SPO2422	D-isomer specific 2-hydroxyacid dehydrogenase family protein	COG1052	
+637289929	SPO2457	4-hydroxythreonine-4-phosphate dehydrogenase (EC 1.1.1.262)	COG1995	
+637289945	SPO2473	haloacid dehalogenase, type II, putative	COG1011	
+637289981	SPO2510	salicylate hydroxylase	COG0654	
+637289989	SPO2518	bacterial luciferase family protein	COG2141	
+637290047	SPO2578	acetolactate synthase, large subunit (EC 2.2.1.6)	COG0028	
+637290065	SPO2596	5-aminolevulinate synthase (EC 2.3.1.37)	COG0156	
+637290101	SPO2632	uroporphyrinogen-III C-methyltransferase (EC 2.1.1.107)	COG0007	
+637290104	SPO2635	phosphoadenylylsulfate reductase (thioredoxin) (EC 1.8.4.8)	COG0175	
+637290108	SPO2639	molybdopterin biosynthesis protein	COG0303	
+637290176	SPO2707	bacterial luciferase family protein	COG2141	
+637290179	SPO2710	3-oxoadipate enol-lactonase (EC 3.1.1.24)	COG0596	
+637290212	SPO2745	hypothetical protein	COG2138	
+637290217	SPO2750	trimethylamine methyltransferase family protein	COG5598	
+637290228	SPO2761	pantothenate kinase (EC 2.7.1.33)	COG1521	
+637290229	SPO2762	biotin--acetyl-CoA-carboxylase ligase	COG0340	
+637290267	SPO2799	cyclic pyranopterin monophosphate synthase subunit MoaA (EC 4.1.99.18)	COG2896	
+637290323	SPO2855	cobaltochelatase CobT subunit (EC 6.6.1.2)	COG4547	
+637290333	SPO2865	precorrin-8X methylmutase (EC 5.4.1.2)	COG2082	
+637290334	SPO2866	precorrin-2 C20-methyltransferase (EC 2.1.1.130)	COG2243	
+637290335	SPO2867	precorrin-3 methyltransferase (EC 2.1.1.131)	COG1010	
+637290336	SPO2868	precorrin-6A reductase (EC 1.3.1.54)	COG2099	
+637290337	SPO2869	precorrin-6Y C5,15-methyltransferase (decarboxylating) (EC 2.1.1.132)	COG2241,COG2242	
+637290339	SPO2871	precorrin-4 C11-methyltransferase (EC 2.1.1.133)	COG2875	
+637290340	SPO2872	cobyrinate a,c-diamide synthase (EC 6.3.5.11)/hydrogenobyrinic acid a,c-diamide synthase (glutamine-hydrolysing) (EC 6.3.5.9)	COG1797	
+637290341	SPO2873	uroporphyrinogen-III C-methyltransferase (EC 2.1.1.107)	COG0007	
+637290342	SPO2874	precorrin-6A synthase (deacetylating) (EC 2.1.1.152)	COG2243	
+637290351	SPO2883	acetolactate synthase-1/2/3 large subunit	COG0028	
+637290353	SPO2885	acetolactate synthase, catabolic, putative	COG0028	
+637290411	SPO2943	hydrolase, alpha/beta fold family	COG0596	
+637290422	SPO2954	5-formyltetrahydrofolate cyclo-ligase	COG0212	
+637290490	SPO3024	adenylate/guanylate cyclase/hydrolase, alpha/beta fold family	COG0596	
+637290540	SPO3075	protoheme IX farnesyltransferase	COG0109	
+637290566	SPO3101	methenyltetrahydrofolate cyclohydrolase (EC 3.5.4.9)/5,10-methylenetetrahydrofolate dehydrogenase (NADP+) (EC 1.5.1.5)	COG0190	
+637290618	SPO3153	monooxygenase, putative	COG0654	
+637290619	SPO3154	FMN adenylyltransferase (EC 2.7.7.2)/riboflavin kinase (EC 2.7.1.26)	COG0196	
+637290622	SPO3157	hydrolase, alpha/beta fold family	COG0596	
+637290666	SPO3201	pyridoxine 5'-phosphate synthase (EC 2.6.99.2)	COG0854	
+637290670	SPO3205	2-amino-4-hydroxy-6- hydroxymethyldihydropteridine pyrophosphokinase	COG0801	
+637290690	SPO3225	adenosylcobinamide-phosphate synthase (EC 6.3.1.10)	COG1270	
+637290708	SPO3243	quinolinate synthetase (EC 2.5.1.72)	COG0379	
+637290709	SPO3244	L-aspartate oxidase (EC 1.4.3.16)	COG0029	
+637290710	SPO3245	nicotinate-nucleotide pyrophosphorylase [carboxylating] (EC 2.4.2.19)	COG0157	
+637290754	SPO3289	phenylacetate-CoA ligase, putative	COG1541	
+637290803	SPO3338	biotin synthase (EC 2.8.1.6)	COG0502	
+637290804	SPO3339	bioY family protein	COG1268	
+637290819	SPO3354	phosphoserine aminotransferase apoenzyme (EC 2.6.1.52)	COG1932	
+637290820	SPO3355	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	COG0111	
+637290825	SPO3360	2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29)	COG0156	
+637290884	SPO3419	2-octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase (EC 1.14.13.-)/2-octaprenyl-6-methoxyphenol hydroxylase (EC 1.14.13.-)	COG0654	
+637290892	SPO3427	GTP cyclohydrolase II (EC 3.5.4.25)	COG0807	
+637290936	SPO3471	putrescine aminotransferase	COG0161	
+637290956	SPO3491	methyltransferase, UbiE/COQ5 family	COG2226	
+637290997	SPO3532	coproporphyrinogen III oxidase	COG0635	
+637291026	SPO3561	sulfoacetaldehyde acetyltransferase (EC 2.3.3.15)	COG0028	
+637291037	SPO3572	isochorismatase family protein	COG1335	
+637291045	SPO3580	isochorismatase family protein	COG1335	
+637291053	SPO3588	hypothetical protein	COG2329	
+637291069	SPO3604	D-amino acid aminotransferase, putative	COG0115	
+637291091	SPO3626	glutamate--cysteine ligase	COG3572	
+637291095	SPO3630	4-hydroxybenzoate polyprenyltransferase (EC 2.5.1.39)	COG0382	
+637291098	SPO3633	molybdopterin synthase subunit MoaE (EC 2.8.1.12)	COG0314	
+637291099	SPO3634	molybdopterin synthase subunit MoaD (EC 2.8.1.12)	COG1977	
+637291114	SPO3648	uroporphyrinogen decarboxylase (EC 4.1.1.37)	COG0407	
+637291115	SPO3649	hydroxymethylbilane synthase (EC 2.5.1.61)	COG0181	
+637291119	SPO3653	coproporphyrinogen oxidase (EC 1.3.3.3)	COG0408	
+637291123	SPO3657	hydrolase, haloacid delahogenase-like family	COG1011	
+637291159	SPO3692	3-hydroxybenzoate 6-hydroxylase (EC 1.14.13.24)	COG0654	
+637291165	SPO3698	hydrolase, putative	COG0596	
+637291200	SPO3733	pterin-4-alpha-carbinolamine dehydratase (EC 4.2.1.96)	COG2154	
+637291219	SPO3903	6-pyruvoyl tetrahydropterin synthase, putative	COG0720	
+637291258	SPO3790	dihydrolipoamide acetyltransferase	COG0596	
+637291286	SPO3818	folC bifunctional protein	COG0285	
+637291290	SPO3822	HAD-superfamily hydrolase, subfamily IA, variant 1 family protein	COG1011	
+637291299	SPO3831	hydrolase, alpha/beta fold family	COG0596	
+637291321	SPO3853	uroporphyrinogen-III synthase, putative	COG1587	
+637291329	SPO3861	adenosylhomocysteinase (EC 3.3.1.1)	COG0499	
+637291358	SPO3890	dephospho-CoA kinase	COG0237	
+637613556	SPOA0011	methionine adenosyltransferase (EC 2.5.1.6)	COG0192	
+637613580	SPOA0036	thiamin biosynthesis lipoprotein ApbE	COG1477	
+637613590	SPOA0046	4-hydroxybenzoate 3-monooxygenase	COG0654	
+637613609	SPOA0065	acetolactate synthase-1/2/3 large subunit	COG0028	
+637613659	SPOA0113	hypothetical protein	COG0161	
+637613738	SPOA0194	5-aminolevulinate synthase (EC 2.3.1.37)	COG0156	
+637613765	SPOA0221	uroporphyrinogen-III C-methyltransferase (EC 2.1.1.107)	COG0007	
+637613790	SPOA0246	4-hydroxythreonine-4-phosphate dehydrogenase (EC 1.1.1.262)	COG1995	
+637613821	SPOA0277	hydrolase, alpha/beta fold family	COG0596	
+637613835	SPOA0291	branched-chain amino acid aminotransferase, putative	COG0115	
+637613851	SPOA0309	acetolactate synthase, large subunit (EC 2.2.1.6)	COG0028	
+637613854	SPOA0312	glutamate-1-semialdehyde 2,1-aminomutase, putative	COG0001	
+637613855	SPOA0313	trimethylamine:corrinoid methyltransferase	COG5598	
+637613894	SPOA0352	hypothetical protein	COG0161	
+637613918	SPOA0376	epoxide hydrolase domain protein	COG0596	
+637613949	SPOA0407	anthraniloyl-CoA monooxygenase	COG0654	
+637613960	SPOA0418	acetolactate synthase, large subunit (EC 2.2.1.6)	COG0028	
+637613975	SPOA0433	esterase EstC, putative	COG0596	
+637613976	SPOA0434	3-oxoadipate enol-lactonase (EC 3.1.1.24)	COG0596	
+637613978	SPOA0436	hydrolase, alpha/beta fold family	COG0596	
+637613979	SPOA0437	haloacid dehalogenase, type II	COG1011	

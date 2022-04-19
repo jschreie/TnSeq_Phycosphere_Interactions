@@ -1,0 +1,182 @@
+Gene ID	spo	Name	Function	
+637287532	SPO0039	3'(2'),5'-bisphosphate nucleotidase (EC 3.1.3.7)	COG1218	
+637287544	SPO0050	ABC transporter, periplasmic substrate-binding protein	COG0715	
+637287546	SPO0052	ABC transporter, ATP-binding protein	COG1116	
+637287547	SPO0053	ABC transporter, permease protein	COG0600	
+637287549	SPO0055	phosphate ABC transporter substrate-binding protein, PhoT family (TC 3.A.1.7.1)	COG0226	
+637287593	SPO0099	peptide/opine/nickel uptake family ABC transporter, permease protein	COG1173	
+637287594	SPO0100	peptide/opine/nickel uptake family ABC transporter, permease protein	COG0601	
+637287600	SPO0106	hypothetical protein	COG3022	
+637287681	SPO0189	iron(III) transport system substrate-binding protein	COG1840	
+637287752	SPO0260	alkaline phosphatase, putative	COG3540	
+637287958	SPO0466	transporter, formate/nitrate family	COG2116	
+637287960	SPO0468	alkylphosphonate utilization protein PhnG	COG3624	
+637287961	SPO0469	alkylphosphonate utilization protein PhnH	COG3625	
+637287962	SPO0470	alkylphosphonate utilization protein PhnI	COG3626	
+637287963	SPO0471	alkylphosphonate utilization protein PhnJ	COG3627	
+637287964	SPO0472	alkylphosphonate utilization protein PhnK	COG4107	
+637287965	SPO0473	alkylphosphonate utilization protein PhnL	COG4778	
+637287968	SPO0476	alkylphosphonate utilization protein PhnM	COG3454	
+637288027	SPO0535	K+-dependent Na+/Ca+ exchanger related-protein	COG0530	
+637288050	SPO0558	oligopeptide ABC transporter, permease protein	COG1173	
+637288051	SPO0559	oligopeptide ABC transporter, permease protein	COG0601	
+637288148	SPO0661	peptide ABC transporter, permease protein	COG0601	
+637288149	SPO0662	peptide ABC transporter, permease protein	COG1173	
+637288150	SPO0663	peptide ABC transporter, ATP-binding protein	COG0444	
+637288151	SPO0664	peptide ABC transporter, ATP-binding protein	COG0444	
+637288161	SPO0674	taurine ABC transporter, periplasmic taurine-binding protein	COG4521	
+637288162	SPO0675	taurine ABC transporter, ATP-binding protein	COG1116	
+637288163	SPO0676	taurine ABC transporter, permease protein	COG0600	
+637288179	SPO0692	multicopper oxidase	COG2132	
+637288184	SPO0697	molybdate ABC transporter, ATP-binding protein	COG4148	
+637288185	SPO0698	molybdate transport permease protein	COG4149	
+637288186	SPO0699	molybdate ABC transporter, periplasmic molybdate-binding protein	COG0725	
+637288190	SPO0703	oligopeptide ABC transporter, ATP-binding protein	COG0444	
+637288191	SPO0704	oligopeptide ABC transporter, permease protein	COG1173	
+637288192	SPO0705	oligopeptide ABC transporter, permease protein	COG0601	
+637288267	SPO0780	phosphonate ABC transporter, ATP-binding protein	COG3638	
+637288268	SPO0781	phosphonate ABC transporter, periplasmic phosphonate-binding protein	COG3221	
+637288269	SPO0782	phosphonate ABC transporter, permease protein	COG3639	
+637288270	SPO0783	phosphonate ABC transporter, permease protein	COG3639	
+637288281	SPO0794	copper-translocating P-type ATPase	COG2608,COG2217	
+637288285	SPO0798	monooxygenase domain protein	COG2072	
+637288287	SPO0800	choline sulfatase, putative	COG3119	
+637288371	SPO0884	hypothetical protein	COG2215	
+637288378	SPO0891	alkylphosphonate utilization protein PhnM, putative	COG3454	
+637288387	SPO0900	adenylylsulfate kinase (EC 2.7.1.25)/sulfate adenylyltransferase (EC 2.7.7.4)	COG0529,COG2046	
+637288393	SPO0906	conserved hypothetical protein TIGR00726	COG1496	
+637288454	SPO0967	phosphate transporter family protein	COG0306	
+637288462	SPO0976	hypothetical protein	COG2847	
+637288470	SPO0984	zinc ABC transporter, permease protein	COG1108	
+637288471	SPO0985	zinc ABC transporter, ATP-binding protein	COG1121	
+637288472	SPO0986	zinc uptake regulation protein	COG0735	
+637288473	SPO0987	zinc ABC transporter, periplasmic zinc-binding protein	COG4531	
+637288569	SPO1083	choline sulfatase	COG3119	
+637288603	SPO1117	phosphatase, Ppx/GppA family	COG0248	
+637288694	SPO1208	voltage-gated chloride channel family protein	COG0038	
+637288697	SPO1211	oligopeptide ABC transporter, permease protein	COG0601	
+637288698	SPO1212	oligopeptide ABC transporter, permease protein	COG1173	
+637288740	SPO1255	alkylhydroperoxidase AhpD family core domain protein	COG2128	
+637288761	SPO1276	ArsC family protein	COG1393	
+637288835	SPO1353	Trk system potassium uptake protein TrkH	COG0168	
+637288843	SPO1361	multicopper oxidase domain protein	COG2132	
+637288869	SPO1387	cation efflux system protein	COG1230	
+637288874	SPO1392	4-carboxymuconolactone decarboxylase domain/alkylhydroperoxidase AhpD family core domain protein	COG2128	
+637288906	SPO1424	Kef-type potassium/proton antiporter, CPA2 family (TC 2.A.37.1)	COG0475	
+637288914	SPO1432	rhodanese domain protein	COG0607	
+637288933	SPO1451	aromatic 1,2-dioxygenase, alpha subunit	COG4638	
+637288985	SPO1503	pyrroloquinoline quinone biosynthesis protein PqqB	COG1235	
+637289026	SPO1544	peptide/opine/nickel uptake family ABC transporter, permease protein	COG0601	
+637289027	SPO1545	peptide/opine/nickel uptake family ABC transporter, permease protein	COG1173	
+637289028	SPO1546	peptide/opine/nickel uptake family ABC transporter, ATP-binding protein	COG0444	
+637289029	SPO1547	peptide/opine/nickel uptake family ABC transporter, ATP-binding protein	COG1124	
+637289033	SPO1551	flavin-containing monooxygenase	COG2072	
+637289036	SPO1554	ammonium transporter (TC 1.A.11)	COG0004	
+637289045	SPO1563	protozoan/cyanobacterial globin family protein	COG2346	
+637289060	SPO1578	ammonium transporter (TC 1.A.11)	COG0004	
+637289072	SPO1590	Rieske 2Fe-2S domain protein	COG4638	
+637289113	SPO1631	CBS domain protein	COG4536	
+637289127	SPO1645	oligopeptide/dipeptide ABC transporter, permease protein	COG1173	
+637289128	SPO1646	oligopeptide/dipeptide ABC transporter, permease protein	COG0601	
+637289138	SPO1658	oligopeptide/dipeptide ABC transporter, permease protein	COG0601	
+637289266	SPO1785	ABC transporter, ATP-binding protein	COG1116	
+637289267	SPO1786	ABC transporter, permease protein	COG0600	
+637289268	SPO1787	ABC transporter, permease protein	COG0600	
+637289269	SPO1788	ABC transporter, periplasmic substrate-binding protein	COG0715	
+637289270	SPO1789	sulfate/tungstate uptake family ABC transporter, permease protein	COG4662	
+637289272	SPO1791	sulfate/tungstate uptake family ABC transporter, periplasmic substrate-binding protein	COG2998	
+637289273	SPO1792	DNA-binding protein, excisionase family	COG1910	
+637289388	SPO1908	chromate transporter	COG2059	
+637289428	SPO1948	phosphate ABC transporter substrate-binding protein, PhoT family (TC 3.A.1.7.1)	COG0226	
+637289429	SPO1949	phosphate ABC transporter membrane protein 1, PhoT family (TC 3.A.1.7.1)	COG0573	
+637289430	SPO1950	phosphate ABC transporter membrane protein 2, PhoT family (TC 3.A.1.7.1)	COG0581	
+637289431	SPO1951	phosphate ABC transporter ATP-binding protein, PhoT family (TC 3.A.1.7.1)	COG1117	
+637289432	SPO1952	phosphate uptake regulator, PhoU	COG0704	
+637289436	SPO1956	sulfate permease	COG0659	
+637289558	SPO2079	transporter, CPA2 family (TC 2.A.37)	COG0475	
+637289561	SPO2082	Trk system potassium uptake protein TrkH	COG0168	
+637289562	SPO2083	Trk system potassium uptake protein TrkA	COG0569	
+637289572	SPO2093	ammonium transporter (TC 1.A.11)	COG0004	
+637289694	SPO2214	choline sulfatase	COG3119	
+637289699	SPO2219	rhodanese-like domain protein	COG0607	
+637289818	SPO2340	superoxide dismutase, Fe	COG0605	
+637289845	SPO2368	Na/Pi-cotransporter family protein	COG1283	
+637289949	SPO2477	manganese uptake regulator, Fur family	COG0735	
+637290023	SPO2552	peptide/opine/nickel uptake family ABC transporter, permease/ATP-binding protein	COG1173,COG0444	
+637290024	SPO2553	peptide/opine/nickel uptake family ABC transporter, permease protein	COG0601	
+637290103	SPO2634	sulfite reductase, putative	COG0155	
+637290210	SPO2743	phosphoribosyl 1,2-cyclic phosphate phosphodiesterase	COG1235	
+637290232	SPO2765	NADH dehydrogenase subunit L (EC 1.6.5.3)	COG1009	
+637290283	SPO2815	peptide/nickel/opine uptake family ABC transporter, permease protein	COG0601	
+637290284	SPO2816	peptide/nickel/opine uptake family ABC transporter, permease protein	COG1173	
+637290299	SPO2831	oligopeptide ABC transporter, ATP-binding protein	COG0444	
+637290300	SPO2832	dipeptide ABC transporter, ATP-binding protein	COG0444	
+637290301	SPO2833	dipeptide ABC transporter, permease protein	COG1173	
+637290302	SPO2834	dipeptide ABC trasnporter, permease protein	COG0601	
+637290332	SPO2864	CobG	COG0155	
+637290360	SPO2892	hypothetical protein	COG0607	
+637290361	SPO2893	multisubunit potassium/proton antiporter, PhaA subunit (TC 2.A.63.1.1)/multisubunit potassium/proton antiporter, PhaB subunit (TC 2.A.63.1.1)	COG2111,COG1009	
+637290362	SPO2894	multisubunit potassium/proton antiporter, PhaC subunit (TC 2.A.63.1.1)	COG1006	
+637290363	SPO2895	multisubunit potassium/proton antiporter, PhaD subunit (TC 2.A.63.1.1)	COG0651	
+637290364	SPO2896	multisubunit potassium/proton antiporter, PhaE subunit (TC 2.A.63.1.1)	COG1863	
+637290365	SPO2897	multisubunit potassium/proton antiporter, PhaF subunit (TC 2.A.63.1.1)	COG2212	
+637290366	SPO2898	multisubunit potassium/proton antiporter, PhaG subunit (TC 2.A.63.1.1)	COG1320	
+637290376	SPO2908	arsenate reductase	COG1393	
+637290413	SPO2945	rhodanese-like domain protein	COG0607	
+637290414	SPO2946	monooxygenase domain protein	COG2072	
+637290423	SPO2955	magnesium transporter	COG2239	
+637290462	SPO2996	peptide/nickel/opine uptake family ABC transporter, permease protein	COG0601	
+637290463	SPO2997	peptide/nickel/opine uptake family ABC transporter, permease protein	COG1173	
+637290514	SPO3048	dipeptide ABC transporter, permease protein	COG0601	
+637290524	SPO3058	sulfate transporter family protein	COG0659	
+637290603	SPO3138	hypothetical protein	COG1814	
+637290604	SPO3139	hemoglobin	COG2346	
+637290612	SPO3147	putative manganese-dependent inorganic pyrophosphatase	COG1227	
+637290638	SPO3173	cation transport protein ChaC, putative	COG3703	
+637290751	SPO3286	arylsulfatase	COG3119	
+637290752	SPO3287	ferric iron ABC transporter, periplasmic ferric iron-binding protein	COG1840	
+637290753	SPO3288	ferric iron ABC transporter, permease protein	COG1178	
+637290828	SPO3363	zinc/manganese/iron ABC transporter, permease protein	COG1108	
+637290829	SPO3364	zinc/manganese/iron ABC transporter, permease protein	COG1108	
+637290830	SPO3365	zinc/manganese/iron ABC transporter, ATP-binding protein	COG1121	
+637290831	SPO3366	zinc/manganese/iron ABC transporter, periplasmic zinc/manganese/iron-binding protein	COG0803	
+637290958	SPO3493	transporter, putative	COG2807	
+637290984	SPO3519	cytochrome oxidase maturation protein, cbb3-type	COG3197	
+637290985	SPO3520	copper-translocating P-type ATPase	COG2217	
+637290986	SPO3521	fixH protein, putative	COG5456	
+637291058	SPO3593	sulfatase family protein	COG3119	
+637291083	SPO3618	sulfonate ABC transporter, permease protein, putative	COG0600	
+637291084	SPO3619	sulfonate ABC transporter, ATP-binding protein	COG1116	
+637291085	SPO3620	sulfonate ABC transporter, periplamic sulfonate-binding protein	COG0715	
+637291104	SPO3639	K+-dependent Na+/Ca+ exchanger related-protein	COG0530	
+637291138	SPO3671	muticopper oxidase domain protein	COG2132	
+637291145	SPO3678	Rieske 2Fe-2S domain protein	COG4638	
+637291148	SPO3681	Rieske 2Fe-2S domain protein	COG4638	
+637291149	SPO3682	putative flavoprotein involved in K+ transport	COG2072	
+637291182	SPO3715	carbonic anhydrase, putative	COG0288	
+637291186	SPO3719	thiosulfate sulfurtransferase, putative	COG2897	
+637291190	SPO3723	ammonium transporter (TC 1.A.11)	COG0004	
+637291225	SPO3757	alkylhydroperoxidase AhpD family core domain protein	COG2128	
+637291243	SPO3775	oligopeptide/dipeptide ABC transporter, permease protein	COG0601	
+637291244	SPO3776	oligopeptide/dipeptide ABC transporter, permease protein	COG1173	
+637291245	SPO3777	oligopeptide/dipeptide ABC transporter, ATP-binding protein	COG0444	
+637291310	SPO3842	hypothetical protein	COG1633	
+637613584	SPOA0040	crcB family protein	COG0239	
+637613585	SPOA0041	camphor resistance protein CrcB	COG0239	
+637613594	SPOA0050	nitrous oxide reductase apoprotein	COG4263	
+637613595	SPOA0051	nitrous oxide maturation protein NosD	COG3420	
+637613598	SPOA0054	nitrous oxide reductase accessory protein	COG4314	
+637613605	SPOA0061	catalase/peroxidase HPI	COG0376	
+637613667	SPOA0121	sulfatase family protein	COG3119	
+637613678	SPOA0132	aromatic 1,2-dioxygenase, alpha subunit	COG4638	
+637613700	SPOA0154	hypothetical protein	COG3420	
+637613725	SPOA0181	transporter, FNT family	COG2116	
+637613736	SPOA0192	hemoglobin	COG2346	
+637613755	SPOA0211	Na/Pi-cotransporter family protein	COG1283	
+637613758	SPOA0214	nitric oxide reductase D protein	COG4548	
+637613762	SPOA0218	magnesium transporter, CorA family	COG0598	
+637613902	SPOA0360	multicopper oxidase, putative	COG2132	
+637613907	SPOA0365	copper-translocating P-type ATPase	COG2217	
+637613912	SPOA0370	copper resistance protein A	COG2132	
+637613932	SPOA0390	phosphonate monoester hydrolase, putative	COG3119	
+637613987	SPOA0445	transcriptional regulator, Fur family	COG0735	
