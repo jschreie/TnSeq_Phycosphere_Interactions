@@ -72,7 +72,7 @@ outputName <- 'mariFitness_20211004.csv'
 # we do a log(x+1) to top and bottom so that there are no -Inf/Inf values
 # w = fitness
 
-# fitnessCalc is looesly following calc_fitness.py, credit to van Opjinen paper
+# fitnessCalc is looesly following calc_fitness.py, McCoy, K. M., Antonio, M. L., & van Opijnen, T. (2017). MAGenTA: a Galaxy implemented tool for complete Tn-Seq analysis and data visualization. Bioinformatics, 33(17), 2781-2783.
 # total1 is the total reads in sample 1
 # total2 is the total reads in sample 2
 
