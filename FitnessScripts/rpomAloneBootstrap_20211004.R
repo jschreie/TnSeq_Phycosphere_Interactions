@@ -137,6 +137,7 @@ meanFitnessCalc <- function(spoSample = spoSampling, treatmentColumns = treatmen
 #meanW <- replicate(10000, meanFitnessCalc(spoSample = geneSum$spo == 'SPO2849'))
 
 # Bootstrap/confidence intervals calculated using method in Crawley, Michael J. The R book. John Wiley & Sons, 2012.
+# Bootstrap code is adapted from http://strata.uga.edu/8370/lecturenotes/resampling.html
 
 for(i in 1:nrow(spoFunction)){
     spoFit <-  as.character(spoFunction$spo[i])
