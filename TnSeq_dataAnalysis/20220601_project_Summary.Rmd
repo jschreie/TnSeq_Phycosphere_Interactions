@@ -1,0 +1,762 @@
+---
+title: "Game of Transposons: The Bells"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+#loading in packages
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(scales)
+library(data.table)
+library(formattable)
+```
+
+```{r,echo=FALSE}
+# Defining variables to make it more readable later on
+
+rpom <- 'Ruegeria_pomeroyi'
+rpomColor <- 'cornflowerblue'
+mari <- 'Marivivens'
+mariColor <- 'orange'
+vib <- 'Vib_70'
+vibColor <- 'forestgreen'
+diatom <- 'T_pseudo'
+diatomColor <- 'khaki4'
+bacteria <- 'Bacteria'
+bacteriaColor <- 'gray80'
+compCommColor <- 'gray25'
+totalCFUColor <- 'black'
+```
+
+
+```{r, echo=FALSE, fig.align='center', fig.height=6, fig.width=6}
+# Transform data from CFU to CFU/ml
+# from 1/2 YTSS and 1/2 YTSS + KAN25
+coloniesMl <- function(rawCFUdata){
+    rawCFUdata <- rawCFUdata %>% 
+    mutate(cfu.ml = CFU*Dilution/Volume) %>% 
+    mutate(cfuKAN.ml = CFU_KAN*Dilution/Volume) %>% 
+    ungroup()
+}
+
+# Calculate mean and standard error of the mean of CFU/ml 
+# and CFU_KAN/ml separate and then combine
+CFUmean <- function(CFUml){
+    cfuMean <- CFUml %>%
+        select(Condition, Replicate, Day, Organism, cfu.ml) %>%
+        na.omit() %>%
+        group_by(Condition, Day, Organism, Replicate) %>%
+        summarize(CFU.ml = mean(cfu.ml)) %>% 
+        group_by(Condition, Day, Organism) %>% 
+        summarize(mean.CFU.ml=round(mean(CFU.ml)), sem.CFU.ml=sd(round(CFU.ml))/sqrt(length(CFU.ml)))%>%
+        ungroup() 
+    cfuKANmean <- CFUml %>%
+        select(Condition, Replicate, Day, Organism, cfuKAN.ml) %>%
+        na.omit() %>%
+        group_by(Condition, Day, Organism, Replicate) %>%
+        summarize(CFUKAN.ml = mean(cfuKAN.ml)) %>% 
+        group_by(Condition, Day, Organism) %>% 
+        summarize(mean.cfuKAN.ml=round(mean(CFUKAN.ml)), sem.cfuKAN.ml=sd(round(CFUKAN.ml))/sqrt(length(CFUKAN.ml)))%>%
+        ungroup()
+    full_join(cfuMean, cfuKANmean, by=c('Condition', 'Organism', 'Day'))
+}
+
+
+# Calculate mean Cells/ml from flow data taken on CyAN 
+meanCellsml <- function(rawFlowdata){
+    flowMean <- rawFlowdata %>%
+        select(Condition, Replicate, Day, Organism, Cells.ml) %>%
+        na.omit() %>%
+        group_by(Condition, Day, Organism) %>%
+        summarize(mean.Cells.ml=mean(round(Cells.ml)), sem.Cells.ml=sd(round(Cells.ml))
+                  /sqrt(length(Cells.ml)))%>%
+        ungroup()
+}
+
+# Read in CFU and flow data, transforming with above functions
+# Need to add in Day 0 for condition 4/6 since these
+# R pom colonies were inhibited by Vibrio, thus
+# Taking the mean of all other time zeros and placing # it here
+
+rawCFUcounts <- read.table(file='Data/GOTn_CFUcounts_v2.csv', header=TRUE, sep=',')
+CFUml <- coloniesMl(rawCFUcounts)
+meanCFUml <- CFUmean(CFUml)
+meanCFUml <- meanCFUml[order(meanCFUml$Day), ]
+
+flowCounts <- read.table(file='Data/GOTn_flowCounts_v2.csv', header=TRUE, sep=',')
+meanFlow <- meanCellsml(flowCounts)
+```
+
+```{r, echo=FALSE}
+# Fixing the problem that there were no Rpom counts on day zero of conditions 4 & 6
+# We just set the CFUs here equal to the mean of the inoculum from all other conditions
+
+
+condition4RpomT0 <- meanCFUml$Day==0 & meanCFUml$Organism==rpom & meanCFUml$Condition=='Vibrio'
+condition6RpomT0 <- meanCFUml$Day==0 & meanCFUml$Organism==rpom & meanCFUml$Condition=='CompleteCommunity'
+allRpomT0 <- na.omit(CFUml$cfu.ml[CFUml$Day=='0' & CFUml$Organism==rpom])
+
+meanCFUml$mean.CFU.ml[condition4RpomT0] <- mean(allRpomT0)
+meanCFUml$sem.CFU.ml[condition4RpomT0] <- sd(allRpomT0)/sqrt(length(allRpomT0))
+
+meanCFUml$mean.CFU.ml[condition6RpomT0] <- mean(allRpomT0)
+meanCFUml$sem.CFU.ml[condition6RpomT0] <- sd(allRpomT0)/sqrt(length(allRpomT0))
+```
+
+
+```{r, echo=FALSE}
+#Total CFUs from means then propagate error
+
+totalCFUS <- meanCFUml %>% 
+  group_by(Condition, Day) %>% 
+  summarize(total.meanCFU= sum(mean.CFU.ml), total.sem=sqrt(sum(sem.CFU.ml^2, na.rm=TRUE)))
+
+```
+
+
+```{r, echo=FALSE}
+attach(meanCFUml)
+
+meanCFU <- mean.CFU.ml[Organism==rpom]
+meanCFUT0 <- mean.CFU.ml[Organism==rpom & Day==0]
+meanCFUT4 <- mean.CFU.ml[Organism==rpom & Day==4]
+meanCFUT8 <- mean.CFU.ml[Organism==rpom & Day==8]
+
+semCFUT0 <- sem.CFU.ml[Organism==rpom & Day==0]
+semCFUT4 <- sem.CFU.ml[Organism==rpom & Day==4]
+semCFUT8 <- sem.CFU.ml[Organism==rpom & Day==8]
+
+
+rpomAloneCFU <- mean.CFU.ml[Condition=='RpomAlone' & Organism==rpom]
+semRpomAloneCFU <- sem.CFU.ml[Condition=='RpomAlone' & Organism==rpom]
+rpomAloneTimeCFU <- Day[Condition=='RpomAlone' & Organism==rpom]
+
+vibRpomCFU <- mean.CFU.ml[Condition=='Vibrio' & Organism==rpom]
+semVibRpomCFU <- sem.CFU.ml[Condition=='Vibrio' & Organism==rpom]
+vibCFU <- mean.CFU.ml[Condition=='Vibrio' & Organism==vib]
+semVibCFU <- sem.CFU.ml[Condition=='Vibrio' & Organism==vib]
+vibTimeCFU <- Day[Condition=='Vibrio' & Organism==vib]
+vibRpomTimeCFU <- Day[Condition=='Vibrio' & Organism==rpom]
+
+mariRpomCFU <- mean.CFU.ml[Condition=='Marivivens' & Organism==rpom]
+semMariRpomCFU <- sem.CFU.ml[Condition=='Marivivens' & Organism==rpom]
+mariCFU <- mean.CFU.ml[Condition=='Marivivens' & Organism==mari]
+semMariCFU <- sem.CFU.ml[Condition=='Marivivens' & Organism==mari]
+mariTimeCFU <- Day[Condition=='Marivivens' & Organism==mari]
+mariRpomTimeCFU <- Day[Condition=='Marivivens' & Organism==rpom]
+
+compCommRpomCFU <- mean.CFU.ml[Condition=='CompleteCommunity' & Organism==rpom]
+semCompCommRpomCFU <- sem.CFU.ml[Condition=='CompleteCommunity' & Organism==rpom]
+compCommMariCFU <- mean.CFU.ml[Condition=='CompleteCommunity' & Organism==mari]
+semCompCommMariCFU <- sem.CFU.ml[Condition=='CompleteCommunity' & Organism==mari]
+compCommVibCFU <- mean.CFU.ml[Condition=='CompleteCommunity' & Organism==vib]
+semCompCommVibCFU <- sem.CFU.ml[Condition=='CompleteCommunity' & Organism==vib]
+compCommVibTimeCFU <- Day[Condition=='CompleteCommunity' & Organism==vib]
+compCommMariTimeCFU <- Day[Condition=='CompleteCommunity' & Organism==mari]
+compCommRpomTimeCFU <- Day[Condition=='CompleteCommunity' & Organism==rpom]
+
+detach(meanCFUml, unload=TRUE)
+
+```
+
+
+Total bacteria and diatoms were enumerated using flow cytometry (cells/ml; dotted line samples), while individual bacterial taxa were enumerated by CFU. Standard error of the mean is displayed for each treatment as black bars (n=4 for flow cytometry)
+
+
+```{r,echo=FALSE}
+# Reading in functions for growth curves that I like to make
+niceGrowthCurve <- function(time, populationDensity, yLim, yLab=expression('Cells or CFU ml' ^-1),  timeTicks, timeLabs, popTicks, popLabs){
+  xLab <- 'Days'
+  axesCol <- 'gray25'
+  plot(time, populationDensity, las=1, xlab=xLab, ylab=yLab, log='y',  type='n', frame.plot=FALSE,  yaxt='n', xaxt='n', ylim=yLim, col.lab=axesCol)
+  axis(1, at=timeTicks, labels=timeLabs, col=axesCol, col.axis=axesCol, cex.axis=1.3, cex.lab=1.3)
+  axis(2, at=popTicks, labels=popLabs, las=1, col=axesCol, col.axis=axesCol, cex.axis=1.3, cex.lab=1.3)
+}
+
+
+oneMemberGrowthCurve <- function(timePop1, pop1, pop1SEM, pop1Col, lineType=1, point=16){
+  points(timePop1, pop1, col=pop1Col, pch=point, cex=1.5)
+  lines(timePop1, pop1, col=pop1Col, lty=lineType, lwd=1.5)
+  segments(x0=timePop1, y0=pop1+pop1SEM, y1=pop1-pop1SEM, col=pop1Col)
+}
+
+```
+
+
+```{r, echo=FALSE}
+#Defining the flow cytometry objects as the treatmentOrganism
+
+attach(meanFlow)
+
+tnBacteriaFlow <-  mean.Cells.ml[Condition=='RpomAlone' & Organism==bacteria]
+semTnBacteriaFlow <- sem.Cells.ml[Condition=='RpomAlone' & Organism==bacteria]
+tnDiatomFlow <- mean.Cells.ml[Condition=='RpomAlone' & Organism==diatom]
+semTnDiatomFlow <- sem.Cells.ml[Condition=='RpomAlone' & Organism==diatom]
+tnBacteriaTimeFlow <- Day[Condition=='RpomAlone' & Organism==bacteria]
+tnDiatomTimeFlow <- Day[Condition=='RpomAlone' & Organism==diatom]
+
+vibBacteriaFlow <-  mean.Cells.ml[Condition=='Vibrio' & Organism==bacteria]
+semVibBacteriaFlow <- sem.Cells.ml[Condition=='Vibrio' & Organism==bacteria]
+vibDiatomFlow <- mean.Cells.ml[Condition=='Vibrio' & Organism==diatom]
+semVibDiatomFlow <- sem.Cells.ml[Condition=='Vibrio' & Organism==diatom]
+vibBacteriaTimeFlow <- Day[Condition=='Vibrio' & Organism==bacteria]
+vibDiatomTimeFlow <- Day[Condition=='Vibrio' & Organism==diatom]
+
+mariBacteriaFlow <-  mean.Cells.ml[Condition=='Marivivens' & Organism==bacteria]
+semMariBacteriaFlow <- sem.Cells.ml[Condition=='Marivivens' & Organism==bacteria]
+mariDiatomFlow <- mean.Cells.ml[Condition=='Marivivens' & Organism==diatom]
+semMariDiatomFlow <- sem.Cells.ml[Condition=='Marivivens' & Organism==diatom]
+mariBacteriaTimeFlow <- Day[Condition=='Marivivens' & Organism==bacteria]
+mariDiatomTimeFlow <- Day[Condition=='Marivivens' & Organism==diatom]
+
+allBacteriaFlow <-  mean.Cells.ml[Condition=='CompleteCommunity' & Organism==bacteria]
+semAllBacteriaFlow <- sem.Cells.ml[Condition=='CompleteCommunity' & Organism==bacteria]
+allDiatomFlow <- mean.Cells.ml[Condition=='CompleteCommunity' & Organism==diatom]
+semAllDiatomFlow <- sem.Cells.ml[Condition=='CompleteCommunity' & Organism==diatom]
+allBacteriaTimeFlow <- Day[Condition=='CompleteCommunity' & Organism==bacteria]
+allDiatomTimeFlow <- Day[Condition=='CompleteCommunity' & Organism==diatom]
+detach(meanFlow, unload=TRUE)
+```
+
+
+##Growth Curve
+```{r, echo=FALSE, fig.align='center', fig.height=4, fig.width=12}
+xAxis <- seq(0,8, by=2)
+xAxisLong <- seq(0,16, by=2)
+xAxisLabs <- c('0','','4','','8')
+xAxisLongLabs <- c('0','','4','','8','','12','','16')
+
+ylim <- c(2e2,2e7)
+yAxis <-  c(1e3, 1e4, 1e5, 1e6, 1e7)
+yAxisLab <- c(expression('10'^'3'), '', expression('10'^'5'), '',expression('10'^'7'))
+
+#pdf(file='growthcurve_20220316.pdf', height=3, width=9, useDingbats=FALSE)
+
+par(mfrow=c(1,4), mar=c(5,4,4,1))
+
+#Rpom Alone
+niceGrowthCurve(xAxis, yAxis, ylim, timeTicks=xAxis, timeLabs=xAxisLabs, popTicks=yAxis, popLabs=yAxisLab)
+
+
+oneMemberGrowthCurve(tnBacteriaTimeFlow, tnBacteriaFlow, semTnBacteriaFlow, bacteriaColor)
+oneMemberGrowthCurve(tnDiatomTimeFlow, tnDiatomFlow, semTnDiatomFlow, diatomColor)
+oneMemberGrowthCurve(rpomAloneTimeCFU, rpomAloneCFU, semRpomAloneCFU, rpomColor,lineType=0, point=17)
+
+
+
+
+#Vibrio
+
+niceGrowthCurve(xAxis, yAxis, ylim, yLab='', timeTicks=xAxis, timeLabs=xAxisLabs, popTicks=yAxis, popLabs=yAxisLab)
+
+oneMemberGrowthCurve(vibBacteriaTimeFlow, vibBacteriaFlow, semVibBacteriaFlow, bacteriaColor)
+oneMemberGrowthCurve(vibDiatomTimeFlow, vibDiatomFlow, semVibDiatomFlow, diatomColor)
+
+
+oneMemberGrowthCurve(totalCFUS$Day[totalCFUS$Condition=='Vibrio'], totalCFUS$total.meanCFU[totalCFUS$Condition=='Vibrio'], totalCFUS$total.sem[totalCFUS$Condition=='Vibrio'], totalCFUColor, lineType=0, point=15)
+
+oneMemberGrowthCurve(vibRpomTimeCFU, vibRpomCFU, semVibRpomCFU, rpomColor, lineType=0, point=17)
+oneMemberGrowthCurve(vibTimeCFU, vibCFU, semVibCFU, vibColor, lineType=0, point=17)
+
+
+legend(1.2, 0.3e4, legend=c('Total Bacteria' , 'T. pseudonana'), col=c(bacteriaColor, diatomColor), cex=0.8, pch=16, lty=1, bty='n', title='Flow Cytometry', seg.len=3)
+
+
+#Marivivens
+
+niceGrowthCurve(xAxis, yAxis, ylim, yLab='', timeTicks=xAxis, timeLabs=xAxisLabs, popTicks=yAxis, popLabs=yAxisLab)
+
+oneMemberGrowthCurve(mariBacteriaTimeFlow, mariBacteriaFlow, semMariBacteriaFlow, bacteriaColor)
+oneMemberGrowthCurve(mariDiatomTimeFlow, mariDiatomFlow, semMariDiatomFlow, diatomColor)
+
+oneMemberGrowthCurve(totalCFUS$Day[totalCFUS$Condition=='Marivivens'], totalCFUS$total.meanCFU[totalCFUS$Condition=='Marivivens'], totalCFUS$total.sem[totalCFUS$Condition=='Marivivens'], totalCFUColor, lineType=0, point=15)
+
+oneMemberGrowthCurve(mariRpomTimeCFU, mariRpomCFU, semMariRpomCFU, rpomColor, lineType=0, point=17)
+oneMemberGrowthCurve(mariTimeCFU, mariCFU, semMariCFU, mariColor, lineType=0, point=17)
+
+
+legend(1.2, 0.6e4, legend=c('R. pomeroyi DSS3' , 'V. hepatarius HF70', 'M. donghaensis HF1', 'Total Bacteria'), col=c(rpomColor, vibColor, mariColor, totalCFUColor), pch=c(17,17,17,15), cex=0.8, lty=0, bty='n', title='CFU', seg.len=3)
+
+#CompleteCommunity
+
+niceGrowthCurve(xAxis, yAxis, ylim, yLab='', timeTicks=xAxis, timeLabs=xAxisLabs, popTicks=yAxis, popLabs=yAxisLab)
+
+oneMemberGrowthCurve(allBacteriaTimeFlow, allBacteriaFlow, semAllBacteriaFlow, bacteriaColor)
+oneMemberGrowthCurve(allDiatomTimeFlow, allDiatomFlow, semAllDiatomFlow, diatomColor)
+
+
+oneMemberGrowthCurve(totalCFUS$Day[totalCFUS$Condition=='CompleteCommunity'], totalCFUS$total.meanCFU[totalCFUS$Condition=='CompleteCommunity'], totalCFUS$total.sem[totalCFUS$Condition=='CompleteCommunity'], totalCFUColor, lineType=0, point=15)
+
+oneMemberGrowthCurve(compCommRpomTimeCFU, compCommRpomCFU, semCompCommRpomCFU, rpomColor, lineType=0, point=17)
+oneMemberGrowthCurve(compCommRpomTimeCFU, compCommVibCFU, semCompCommVibCFU, vibColor, lineType=0, point=17)
+oneMemberGrowthCurve(compCommMariTimeCFU, compCommMariCFU, semCompCommMariCFU, mariColor, lineType=0, point=17)
+
+
+
+#dev.off()
+```
+
+### Expansion Factors
+
+```{r, echo=FALSE}
+# expansion factors for Rpom as the only bacteria makes it easy
+
+expansionCalc <- function(initialFC, finalFC, semInitialFC, semFinalFC){
+  
+  x <- initialFC
+  y <- finalFC
+  
+  expansion <- y/x
+  
+  dx_x <- semInitialFC/x
+  dy_y <- semFinalFC/y
+  
+  uncertainty <- expansion*sqrt((dx_x)^2*(dy_y)^2)
+  
+  expansion_uncertainty <- c(vector(),c(expansion, uncertainty))
+}
+
+
+rpomAloneExp <- expansionCalc(tnBacteriaFlow[1], tnBacteriaFlow[5], semTnBacteriaFlow[1], semTnBacteriaFlow[5])[1]
+semRpomAloneExp <- expansionCalc(tnBacteriaFlow[1], tnBacteriaFlow[5], semTnBacteriaFlow[1], semTnBacteriaFlow[5])[2]
+
+rpomAloneExpCFU <- expansionCalc(rpomAloneCFU[1], rpomAloneCFU[3], semRpomAloneCFU[1], semRpomAloneCFU[3])[1]
+semRpomAloneExpCFU <- expansionCalc(rpomAloneCFU[1], rpomAloneCFU[3], semRpomAloneCFU[1], semRpomAloneCFU[3])[2]
+
+
+# to get expansion factors for conditions with multiple bacteria
+# Rpom CFUs / Total Bacteria CFUs * Total Bacteria FC = Rpom FC
+# expansion factor is then Rpom FC final / Rpom FC initial
+
+percentMultiBact <- function(rPom, bact2, bact3){
+  x <- rPom
+  y <- bact2
+  z <- bact3
+  
+  total <- x/(x+y+z)
+}
+
+expansionCalc_noUncert <- function(initialFC, finalFC){
+  
+  x <- initialFC
+  y <- finalFC
+  
+  expansion <- y/x
+}
+
+  
+rpomVibPercent <- percentMultiBact(vibRpomCFU, vibCFU, bact3=0)
+rpomMariPercent <- percentMultiBact(mariRpomCFU, mariCFU, bact3=0)
+rpomAllPercent <- percentMultiBact(compCommRpomCFU, compCommVibCFU, compCommMariCFU)
+
+
+
+
+#these are all of specifically rpom in each treatment then multiplied by the flowcytometry data (0d and 8d) to get cells/ml of rpom from the percentage of rpom cells based on cfus
+
+vibExp <-  expansionCalc_noUncert(vibBacteriaFlow[1]*rpomVibPercent[1], vibBacteriaFlow[5]*rpomVibPercent[3])
+
+
+mariExp <-  expansionCalc_noUncert(mariBacteriaFlow[1]*rpomMariPercent[1], mariBacteriaFlow[5]*rpomMariPercent[3])
+
+
+allExp <- expansionCalc_noUncert(allBacteriaFlow[1]*rpomAllPercent[1], allBacteriaFlow[5]*rpomAllPercent[3])
+
+print(c('RpomAlone Expansion=', round(rpomAloneExp, 2),'Vibrio Expansion=', round(vibExp,2) , 'Marivivens Expansion=', round(mariExp,2), 'CompleteCommunity Expansion', round(allExp, 2)))
+```
+ 
+## Number of generations over 8 days
+
+
+```{r, echo=FALSE}
+
+
+
+#Calculating the # of generations from the FC data, for rpom Alone just use the flow data, for rpom in the other communities, use the %CFU rpom * FC data
+
+generations <- function(FC, percentRpom){
+  (log10(FC[5]*percentRpom[3]) - log10(FC[1]*percentRpom[1]))/0.301
+
+}
+
+
+generationTable <- matrix(nrow=4, ncol=2)
+generationTable[1, 1] <- 'rpomAlone Generations'
+generationTable[2, 1] <- 'Vibrio rpom Generations'
+generationTable[3, 1] <- 'Marivivens rpom Generations'
+generationTable[4, 1] <- 'Complete Comm rpom Generations'
+generationTable[1,2] <- round((log10(tnBacteriaFlow[5]) - log10(tnBacteriaFlow[1]))/0.301,2)
+generationTable[2,2] <- round(generations(vibBacteriaFlow, rpomVibPercent),2)
+generationTable[3,2] <- round(generations(mariBacteriaFlow, rpomMariPercent), 2)
+generationTable[4,2] <- round(generations(allBacteriaFlow, rpomAllPercent), 2)
+
+print(generationTable)
+
+paste('Mean Generations=', mean(as.numeric(generationTable[1:4, 2])))
+```
+
+## Number of generations over 4 days
+```{r, echo=FALSE}
+# Calculating the number of generations from time 0 to 4 for just Rpom CFUs
+#propagation of standard error of the mean
+errorProp <- function(sem, mean){
+  sqrt((0.434*(sem[2]/mean[2]))^2 + (0.434*(sem[1]/mean[1]))^2)
+}
+
+gen4Table <- matrix(nrow=4, ncol=3)
+gen4Table[1, 1] <- 'rpomAlone Generations'
+gen4Table[2, 1] <- 'Vibrio rpom Generations'
+gen4Table[3, 1] <- 'Marivivens rpom Generations'
+gen4Table[4, 1] <- 'Complete Comm rpom Generations'
+gen4Table[1, 2] <- round((log10(rpomAloneCFU[2])-log10(rpomAloneCFU[1]))/0.301, 3)
+gen4Table[2, 2] <- round((log10(vibRpomCFU[2])-log10(vibRpomCFU[1]))/0.301, 3)
+gen4Table[3, 2] <- round((log10(mariRpomCFU[2])-log10(mariRpomCFU[1]))/0.301, 3)
+gen4Table[4, 2] <- round((log10(compCommRpomCFU[2])-log10(compCommRpomCFU[1]))/0.301, 3)
+
+gen4Table[1,3] <- round(errorProp(semRpomAloneCFU, rpomAloneCFU), 3)
+gen4Table[2,3] <- round(errorProp(semVibRpomCFU, vibRpomCFU), 3)
+gen4Table[3,3] <- round(errorProp(semMariRpomCFU, mariRpomCFU), 3)
+gen4Table[4,3] <- round(errorProp(semCompCommRpomCFU, compCommRpomCFU), 3)
+
+errorProp(semRpomAloneCFU, rpomAloneCFU)
+
+print(gen4Table)
+paste('Mean Generations=', mean(as.numeric(gen4Table[1:4, 2])))
+
+
+```
+
+# Fitness analysis
+
+## Overview of fitness profiles
+```{r, warning=FALSE, echo=FALSE, fig.align='center', fig.height=4, fig.width=9}
+meanFitness <- fread('meanFitness_20220601.csv', header=TRUE)
+significantFitness <- fread('significant_genes_grouped_Metabolism_filtered_20220601.csv', header=TRUE)
+table1 <- fread('Table1_20220601.csv', header=TRUE) %>% 
+    inner_join(., significantFitness, by='spo')
+
+#Select only significant genes to later be counted as fit increases or decreases
+vibSig <- significantFitness[Vib_sig == 'yes']
+vibSigTable <- table1[Vib_sig=='yes']
+mariSig <- significantFitness[Mari_sig == 'yes']
+mariSigTable <- table1[Mari_sig=='yes']
+commSig <- significantFitness[CC_sig == 'yes']
+commSigTable <- table1[CC_sig=='yes']
+
+legendColors <- c(rpomColor, vibColor, mariColor, compCommColor)
+
+fitTicks <- c(0, 0.5, 1, 1.5, 2)
+fitLabs <- c('0', '','1','', '2')
+
+overallFitPlot <- function(meanFitX=meanFitness$mean_rpomAlone, meanFitY=meanFitness$mean_vib, SigFitY_X, SigFitY_Y, SigTableX, SigTableY, xLab, yLab, ycol){
+    x <- cor.test(meanFitX, meanFitY, method='spearman')
+    segmentCol <- 'grey45'
+    axesCol <- 'gray25'
+    plot(meanFitX, meanFitY, pch=16, col='grey90', xlab=xLab, ylab=yLab, las=1, bty='n', xaxt='n', yaxt='n',  cex=0.6, xlim=c(0,2), ylim=c(0,2), col.lab=axesCol)
+    
+    points(SigFitY_X, SigFitY_Y, pch=16, col=alpha(ycol,0.3), cex=0.6)
+    points(SigTableX, SigTableY, pch=16,col=ycol, cex=0.6)
+    rug(SigFitY_X, side=1, pos=c(2,0), ticksize=0.1, lwd=0.15, col=rpomColor)
+    rug(SigFitY_Y, side=2, col=ycol, pos=c(2,0), ticksize=0.1, lwd=0.15)
+    axis(1, at=fitTicks, labels=fitLabs, col=axesCol, col.axis=axesCol)
+    axis(2, at=fitTicks, labels=fitLabs, col=axesCol, col.axis=axesCol)
+    segments(x0=0, y0=0, x1=2, y1=2, col= segmentCol, lty=2, lwd=0.5)
+    segments(x0=-1, y0=1, x1=1, y1=1, col=segmentCol, lty=2, lwd=0.5)
+    text(0.5, 1.9, paste('rho=',round(x$estimate, 2)), cex=0.6)
+}
+
+print(c('rpomAlone against vibrio spearman:', cor.test(meanFitness$mean_rpomAlone, meanFitness$mean_vib, method='spearman')[3:4]))
+print(c('rpomAlone against marivivens spearman:', cor.test(meanFitness$mean_rpomAlone, meanFitness$mean_mari, method='spearman')[3:4]))
+print(c('rpomAlone against Complete Commuinity spearman:', cor.test(meanFitness$mean_rpomAlone, meanFitness$mean_CC, method='spearman')[3:4]))
+
+
+#pdf('fitnessOverview20220601.pdf', height=3, width=9,useDingbats=FALSE)
+par(mfrow=c(1,4), mar=c(5,4,4,1))
+
+overallFitPlot(meanFitness$mean_rpomAlone, meanFitness$mean_vib, vibSig$mean_rpomAlone, vibSig$mean_vib, vibSigTable$mean_rpomAlone, vibSigTable$mean_vib, 'W(Rp)','W(Rp+V)', vibColor)
+
+
+overallFitPlot(meanFitness$mean_rpomAlone, meanFitness$mean_mari, mariSig$mean_rpomAlone, mariSig$mean_mari,  mariSigTable$mean_rpomAlone, mariSigTable$mean_mari, 'W(Rp)','W(Rp+M)', mariColor)
+
+overallFitPlot(meanFitness$mean_rpomAlone, meanFitness$mean_CC, commSig$mean_rpomAlone, commSig$mean_CC,commSigTable$mean_rpomAlone, commSigTable$mean_CC, 'W(Rp)','W(Rp+V+M)', compCommColor)
+#dev.off()
+```
+
+## Binomial test to compare proportion of increased vs decreased mutants
+
+```{r, echo=FALSE}
+vibSigIncrease <- length(vibSig$Vib_fold_diff[vibSig$Vib_fold_diff > 0 & !is.na(vibSig$Vib_fold_diff)])
+vibSigDecrease <- length(vibSig$Vib_fold_diff[vibSig$Vib_fold_diff < 0 & !is.na(vibSig$Vib_fold_diff)])
+vibTotal <- length(vibSig$Vib_fold_diff)
+
+
+mariSigIncrease <- length(mariSig$Mari_fold_diff[mariSig$Mari_fold_diff > 0 & !is.na(mariSig$Mari_fold_diff)])
+mariSigDecrease <- length(mariSig$Mari_fold_diff[mariSig$Mari_fold_diff < 0 & !is.na(mariSig$Mari_fold_diff)])
+mariTotal <- length(mariSig$Mari_fold_diff)
+
+commSigIncrease <- length(commSig$CC_fold_diff[commSig$CC_fold_diff > 0 & !is.na(commSig$CC_fold_diff)])
+commSigDecrease <- length(commSig$CC_fold_diff[commSig$CC_fold_diff < 0 & !is.na(commSig$CC_fold_diff)])
+commTotal <- length(commSig$CC_fold_diff)
+
+prop.test(c(vibSigIncrease, vibSigDecrease), c(vibTotal, vibTotal))
+prop.test(c(mariSigIncrease, mariSigDecrease), c(mariTotal, mariTotal))
+prop.test(c(commSigIncrease, commSigDecrease), c(commTotal, commTotal))
+```
+
+
+
+
+# Testing the fitness increases and decreases
+
+```{r, echo=FALSE, fig.align='center'}
+
+
+#pdf('log2FC_Whist_20220601.pdf', width=5, height=5)
+hist(vibSig$Vib_fold_diff, seq(-6.5, 6.6, length.out = 125), col=vibColor, xlim=c(-6.5, 6.5), ylim=c(0,15), border='white', xlab='log2_FC Rp+V', main='')
+hist(mariSig$Mari_fold_diff, seq(-6.5, 6.6, length.out = 125), col=mariColor, xlim=c(-6.5, 6.5), ylim=c(0,15), border='white', xlab='log2_FC Rp+M', main='')
+hist(commSig$CC_fold_diff, seq(-6.6, 6.6, length.out = 125), col=compCommColor, xlim=c(-6.5, 6.5), ylim=c(0,15), border='white', xlab='log2_FC Rp+V+M', main='')
+#dev.off()
+
+# wilcox.test(vib_inc_dW, cc_inc_dW, conf.int = TRUE)
+# wilcox.test(vib_inc_dW, mari_inc_dW, conf.int = TRUE)
+# wilcox.test(mari_inc_dW, cc_inc_dW, conf.int = TRUE)
+# median(vib_inc_dW)
+# median(mari_inc_dW)
+# median(cc_inc_dW)
+# 
+# wilcox.test(vib_dec_dW, cc_dec_dW, conf.int = TRUE)
+# wilcox.test(vib_dec_dW, mari_dec_dW, conf.int = TRUE)
+# wilcox.test(mari_dec_dW, cc_dec_dW, conf.int = TRUE)
+# median(vib_dec_dW)
+# median(mari_dec_dW)
+# median(cc_dec_dW)
+# 
+# 
+# 
+# diffTab <- data.table(Treatment='Rp+V', dW=vibSig$Vib_diff) %>% 
+#   rbind(data.table(Treatment='Rp+M', dW=mariSig$Mari_diff)) %>% 
+#   rbind(data.table(Treatment='Rp+V+M', dW=commSig$CC_diff))
+# 
+# #test of -dW
+# kruskal.test(diffTab$dW[diffTab$dW<0] ~ diffTab$Treatment[diffTab$dW<0])
+# 
+# #test of +dW
+# kruskal.test(diffTab$dW[diffTab$dW>0] ~ diffTab$Treatment[diffTab$dW>0])
+```
+
+
+
+
+
+# Ammonium/Nitrate growth curves
+
+```{r, warning=FALSE, echo=FALSE, fig.align='center', fig.height=5, fig.width=5}
+plateOD <- fread('Data/NitrogenUsage_GrowthCurves_CBS.csv') %>%  melt(., id=('Time'), variable.name='Well', value.name='OD600')
+
+
+plateMap <- fread('Data/NitrogenUsage_GrowthCurves_CBS_platelayout.csv')
+
+growthData <- inner_join(plateOD, plateMap, by='Well')
+meanCells <- function(rawData) {
+    rawData <- rawData %>% 
+        na.omit() %>% 
+        group_by(Time, Organism, Condition) %>% 
+        summarise(mean_OD=mean(OD600), sem_OD = sd(OD600)/sqrt(length(OD600)))
+}
+
+x <- meanCells(growthData)
+x$mean_OD[x$Organism!='Blank'] <- x$mean_OD[x$Organism!='Blank'] - x$mean_OD[x$Organism=='Blank']
+
+# Blank transformed data
+blankedGrowthCurve <- x
+
+attach(blankedGrowthCurve)
+
+# Define each strain/fluorescent organism used for this plate
+rpomNH <- Organism=='Rpom' & Condition=='NH'
+rpomNO <- Organism=='Rpom' & Condition=='NO'
+rpomNoN <- Organism=='Rpom' & Condition=='NoN'
+vibNH <- Organism=='Vib' & Condition=='NH'
+vibNO <- Organism=='Vib' & Condition=='NO'
+vibNoN <- Organism=='Vib' & Condition=='NoN'
+mariNH <- Organism=='Mari' & Condition=='NH'
+mariNO <- Organism=='Mari' & Condition=='NO'
+mariNoN <- Organism=='Mari' & Condition=='NoN'
+
+
+OD <- function(strain, color) {
+    points(Time[strain], mean_OD[strain], pch=16, cex=0.8, col=color)
+    lines(Time[strain], mean_OD[strain], col=color, lwd=1.2)
+    segments(Time[strain], y0=mean_OD[strain]-sem_OD[strain], y1=mean_OD[strain]+sem_OD[strain], col=color, lwd=1.2)
+}
+
+
+#pdf('Nitrate_Ammonium_GC_20211209.pdf', height=8, width=10, useDingbats = FALSE)
+
+plot(Time[rpomNH], mean_OD[rpomNH], type='n',  las=1, xlab='Time(Hr)', ylab='OD600', main='Growth on Ammonium', bty='n', ylim=c(0, 0.4),cex=1.5, col='gray80')
+OD(rpomNH, rpomColor)
+OD(vibNH, vibColor)
+OD(mariNH, mariColor)
+
+
+plot(Time[rpomNO], mean_OD[rpomNO], type='n',  las=1, xlab='Time(Hr)', ylab='OD600', main='Growth on Nitrate', bty='n', ylim=c(0,0.4), cex=1.5, col='gray80')
+OD(rpomNO, rpomColor)
+OD(vibNO, vibColor)
+OD(mariNO, mariColor)
+
+
+plot(Time[rpomNoN], mean_OD[rpomNoN], type='n',  las=1, xlab='Time(Hr)', ylab='OD600', main='Growth on Glucose no Nitrogen', bty='n', ylim=c(0,0.4), cex=1.5, col='gray80')
+OD(rpomNoN, rpomColor)
+OD(vibNoN, vibColor)
+OD(mariNoN, mariColor)
+legend(30, 0.3, legend=c('R. pomeroyi WT', 'Vibrio', 'Marivivens'), col=c(rpomColor, vibColor, mariColor), bty='n', pch=16)
+#dev.off()
+detach(blankedGrowthCurve)
+```
+
+# Growth on malate, spermidine, glycolate
+
+```{r}
+
+glycolate_OD <- fread('Data/Glycolate_Malate_GrowthCurves_CBS.csv') %>%  melt(., id=('Time'), variable.name='Well', value.name='OD600')
+glycolate_OD$Well <- as.integer(glycolate_OD$Well)
+glycolate_layout <- fread('Data/Glycolate_Malate_GrowthCurves_CBS_platelayout.csv')
+
+
+
+glycolate_growthData <- inner_join(glycolate_OD, glycolate_layout , by='Well')
+
+
+glycolate_mean <- meanCells(glycolate_growthData)
+
+# Blank transformed data
+
+glycolate_mean$mean_OD[glycolate_mean$Organism!='Blank' & glycolate_mean$Condition=='Glycolate'] <- glycolate_mean$mean_OD[glycolate_mean$Organism!='Blank' & glycolate_mean$Condition=='Glycolate'] - glycolate_mean$mean_OD[glycolate_mean$Organism=='Blank' & glycolate_mean$Condition=='Glycolate']
+
+
+attach(glycolate_mean)
+rpomGlycolate <- Organism=='Rpom' & Condition=='Glycolate'
+
+vibGlycolate <- Organism=='Vib' & Condition=='Glycolate'
+
+mariGlycolate <- Organism=='Mari' & Condition=='Glycolate'
+
+
+
+
+OD <- function(strain, color) {
+    points(Time[strain], mean_OD[strain], pch=16, cex=0.8, col=color)
+    lines(Time[strain], mean_OD[strain], col=color, lwd=1.2)
+    segments(Time[strain], y0=mean_OD[strain]-sem_OD[strain], y1=mean_OD[strain]+sem_OD[strain], col=color, lwd=1.2)
+}
+
+
+#pdf('glycolateMalate_growth.pdf')
+plot(Time[rpomGlycolate], mean_OD[rpomGlycolate], type='n',  las=1, xlab='Time(Hr)', ylab='OD600', main='Growth on Glycolate', bty='n', ylim=c(0, 0.2),cex=1.5, col='gray80')
+OD(rpomGlycolate, rpomColor)
+OD(vibGlycolate, vibColor)
+OD(mariGlycolate, mariColor)
+
+#dev.off()
+
+detach(glycolate_mean)
+
+```
+
+
+```{r}
+ArgGln <- fread('Data/cbs_growth_arginine_gln_malonate.csv') %>% 
+    pivot_longer(., cols=2:19, names_to='Organism', values_to='OD') %>% 
+    separate(., col='Organism', into=c('Organism', 'Condition', 'Rep')) %>% 
+    group_by(Time, Organism, Condition) %>% 
+    summarize(mean_OD=mean(OD), sem_OD=sd(OD)/sqrt(length(OD)))
+attach(ArgGln)
+
+rpomArg <- Organism=='Rp' & Condition=='arginine'
+mariArg <- Organism=='Marivivens' & Condition=='arginine'
+vibArg <- Organism=='Vibrio' & Condition=='arginine'
+#pdf('ArginineGrowth.pdf')
+plot(Time[rpomArg], mean_OD[rpomArg], type='n',  las=1, xlab='Time(h)', ylab='OD600', main='Growth on Arginine', bty='n', ylim=c(0, 0.2),cex=1.5, col='gray80')
+OD(rpomArg, rpomColor)
+OD(vibArg, vibColor)
+OD(mariArg, mariColor)
+#dev.off()
+
+rpomGln <- Organism=='Rp' & Condition=='glutamine'
+mariGln <- Organism=='Marivivens' & Condition=='glutamine'
+vibGln <- Organism=='Vibrio' & Condition=='glutamine'
+#pdf('GlutamineGrowth.pdf')
+plot(Time[rpomGln], mean_OD[rpomGln], type='n',  las=1, xlab='Time(h)', ylab='OD600', main='Growth on Glutamine', bty='n', ylim=c(0, 0.2),cex=1.5, col='gray80')
+OD(rpomGln, rpomColor)
+OD(vibGln, vibColor)
+OD(mariGln, mariColor)
+#dev.off()
+
+
+detach()
+```
+
+```{r}
+GluRibose <- fread('Data/cbs_glutamate_ribose.csv')%>%  melt(., id=('Time'), variable.name='Well', value.name='OD600')
+
+GluRibose_layout <- fread('Data/cbs_glutamate_ribose_plateLayout.csv')
+
+
+GluRibose_growthData <- inner_join(GluRibose, GluRibose_layout , by='Well')
+
+
+GluRibose_mean <- meanCells(GluRibose_growthData)
+
+
+GluRibose_mean$mean_OD[GluRibose_mean$Organism!='Blank' & GluRibose_mean$Condition=='Glutamate'] <- GluRibose_mean$mean_OD[GluRibose_mean$Organism!='Blank' & GluRibose_mean$Condition=='Glutamate'] - GluRibose_mean$mean_OD[GluRibose_mean$Organism=='Blank' & GluRibose_mean$Condition=='Glutamate']
+
+
+attach(GluRibose_mean)
+
+rpomGlu <- Organism=='Rpom' & Condition=='Glutamate'
+vibGlu <- Organism=='Vib' & Condition=='Glutamate'
+mariGlu <- Organism=='Mari' & Condition=='Glutamate'
+
+#pdf('GlutamateGrowth.pdf')
+plot(Time[rpomGlu], mean_OD[rpomGlu], type='n',  las=1, xlab='Time(h)', ylab='OD600', main='Growth on Glutamate', bty='n', ylim=c(0, 0.3),cex=1.5, col='gray80')
+OD(rpomGlu, rpomColor)
+OD(vibGlu, vibColor)
+OD(mariGlu, mariColor)
+#dev.off()
+
+
+detach()
+```
+
+
+```{r}
+DMSP <- fread('Data/DSS3,HF1,HF70_DMSP_48-well.csv') %>% 
+    pivot_longer(., cols=2:25, names_to='Organism', values_to='OD') %>% 
+  na.omit() %>% 
+    separate(., col='Organism', into=c('Organism', 'Condition', 'Rep')) %>% 
+    group_by(Time, Organism, Condition) %>% 
+    summarize(mean_OD=mean(OD), sem_OD=sd(OD)/sqrt(length(OD)))
+attach(DMSP)
+
+
+rpomDMSP <- Organism=='DSS3' & Condition=='DMSP'
+mariDMSP <- Organism=='HF1' & Condition=='DMSP'
+vibDMSP <- Organism=='HF70' & Condition=='DMSP'
+#pdf('DMSP.pdf')
+plot(Time[rpomDMSP], mean_OD[rpomDMSP], type='n',  las=1, xlab='Time(h)', ylab='OD600', main='DMSP', bty='n', ylim=c(0, 0.2),xlim=c(0, 20), cex=1.5, col='gray80')
+OD(rpomDMSP, rpomColor)
+OD(vibDMSP, vibColor)
+OD(mariDMSP, mariColor)
+#dev.off()
+detach()
+
+```
+
+
