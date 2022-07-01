@@ -17,8 +17,6 @@ vib_col <- 6:9
 mari_col <- 10:13
 all_col <- 14:17
 
-rpomAlone_W_test <- as.numeric(fit_rando[spoSampling, rpomAlone_col])
-treatment_W_test <- as.numeric(fit_rando[spoSampling, vib_col])
 
 
 meanFitness_fold <- meanFitness %>% 
@@ -70,7 +68,9 @@ for(i in 1:nrow(fit_rando)){
   spoFit <- fit_rando$spo[i]
   spoSampling <- fit_rando$spo == spoFit
   if(!is.na(fit_rando$CC_fold_diff[fit_rando$spo==spoFit])){
-      LFC_dist <- replicate(10000, randomizedDifferenceInMeans(rpomAlone_W = rpomAlone_W_test, treatment_W=treatment_W_test))
+    rpomAlone_W_test <- as.numeric(fit_rando[spoSampling, rpomAlone_col])
+    treatment_W_test <- as.numeric(fit_rando[spoSampling, vib_col])
+      LFC_dist <- replicate(100, randomizedDifferenceInMeans(rpomAlone_W = rpomAlone_W_test, treatment_W=treatment_W_test))
     spoTable[i] <- spoFit
     pVal[i] <- pvalue(LFC_dist, fit_rando$CC_fold_diff[fit_rando$spo==spoFit])
   } else {

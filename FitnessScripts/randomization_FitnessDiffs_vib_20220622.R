@@ -11,14 +11,13 @@ set.seed(15)
 meanFitness <- fread('Data/meanFitness_20220622.csv')
 
 fitness <- fread('Data/fitness_raw_20220622.csv')
+spoFunction <- fread('DSS3_annotations_April2020.csv', header=TRUE)
 
 rpomAlone_col <- 2:5
 vib_col <- 6:9
 mari_col <- 10:13
 all_col <- 14:17
 
-rpomAlone_W_test <- as.numeric(fit_rando[spoSampling, rpomAlone_col])
-treatment_W_test <- as.numeric(fit_rando[spoSampling, vib_col])
 
 
 meanFitness_fold <- meanFitness %>% 
@@ -49,7 +48,7 @@ randomizedDifferenceInMeans <- function(rpomAlone_W=rpomAlone_W_test, treatment_
   # calculate the means
   meanW_rpomAlone <- mean(combined[group=='rpomAlone'], na.rm=TRUE)
   meanW_treatment <- mean(combined[group=='treatment'], na.rm=TRUE)
-  LFC_diff <- round(log2((meanW_rpomAlone+0.01)/(meanW_treatment+0.01)),3)
+  LFC_diff <- round(log2((meanW_treatment+0.01)/(meanW_rpomAlone+0.01)),3)
   LFC_diff
 }
 
@@ -61,7 +60,7 @@ pvalue <- function(x, observed){
     nExtreme <- length(x[ x<= observed])
   }
   nTotal <- length(x)
-  p <- nExtreme / nTotal
+  p <- (nExtreme / nTotal)*2
   p
 }
 
@@ -69,10 +68,12 @@ pvalue <- function(x, observed){
 for(i in 1:nrow(fit_rando)){
   spoFit <- fit_rando$spo[i]
   spoSampling <- fit_rando$spo == spoFit
-  if(!is.na(fit_rando$CC_fold_diff[fit_rando$spo==spoFit])){
+  if(!is.na(fit_rando$Vib_fold_diff[fit_rando$spo==spoFit])){
+    rpomAlone_W_test <- as.numeric(fit_rando[spoSampling, 2:5])
+    treatment_W_test <- as.numeric(fit_rando[spoSampling, 6:9])
       LFC_dist <- replicate(10000, randomizedDifferenceInMeans(rpomAlone_W = rpomAlone_W_test, treatment_W=treatment_W_test))
     spoTable[i] <- spoFit
-    pVal[i] <- pvalue(LFC_dist, fit_rando$CC_fold_diff[fit_rando$spo==spoFit])
+    pVal[i] <- pvalue(LFC_dist, fit_rando$Vib_fold_diff[fit_rando$spo==spoFit])
   } else {
     spoTable[i] <- spoFit
     pVal[i] <- NA
