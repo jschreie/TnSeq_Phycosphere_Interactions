@@ -437,9 +437,9 @@ paste('Mean Generations=', mean(as.numeric(gen4Table[1:4, 2])))
 
 ## Overview of fitness profiles
 ```{r, warning=FALSE, echo=FALSE, fig.align='center', fig.height=4, fig.width=9}
-meanFitness <- fread('Data/meanFitness_20220622.csv', header=TRUE)
-significantFitness <- fread('significantW_Metabolism_20220705.csv', header=TRUE)
-table1 <- fread('significantW_Metabolism_20220705.csv', header=TRUE) #%>% 
+meanFitness <- fread('Data/meanFitness_20220701.csv', header=TRUE)
+significantFitness <- fread('Data/significantFitness_Metabolism_20220706.csv', header=TRUE)
+table1 <- fread('Data/significantFitness_Metabolism_20220706.csv', header=TRUE) #%>% 
     #inner_join(., significantFitness, by='spo')
 
 #Select only significant genes to later be counted as fit increases or decreases
@@ -477,15 +477,15 @@ print(c('rpomAlone against marivivens spearman:', cor.test(meanFitness$meanW_rpo
 print(c('rpomAlone against Complete Commuinity spearman:', cor.test(meanFitness$meanW_rpomAlone, meanFitness$meanW_CC, method='spearman')[3:4]))
 
 
-#pdf('fitnessOverview20220601.pdf', height=3, width=9,useDingbats=FALSE)
+#pdf('fitnessOverview20220706.pdf', height=3, width=9,useDingbats=FALSE)
 par(mfrow=c(1,4), mar=c(5,4,4,1))
 
 overallFitPlot(meanFitness$meanW_rpomAlone, meanFitness$meanW_vib, vibSig$meanW_rpomAlone, vibSig$meanW_vib, vibSigTable$meanW_rpomAlone, vibSigTable$meanW_vib, 'W(Rp)','W(Rp+V)', vibColor)
 
 
-overallFitPlot(meanFitness$mean_rpomAlone, meanFitness$mean_mari, mariSig$mean_rpomAlone, mariSig$mean_mari,  mariSigTable$mean_rpomAlone, mariSigTable$mean_mari, 'W(Rp)','W(Rp+M)', mariColor)
+overallFitPlot(meanFitness$meanW_rpomAlone, meanFitness$meanW_mari, mariSig$meanW_rpomAlone, mariSig$meanW_mari,  mariSigTable$meanW_rpomAlone, mariSigTable$meanW_mari, 'W(Rp)','W(Rp+M)', mariColor)
 
-overallFitPlot(meanFitness$mean_rpomAlone, meanFitness$mean_CC, commSig$mean_rpomAlone, commSig$mean_CC,commSigTable$mean_rpomAlone, commSigTable$mean_CC, 'W(Rp)','W(Rp+V+M)', compCommColor)
+overallFitPlot(meanFitness$meanW_rpomAlone, meanFitness$meanW_CC, commSig$meanW_rpomAlone, commSig$meanW_CC,commSigTable$meanW_rpomAlone, commSigTable$meanW_CC, 'W(Rp)','W(Rp+V+M)', compCommColor)
 #dev.off()
 ```
 
@@ -518,10 +518,10 @@ prop.test(c(commSigIncrease, commSigDecrease), c(commTotal, commTotal))
 ```{r, echo=FALSE, fig.align='center'}
 
 
-#pdf('log2FC_Whist_20220601.pdf', width=5, height=5)
-hist(vibSig$Vib_fold_diff, seq(-6.5, 6.6, length.out = 125), col=vibColor, xlim=c(-6.5, 6.5), ylim=c(0,15), border='white', xlab='log2_FC Rp+V', main='')
-hist(mariSig$Mari_fold_diff, seq(-6.5, 6.6, length.out = 125), col=mariColor, xlim=c(-6.5, 6.5), ylim=c(0,15), border='white', xlab='log2_FC Rp+M', main='')
-hist(commSig$CC_fold_diff, seq(-6.6, 6.6, length.out = 125), col=compCommColor, xlim=c(-6.5, 6.5), ylim=c(0,15), border='white', xlab='log2_FC Rp+V+M', main='')
+#pdf('log2FC_Whist_20220707.pdf', width=5, height=5)
+hist(vibSig$Vib_fold_diff, seq(-6.5, 6.6, length.out = 125), col=vibColor, xlim=c(-6.5, 6.5), ylim=c(0,40), border='white', xlab='log2_FC Rp+V', main='')
+hist(mariSig$Mari_fold_diff, seq(-6.5, 6.6, length.out = 125), col=mariColor, xlim=c(-6.5, 6.5), ylim=c(0,40), border='white', xlab='log2_FC Rp+M', main='')
+hist(commSig$CC_fold_diff, seq(-6.6, 6.6, length.out = 125), col=compCommColor, xlim=c(-6.5, 6.5), ylim=c(0,40), border='white', xlab='log2_FC Rp+V+M', main='')
 #dev.off()
 
 # wilcox.test(vib_inc_dW, cc_inc_dW, conf.int = TRUE)

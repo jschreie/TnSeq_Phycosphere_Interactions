@@ -1,0 +1,375 @@
+spo,gene,funct,NCBI,meanW_rpomAlone,semW_rpomAlone,meanW_vib,semW_vib,meanW_mari,semW_mari,meanW_CC,semW_CC,pval_vib,padj_vib,pval_mari,pval_cc,padj_cc,padj_mari,sig_vib,sig_cc,sig_mari,Vib_fold_diff,Mari_fold_diff,CC_fold_diff,Name,Metabolism,Function,COG
+SPO0005,SPO0005,hypothetical protein,SPO_RS00025,1.1,0.025,1,0.029,1,0.025,1,0.029,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO0018,argG,argininosuccinate synthase,SPO_RS00090,0,0,0.095,0.095,0.068,0.039,0.12,0.07,0,0,0,NA,NA,0,yes,NA,yes,3.4,3,3.7,argininosuccinate synthase (EC 6.3.4.5),Amphibolic,COG0137,AA
+SPO0029,rumA,23S rRNA (Uracil-5-)-methyltransferase rumA,SPO_RS00145,1.1,0.028,1,0,1,0.03,1,0.005,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,23S rRNA m(5)U-1939 methyltransferase (EC 2.1.1.190),,COG2265,translation
+SPO0060,mutT,mutator mutT protein,SPO_RS00305,1,0.029,1.1,0.025,1.1,0.025,1,0.029,0,0,0,NA,NA,0,yes,NA,yes,0.14,0.14,0,mutator mutT protein,Anabolic,COG1051,nucleotide
+SPO0071,SPO0071,"competence protein F, putative",SPO_RS00360,1.1,0.025,0.96,0.028,1,0.035,0.92,0.037,0,0,NA,0,0,NA,yes,yes,NA,-0.19,-0.14,-0.26,NA,,NA,NA
+SPO0075,SPO0075,ErfK/YbiS/YcfS/YnhG family protein/Tat domain protein,SPO_RS00380,1.1,0.025,1.1,0.025,1,0.029,1,0.029,NA,NA,0,0,0,0,NA,yes,yes,0,-0.14,-0.14,NA,,NA,NA
+SPO0078,SPO0078,"ribosomal subunit interface protein, putative",SPO_RS00395,1.1,0,1,0,1.1,0.025,0.99,0.0075,0,0,NA,0,0,NA,yes,yes,NA,-0.14,0,-0.15,SSU ribosomal protein S30P/sigma 54 modulation protein,Anabolic,COG1544,translation
+SPO0084,betB,betaine aldehyde dehydrogenase,SPO_RS00425,1.1,0.025,1,0,1,0,1,0.027,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,-0.14,betaine aldehyde dehydrogenase (EC 1.2.1.8),Catabolic,COG1012,Energy
+SPO0091,SPO0091,rhodanese-like domain protein,SPO_RS00460,1,0.0025,1.1,0.025,1,0,1,0.0025,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,0,0,NA,,NA,NA
+SPO0095,pncB,nicotinate phosphoribosyltransferase,SPO_RS00480,0.89,0.017,0.96,0.014,0.96,0.0082,0.94,0.025,0,0,NA,NA,NA,NA,yes,NA,NA,0.11,0.11,0.078,nicotinate phosphoribosyltransferase,Amphibolic,COG1488,Coenzyme
+SPO0102,panB,3-methyl-2-oxobutanoate hydroxymethyltransferase,SPO_RS00515,0.74,0.031,0.99,0.0071,0.99,0.0095,0.99,0.01,0,0,0,0,0,0,yes,yes,yes,0.42,0.42,0.42,ketopantoate hydroxymethyltransferase (EC 2.1.2.11),Anabolic,COG0413,Coenzyme
+SPO0119,SPO0119,"transcriptional regulator, AsnC family",SPO_RS00605,1,0.032,1,0.042,1.1,0.04,1.1,0.059,NA,NA,0,NA,NA,0,NA,NA,yes,0,0.14,0.14,NA,,NA,NA
+SPO0124,mepA,murein endopeptidase,SPO_RS00635,1.1,0.025,1,0,1,0,1,0,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO0126,SPO0126,hypothetical protein,SPO_RS00645,1,0,1.1,0.028,1,0,1,0.036,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,0,0,NA,,NA,NA
+SPO0134,SPO0134,hypothetical protein,SPO_RS00685,1,0.073,1.1,0.054,1.1,0.06,1.2,0.029,NA,NA,NA,0,0,NA,NA,yes,NA,0.14,0.14,0.26,NA,,NA,NA
+SPO0146,mutM,formamidopyrimidine-DNA glycosylase,SPO_RS00750,1.1,0.025,1,0.025,1,0.025,1,0.033,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO0160,SPO0160,hypothetical protein,SPO_RS00820,1.1,0.025,1,0.025,1,0,1,0.029,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,hypothetical protein,,COG1690,translation
+SPO0186,tctC,TctC solute-binding protein; tripartite tricarboxylate TTT transporter,SPO_RS00950,1.1,0.025,1.1,0.025,1,0.025,1,0.025,NA,NA,0,0,0,0,NA,yes,yes,0,-0.14,-0.14,bordetella uptake gene family protein,Transport,COG3181,Energy
+SPO0210,leuB,3-isopropylmalate dehydrogenase,SPO_RS01070,0.045,0.045,0.15,0.089,0.053,0.031,0.26,0.046,NA,NA,NA,0,0,NA,NA,yes,NA,1.5,0.2,2.3,3-isopropylmalate dehydrogenase,Anabolic,COG0473,"AA,Energy"
+SPO0215,leuD-1,"3-isopropylmalate dehydratase, small subunit",SPO_RS01095,0.19,0.023,0.42,0.029,0.29,0.066,0.33,0.04,0,0,NA,0,0,NA,yes,yes,NA,1.1,0.58,0.77,isopropylmalate isomerase small subunit,Anabolic,COG0066,AA
+SPO0219,SPO0219,iojap-related protein,SPO_RS01115,0.98,0.014,1.1,0,1,0,1.1,0.025,0,0,NA,0,0,NA,yes,yes,NA,0.17,0.029,0.17,iojap-related protein,,COG0799,translation
+SPO0222,ald,alanine dehydrogenase,SPO_RS01130,1.1,0.028,1,0.025,1,0.005,1,0.026,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.14,-0.14,L-alanine dehydrogenase (EC 1.4.1.1),Amphibolic,COG0686,AA
+SPO0227,SPO0227,"PaxA, putative",,1.1,0.025,1,0,1,0.029,1,0,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO0253,ilvE,branched-chain amino acid aminotransferase,SPO_RS01290,1.1,0.025,1,0.029,1,0.029,1,0,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,-0.14,branched chain amino acid aminotransferase apoenzyme (EC 2.6.1.42),Amphibolic,COG0115,"AA,Coenzyme"
+SPO0254,ohr,organic hydroperoxide resistance protein,SPO_RS01295,1.1,0.025,1,0.025,1,0.029,1,0.029,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO0256,SPO0256,"copper-binding protein, plastocyanin/azurin family",SPO_RS01305,0.96,0.027,0.99,0.013,1.1,0.048,1,0.045,NA,NA,0,NA,NA,0,NA,NA,yes,0.044,0.19,0.058,"copper-binding protein, plastocyanin/azurin family",Catabolic,COG3794,Energy
+SPO0270,SPO0270,glutathione S-transferase family protein,SPO_RS01375,1.1,0.048,1,0.025,1,0.029,1,0.061,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO0282,SPO0282,hypothetical protein,SPO_RS01430,1.1,0.069,0.93,0.061,0.95,0.047,0.92,0.029,NA,NA,NA,0,0,NA,NA,yes,NA,-0.24,-0.21,-0.26,NA,,NA,NA
+SPO0284,SPO0284,"dihydroorotase, multifunctional complex type",SPO_RS01440,0.14,0.08,0.41,0.12,0.34,0.086,0.66,0.093,NA,NA,NA,0,0,NA,NA,yes,NA,1.5,1.2,2.2,dihydroorotase (EC 3.5.2.3),Anabolic,COG0044,nucleotide
+SPO0285,SPO0285,hypothetical protein,SPO_RS01445,0.8,0.049,0.9,0.039,0.94,0.022,1,0.034,NA,NA,0,0,0,0,NA,yes,yes,0.17,0.23,0.32,NA,,NA,NA
+SPO0286,SPO0286,hypothetical protein,SPO_RS01450,0.71,0.062,0.88,0.088,0.91,0.024,0.97,0.062,NA,NA,0,NA,NA,0,NA,NA,yes,0.31,0.35,0.44,NA,,NA,NA
+SPO0289,SPO0289,Ser/Thr protein phosphatase family protein,SPO_RS01470,0.78,0.023,0.94,0.029,0.87,0.039,0.88,0.025,0,0,NA,NA,NA,NA,yes,NA,NA,0.27,0.16,0.17,NA,,NA,NA
+SPO0304,SPO0304,"lipoprotein, putative",SPO_RS01545,1.1,0.025,1.1,0.025,1.1,0,1,0.029,NA,NA,NA,0,0,NA,NA,yes,NA,0,0,-0.14,NA,,NA,NA
+SPO0322,SPO0322,hypothetical protein,SPO_RS22380,1.2,0.029,1,0.025,1,0.037,1,0.094,0,0,0,0,0,0,yes,yes,yes,-0.26,-0.26,-0.26,NA,,NA,NA
+SPO0332,argH,argininosuccinate lyase,SPO_RS01690,0,0,0.058,0.058,0,0,0,0,0,0,NA,NA,NA,NA,yes,NA,NA,2.8,0,0,argininosuccinate lyase,Amphibolic,COG0165,AA
+SPO0337,ftsE,cell division ATP-binding protein FtsE,SPO_RS01715,1.1,0.025,1,0,1,0.029,1,0.0025,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO0338,SPO0338,"cell division permease protein FtsX, putative",SPO_RS01720,1,0.029,1.1,0.033,1,0.028,0.98,0.01,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,0,-0.029,NA,,NA,NA
+SPO0344a,SPO0344a,hypothetical protein,SPO_RS01750,0.49,0.044,0.83,0.051,0.73,0.029,0.9,0.041,0,0,0,NA,NA,0,yes,NA,yes,0.75,0.57,0.86,NA,,NA,NA
+SPO0377,SPO0377,"sugar ABC transporter, permease protein",SPO_RS01910,1,0.025,1,0.03,1.1,0.025,1,0.025,NA,NA,0,NA,NA,0,NA,NA,yes,0,0.14,0,NA,,NA,NA
+SPO0388,SPO0388,"aminotransferase, class IV",SPO_RS01965,1.1,0,1,0.025,1,0.025,1,0,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,branched-chain amino acid aminotransferase,Amphibolic,COG0115,"AA,Coenzyme"
+SPO0391,bphC3,"biphenyl-2,3-diol 1,2-dioxygenase III",SPO_RS01980,1,0.029,1.1,0.025,1,0.029,1.1,0.03,0,0,NA,0,0,NA,yes,yes,NA,0.14,0,0.14,NA,,NA,NA
+SPO0397,glnD,protein-P-II uridylyltransferase,SPO_RS02010,0.89,0.04,0.2,0.2,0.59,0.059,0,0,NA,NA,NA,0,0,NA,NA,yes,NA,-2.1,-0.58,-6.5,NA,,NA,NA
+SPO0422,leuA,2-isopropylmalate synthase,SPO_RS02135,0.38,0.048,0.58,0.024,0.58,0.045,0.57,0.051,NA,NA,0,NA,NA,0,NA,NA,yes,0.6,0.6,0.57,2-isopropylmalate synthase (EC 2.3.3.13),Anabolic,COG0119,AA
+SPO0437,SPO0437,cold shock family protein,SPO_RS02210,0.96,0.018,1.1,0.035,0.97,0.015,1,0.026,0,0,NA,NA,NA,NA,yes,NA,NA,0.19,0.015,0.058,NA,,NA,NA
+SPO0464,SPO0464,hypothetical protein,SPO_RS02340,0.96,0.031,1,0.06,1,0.036,1.1,0.035,NA,NA,NA,0,0,NA,NA,yes,NA,0.058,0.058,0.19,NA,,NA,NA
+SPO0481,SPO0481,"acetyltransferase, GNAT family",SPO_RS02425,1.1,0.025,1,0.032,1,0.025,1.1,0.025,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,0,NA,,NA,NA
+SPO0492,SPO0492,cyclic nucleotide-binding domain protein,SPO_RS02485,1.1,0.033,0.97,0.011,0.96,0.024,1,0.029,0,0,0,NA,NA,0,yes,NA,yes,-0.18,-0.19,-0.14,NA,,NA,NA
+SPO0503,rpmD,ribosomal protein L30,SPO_RS02540,0.62,0.023,0.8,0.035,0.74,0.034,0.79,0.037,NA,NA,NA,0,0,NA,NA,yes,NA,0.36,0.25,0.34,LSU ribosomal protein L30P,Anabolic,COG1841,translation
+SPO0521,SPO0521,"glutamate/glutamine/aspartate/asparagine ABC transporter, permease protein",SPO_RS02630,0.91,0.027,1,0.025,0.98,0.01,1.1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0.13,0.11,0.27,L-glutamate ABC transporter membrane protein/L-glutamine ABC transporter membrane protein/L-aspartate ABC transporter membrane protein/L-asparagine ABC transporter membrane protein,Transport,COG0765,AA
+SPO0529,SPO0529,hypothetical protein,SPO_RS02670,1.2,0.072,1.2,0.029,0.99,0.045,1,0.058,NA,NA,NA,0,0,NA,NA,yes,NA,0,-0.28,-0.26,NA,,NA,NA
+SPO0554,SPO0554,"glycosyl transferase, group 1 family protein",SPO_RS02795,1.1,0.041,1,0.032,0.99,0.0048,1.1,0.025,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.15,0,NA,,NA,NA
+SPO0576,SPO0576,"transcriptional regulator, TetR family",SPO_RS22105,1.1,0,1,0.026,1,0.027,1.1,0.028,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,0,NA,,NA,NA
+SPO0590,hpsR,"transcriptional regulator, LacI family",SPO_RS02975,0.59,0.14,0.92,0.028,0.77,0.05,0.92,0.032,0,0,NA,NA,NA,NA,yes,NA,NA,0.63,0.38,0.63,NA,,NA,NA
+SPO0642,SPO0642,"oxidoreductase, FAD-binding protein",SPO_RS03245,1,0.032,1.1,0.049,1,0.042,1.1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0.14,0,0.14,"oxidoreductase, FAD-binding",Catabolic,COG0665,AA
+SPO0654,xdhA,"xanthine dehydrogenase, A subunit",SPO_RS03305,1.1,0.061,1,0.042,1,0.029,0.99,0.0075,NA,NA,NA,0,0,NA,NA,yes,NA,-0.14,-0.14,-0.15,"xanthine dehydrogenase, A subunit",Catabolic,COG4630,nucleotide
+SPO0655,SPO0655,hypothetical protein,SPO_RS03310,0.96,0.026,0.61,0.16,1,0.037,0.9,0.063,0,0,NA,NA,NA,NA,yes,NA,NA,-0.65,0.058,-0.092,NA,,NA,NA
+SPO0673,tpa,taurine--pyruvate aminotransferase,SPO_RS03400,0.97,0.02,0.86,0.054,0.85,0.027,0.91,0.013,NA,NA,0,NA,NA,0,NA,NA,yes,-0.17,-0.19,-0.091,taurine--pyruvate aminotransferase,Catabolic,COG0161,Coenzyme
+SPO0691,era,GTP-binding protein Era,SPO_RS03490,0.56,0.19,0.98,0.044,0.99,0.04,0.84,0.12,0,0,0,NA,NA,0,yes,NA,yes,0.8,0.81,0.58,GTP-binding protein Era,Anabolic,COG1159,translation
+SPO0715,SPO0715,phosphocarrier protein HPr,SPO_RS03610,0.34,0.14,0.82,0.13,0.77,0.061,0.68,0.23,NA,NA,0,NA,NA,0,NA,NA,yes,1.2,1.2,0.98,phosphocarrier protein HPr,Transport,COG1925,Carbon
+SPO0717,bhbD,3-hydroxybutyryl-CoA dehydrogenase,SPO_RS03620,1.1,0.028,1,0.029,0.98,0.012,1,0.033,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.17,-0.14,3-hydroxyacyl-CoA dehydrogenase (EC 1.1.1.35),Amphibolic,COG1250,lipids
+SPO0755,paaI,phenylacetic acid degradation protein PaaI,SPO_RS03810,1,0.029,1.1,0.028,1.1,0,1.1,0.025,0,0,0,0,0,0,yes,yes,yes,0.14,0.14,0.14,NA,,NA,NA
+SPO0757,paaG,phenylacetic acid degradation protein PaaG,SPO_RS03820,1.1,0.025,1.1,0.025,1,0.029,1,0.025,NA,NA,0,0,0,0,NA,yes,yes,0,-0.14,-0.14,NA,,NA,NA
+SPO0758,SPO0758,beta-ketoadipyl CoA thiolase,SPO_RS03825,1.1,0,1.1,0,1,0.029,1.1,0.025,NA,NA,0,NA,NA,0,NA,NA,yes,0,-0.14,0,acetyl-CoA acetyltransferase,Catabolic,COG0183,lipids
+SPO0779,rpe,ribulose-phosphate 3-epimerase,SPO_RS03930,0,0,0.1,0.1,0.072,0.072,0.18,0.12,0,0,NA,NA,NA,NA,yes,NA,NA,3.5,3,4.2,ribulose-5-phosphate 3-epimerase (EC 5.1.3.1),Anabolic,COG0036,Carbon
+SPO0800,SPO0800,choline sulfatase,SPO_RS04035,0.78,0.05,0.86,0.045,0.91,0.019,0.94,0.0085,NA,NA,NA,0,0,NA,NA,yes,NA,0.14,0.22,0.27,"choline sulfatase, putative",Catabolic,COG3119,Inorganics
+SPO0801,fadD,4-coumarate:CoA ligase,SPO_RS04040,0.96,0.024,0.83,0.017,0.94,0.032,0.94,0.021,0,0,NA,NA,NA,NA,yes,NA,NA,-0.21,-0.03,-0.03,4-coumarate:CoA ligase,Anabolic,COG0318,lipids
+SPO0833,SPO0833,"formate dehydrogenase, beta subunit",SPO_RS04200,1.1,0.025,1,0.027,1,0.025,1.1,0.025,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.14,0,NAD-dependent formate dehydrogenase flavoprotein subunit,Catabolic,"COG1905,COG1894",Energy
+SPO0835,SPO0835,"cyclase, putative",SPO_RS04210,1.1,0,1,0.046,1.1,0.025,1.1,0.048,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,0,0,"cyclase, putative",,COG1878,AA
+SPO0875,gap-2,"glyceraldehyde-3-phosphate dehydrogenase, type I",SPO_RS04410,0.63,0.044,0.75,0.035,0.67,0.027,0.83,0.019,NA,NA,NA,0,0,NA,NA,yes,NA,0.25,0.087,0.39,"glyceraldehyde-3-phosphate dehydrogenase, type I",Amphibolic,COG0057,Carbon
+SPO0882,SPO0882,hypothetical protein,,0.98,0.047,1.1,0,1,0.065,1,0.1,0,0,NA,NA,NA,NA,yes,NA,NA,0.17,0.029,0.029,NA,,NA,NA
+SPO0888,SPO0888,"acetyltransferase, GNAT family",,1,0.038,1.1,0.025,1.1,0.038,1,0.075,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,0.14,0,NA,,NA,NA
+SPO0891,SPO0891,"alkylphosphonate utilization protein PhnM, putative",SPO_RS04490,1.1,0.049,1,0.035,0.98,0.0065,1,0.042,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.17,-0.14,"alkylphosphonate utilization protein PhnM, putative",Catabolic,COG3454,Inorganics
+SPO0898,SPO0898,hypothetical protein,SPO_RS04525,1.1,0.025,1,0.029,1,0.03,1.1,0.025,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,0,NA,,NA,NA
+SPO0906,SPO0906,putative protein TIGR00726,SPO_RS04565,1,0.039,1.1,0.03,0.99,0.043,1,0.03,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,-0.014,0,conserved hypothetical protein TIGR00726,,COG1496,Inorganics
+SPO0910,SPO0910,hypothetical protein,SPO_RS04585,1.1,0,1,0.025,0.99,0.0071,1,0.028,0,0,NA,0,0,NA,yes,yes,NA,-0.14,-0.15,-0.14,NA,,NA,NA
+SPO0913,SPO0913,D-isomer specific 2-hydroxyacid dehydrogenase family protein,SPO_RS04600,1,0.029,1.1,0.028,1,0,1,0.035,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,0,0,D-isomer specific 2-hydroxyacid dehydrogenase family protein,,COG1052,"Coenzyme,Energy"
+SPO0929,SPO0929,"type II DNA modification methyltransferase, putative",SPO_RS04675,1.2,0.071,0.83,0.16,1.1,0.063,1.1,0.092,0,0,NA,NA,NA,NA,yes,NA,NA,-0.53,-0.12,-0.12,"type II DNA modification methyltransferase, putative",Catabolic,COG4725,translation
+SPO0934,SPO0934,hypothetical protein,SPO_RS04695,1.1,0.048,1,0.061,0.98,0.012,1,0.039,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.17,-0.14,hypothetical protein,,COG2981,AA
+SPO0935,SPO0935,nitroreductase family protein,SPO_RS04700,1.1,0.048,1,0.036,1,0.03,0.97,0.027,NA,NA,NA,0,0,NA,NA,yes,NA,-0.14,-0.14,-0.18,nitroreductase family protein,Catabolic,COG0778,Energy
+SPO0942,SPO0942,hypothetical protein,SPO_RS04730,1.1,0.025,1,0.053,1.1,0.049,1.1,0.025,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,0,0,NA,,NA,NA
+SPO0945,SPO0945,AsmA family protein,SPO_RS04745,1.1,0,1,0.039,1,0.029,1,0.03,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO0955,SPO0955,amidohydrolase domain protein,SPO_RS04795,1.1,0.025,1,0.036,0.97,0.016,1,0.029,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.18,-0.14,NA,,NA,NA
+SPO0968,SPO0968,"hydrolase, NUDIX family",SPO_RS04865,1.1,0.04,1,0.07,1,0.036,1,0.029,NA,NA,NA,0,0,NA,NA,yes,NA,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO0976,SPO0976,hypothetical protein,SPO_RS04905,1.2,0.087,0.94,0.1,1,0.041,0.92,0.049,NA,NA,NA,0,0,NA,NA,yes,NA,-0.35,-0.26,-0.38,hypothetical protein,,COG2847,Inorganics
+SPO1004,clpX,"ATP-dependent Clp protease, ATP-binding subunit ClpX",SPO_RS05055,0,0,0.43,0.25,0.12,0.12,0.14,0.14,0,0,0,NA,NA,0,yes,NA,yes,5.5,3.7,3.9,NA,,NA,NA
+SPO1007,SPO1007,hypothetical protein,SPO_RS05070,1.2,0.05,1.1,0,1,0.029,1.1,0,0,0,0,0,0,0,yes,yes,yes,-0.12,-0.26,-0.12,NA,,NA,NA
+SPO1042,SPO1042,hypothetical protein,SPO_RS05250,0.84,0.064,1.1,0.048,0.89,0.047,0.98,0.051,0,0,NA,NA,NA,NA,yes,NA,NA,0.39,0.082,0.22,NA,,NA,NA
+SPO1053,SPO1053,hypothetical protein,SPO_RS05345,1.1,0.038,1,0.029,1,0.034,1.1,0.041,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.14,0,NA,,NA,NA
+SPO1094a,SPO1094a,hypothetical protein,SPO_RS05555,1.1,0.025,0.98,0.014,1,0.005,1,0.031,0,0,0,NA,NA,0,yes,NA,yes,-0.17,-0.14,-0.14,NA,,NA,NA
+SPO1109,SPO1109,endonuclease/exonuclease/phosphatase family protein,SPO_RS05625,0.91,0.019,0.98,0.0096,0.94,0.038,0.95,0.024,0,0,NA,NA,NA,NA,yes,NA,NA,0.11,0.046,0.061,NA,,NA,NA
+SPO1119,SPO1119,membrane protein,SPO_RS05680,1.1,0.025,1,0.052,1,0.029,1,0.055,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO1126,SPO1126,cytochrome c family protein,SPO_RS05715,1.1,0.025,1,0.025,1,0.045,1.1,0.048,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,-0.14,0,NA,,NA,NA
+SPO1155,hisE,Phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31),SPO_RS05855,0.05,0.05,0.35,0.22,0,0,0.16,0.16,NA,NA,0,NA,NA,0,NA,NA,yes,2.6,-2.6,1.5,phosphoribosyl-ATP pyrophosphatase (EC 3.6.1.31),Catabolic,COG0140,AA
+SPO1171,pyc,pyruvate carboxylase,SPO_RS05935,1.1,0.025,0.98,0.014,0.97,0.01,0.99,0.0075,0,0,0,0,0,0,yes,yes,yes,-0.17,-0.18,-0.15,pyruvate carboxylase,,COG1038,Energy
+SPO1172,SPO1172,FMN-dependent alpha-hydroxy acid dehydrogenase family protein,SPO_RS05940,1.2,0.041,1.1,0.048,1,0.035,1.1,0.035,NA,NA,0,NA,NA,0,NA,NA,yes,-0.12,-0.26,-0.12,FMN-dependent alpha-hydroxy acid dehydrogenase family protein,Catabolic,COG1304,"Energy,Lipids"
+SPO1189,SPO1189,hypothetical protein,SPO_RS06025,0.99,0.0075,1.1,0.053,1.2,0.084,1.2,0.041,0,0,0,0,0,0,yes,yes,yes,0.15,0.28,0.28,NA,,NA,NA
+SPO1209,SPO1209,MlrC domain protein,SPO_RS06135,1,0.039,1.1,0.025,0.99,0.0071,0.97,0.02,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,-0.014,-0.044,NA,,NA,NA
+SPO1211,SPO1211,"oligopeptide ABC transporter, permease protein",SPO_RS06145,1.1,0.025,1,0.037,1,0.029,1,0.039,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.14,-0.14,"oligopeptide ABC transporter, permease protein",Transport,COG0601,"AA,Inorganics"
+SPO1213,SPO1213,"oligopeptide ABC transporter, ATP-binding protein",SPO_RS06155,0.98,0.019,0.99,0.013,0.9,0.0065,0.98,0.047,NA,NA,0,NA,NA,0,NA,NA,yes,0.014,-0.12,0,NA,,NA,NA
+SPO1219,SPO1219,"site-specific recombinase, phage integrase family",SPO_RS06195,1.1,0.025,1,0.029,1,0.029,1,0.029,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO1240,SPO1240,"type I secretion outer membrane protein, TolC family",SPO_RS06315,0.44,0.1,0.83,0.068,0.59,0.032,0.83,0.054,0,0,NA,0,0,NA,yes,yes,NA,0.9,0.42,0.9,NA,,NA,NA
+SPO1241,SPO1241,hypothetical protein,SPO_RS06320,1.1,0,1,0.029,1.1,0.025,1.1,0.04,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,0,0,NA,,NA,NA
+SPO1245,SPO1245,"ABC transporter, permease protein",SPO_RS06340,1,0.03,1.1,0.025,1.1,0.028,0.99,0.013,0,0,0,NA,NA,0,yes,NA,yes,0.14,0.14,-0.014,NA,,NA,NA
+SPO1249,SPO1249,"paraquat-inducible protein, putative",SPO_RS06365,1.1,0,1,0.025,1,0.029,1,0.029,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO1254,SPO1254,hypothetical protein,SPO_RS06390,1,0.038,1.1,0.041,1.1,0.056,1.1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0.14,0.14,0.14,NA,,NA,NA
+SPO1284,SPO1284,"transcriptional regulator, ArsR family",SPO_RS06540,1.1,0.025,1,0.025,1,0.029,1,0.029,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO1293,phaP,"phasin, PhaP",SPO_RS06585,1.1,0.056,0.93,0.044,0.96,0.049,0.91,0.066,0,0,NA,NA,NA,NA,yes,NA,NA,-0.24,-0.19,-0.27,NA,,NA,NA
+SPO1315,nthB,nitrile hydratase beta subunit,SPO_RS06705,1,0.05,1.1,0.048,1.1,0,1.1,0,NA,NA,0,0,0,0,NA,yes,yes,0.14,0.14,0.14,NA,,NA,NA
+SPO1318,purA,adenylosuccinate synthetase,SPO_RS06720,0,0,0.09,0.09,0.11,0.11,0.35,0.12,NA,NA,0,0,0,0,NA,yes,yes,3.3,3.6,5.2,Adenylosuccinate synthetase (EC 6.3.4.4),Anabolic,COG0104,nucleotide
+SPO1322,SPO1322,hypothetical protein,SPO_RS06740,1,0.029,1.1,0.025,1.1,0.043,0.98,0.0096,0,0,0,NA,NA,0,yes,NA,yes,0.14,0.14,-0.029,NA,,NA,NA
+SPO1333,SPO1333,"periplasmic serine protease, DO/DeqQ family",SPO_RS06795,0.96,0.036,1.1,0.048,1,0.034,1,0.05,0,0,NA,NA,NA,NA,yes,NA,NA,0.19,0.058,0.058,NA,,NA,NA
+SPO1347,SPO1347,hypothetical protein,SPO_RS06865,1,0.045,1,0.046,0.97,0.019,1.1,0,NA,NA,NA,0,0,NA,NA,yes,NA,0,-0.044,0.14,NA,,NA,NA
+SPO1351,metZ,O-succinylhomoserine sulfhydrylase,SPO_RS06880,0,0,0.068,0.068,0.065,0.065,0.12,0.12,0,0,NA,NA,NA,NA,yes,NA,NA,3,2.9,3.7,O-succinylhomoserine sulfhydrylase (EC 2.5.1.-),Anabolic,COG0626,AA
+SPO1360,SPO1360,hypothetical protein,SPO_RS06935,1.2,0.05,1.1,0.049,1,0.029,1.1,0.079,NA,NA,0,NA,NA,0,NA,NA,yes,-0.12,-0.26,-0.12,NA,,NA,NA
+SPO1383,ctaD,"cytochrome c oxidase, aa3-type, subunit I",SPO_RS07060,0.62,0.025,0.84,0.019,0.78,0.033,0.9,0.011,0,0,NA,NA,NA,NA,yes,NA,NA,0.43,0.33,0.53,"cytochrome c oxidase, aa3-type, subunit I",Catabolic,COG0843,Energy
+SPO1387,SPO1387,cation efflux system protein,SPO_RS07080,1.1,0,1,0.029,1.1,0.025,1.1,0.025,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,0,0,cation efflux system protein,Transport,COG1230,Inorganics
+SPO1427,SPO1427,hypothetical protein,SPO_RS07280,1.1,0.059,0.97,0.026,0.98,0.0087,0.98,0.022,0,0,0,0,0,0,yes,yes,yes,-0.18,-0.17,-0.17,NA,,NA,NA
+SPO1439,SPO1439,"DNA binding protein, putative",SPO_RS07335,1,0.036,1.1,0.025,1,0.038,1.1,0.025,0,0,NA,0,0,NA,yes,yes,NA,0.14,0,0.14,NA,,NA,NA
+SPO1443,rhlE,ATP-dependent RNA helicase RhlE,SPO_RS07355,0.7,0.03,0.94,0.032,0.9,0.022,0.94,0.041,0,0,0,0,0,0,yes,yes,yes,0.42,0.36,0.42,NA,,NA,NA
+SPO1481,cfa,cyclopropane fatty acyl phospholipid synthase,SPO_RS07545,0.45,0.17,0.84,0.028,0.88,0.11,0.8,0.074,0,0,NA,NA,NA,NA,yes,NA,NA,0.89,0.95,0.82,NA,,NA,NA
+SPO1496,SPO1496,"ABC transporter, permease protein",SPO_RS07620,0.75,0.071,1,0.026,0.99,0.039,1,0.034,NA,NA,0,NA,NA,0,NA,NA,yes,0.41,0.4,0.41,NA,,NA,NA
+SPO1519,coxL-1,"carbon monoxide dehydrogenase, large subunit",SPO_RS07730,1.1,0.025,0.95,0.013,1,0.037,0.91,0.031,0,0,NA,0,0,NA,yes,yes,NA,-0.21,-0.14,-0.27,"xanthine dehydrogenase, molybdenum binding subunit apoprotein (EC 1.17.1.4)",Catabolic,COG1529,Energy
+SPO1555,SPO1555,"formate dehydrogenase, beta subunit",SPO_RS07915,1.1,0,1,0.025,1,0.025,1,0.029,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,NAD-dependent formate dehydrogenase flavoprotein subunit,Catabolic,"COG1905,COG1894",Energy
+SPO1557,fhs-1,formate--tetrahydrofolate ligase,SPO_RS07925,1,0.029,1.1,0.025,1,0.026,1,0.029,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,0,0,Formate-tetrahydrofolate ligase (EC 6.3.4.3),Amphibolic,COG2759,nucleotide
+SPO1572,glyA-1,serine hydroxymethyltransferase,SPO_RS08000,1,0.025,1.1,0.025,1,0.034,1,0.032,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,0,0,serine hydroxymethyltransferase,Amphibolic,COG0112,AA
+SPO1586,mgdC,N-methylglutamate dehydrogenase subunit C,SPO_RS08070,1.1,0.048,0.94,0.068,0.94,0.042,1,0.065,NA,NA,0,NA,NA,0,NA,NA,yes,-0.22,-0.22,-0.14,N-methylglutamate dehydrogenase subunit C (EC 1.5.99.5),Catabolic,COG0404,AA
+SPO1594,SPO1594,"mandelate racemase/muconate lactonizing enzyme, putative",SPO_RS08110,1.3,0.048,1.1,0.09,1.1,0.073,1.1,0.09,0,0,0,NA,NA,0,yes,NA,yes,-0.24,-0.24,-0.24,NA,,NA,NA
+SPO1651,SPO1651,hypothetical protein,SPO_RS08390,0.98,0.014,0.75,0.086,0.92,0.034,0.83,0.069,0,0,NA,NA,NA,NA,yes,NA,NA,-0.38,-0.09,-0.24,NA,,NA,NA
+SPO1668,SPO1668,"membrane-associated zinc metalloprotease, putative",SPO_RS08475,1.1,0.057,0.97,0.051,0.93,0.0048,0.94,0.089,NA,NA,0,NA,NA,0,NA,NA,yes,-0.18,-0.24,-0.22,NA,,NA,NA
+SPO1677,trmU,tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase,SPO_RS08515,0.43,0.25,0.3,0.19,0.54,0.18,0,0,NA,NA,NA,0,0,NA,NA,yes,NA,-0.51,0.32,-5.5,tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase (EC 2.1.1.61),Anabolic,COG0482,translation
+SPO1690,SPO1690,"transcriptional regulator, GntR family",SPO_RS08575,1.1,0,0.98,0.014,1.1,0.025,1,0.028,0,0,NA,0,0,NA,yes,yes,NA,-0.17,0,-0.14,"transcriptional regulator, GntR family",,COG1167,AA
+SPO1693,SPO1693,hypothetical protein,SPO_RS22480,1.1,0.025,1,0.025,1,0.029,1,0,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO1727,SPO1727,"polyphosphate kinase 2, putative",SPO_RS08790,1.1,0.041,1.1,0.088,1,0.031,0.24,0.24,NA,NA,NA,0,0,NA,NA,yes,NA,0,-0.14,-2.2,"polyphosphate kinase 2, putative",Catabolic,COG2326,Energy
+SPO1734,hom,homoserine dehydrogenase,SPO_RS08825,0,0,0,0,0.31,0.19,0.23,0.23,NA,NA,0,NA,NA,0,NA,NA,yes,0,5,4.6,homoserine dehydrogenase (EC 1.1.1.3),Anabolic,COG0460,AA
+SPO1744,SPO1744,"sarcosine oxidase, beta subunit family",SPO_RS08875,0.92,0.013,0.98,0.051,1,0.0025,1,0.041,NA,NA,0,NA,NA,0,NA,NA,yes,0.09,0.12,0.12,"sarcosine oxidase, beta subunit family",Catabolic,COG0665,AA
+SPO1746,SPO1746,"sarcosine oxidase, alpha subunit family",SPO_RS08885,0.99,0.0075,0.9,0.045,0.95,0.03,0.92,0.029,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,-0.059,-0.1,"sarcosine oxidase, alpha subunit family",Catabolic,COG0404,AA
+SPO1756,SPO1756,polysaccharide biosynthesis/export protein,SPO_RS08935,1.2,0.029,1.1,0.041,1.1,0.025,1.1,0,NA,NA,0,0,0,0,NA,yes,yes,-0.12,-0.12,-0.12,NA,,NA,NA
+SPO1757,kpsS,capsular polysaccharide export protein KpsS,SPO_RS08940,1.1,0.041,1,0.032,0.98,0.045,0.95,0.016,NA,NA,NA,0,0,NA,NA,yes,NA,-0.14,-0.17,-0.21,NA,,NA,NA
+SPO1769,SPO1769,hypothetical protein,SPO_RS09000,0.92,0.075,1.1,0.11,0.9,0.017,1.1,0,NA,NA,NA,0,0,NA,NA,yes,NA,0.26,-0.031,0.26,NA,,NA,NA
+SPO1777,SPO1777,dihydroorotate dehydrogenase family protein,SPO_RS09040,1.1,0.025,1,0.029,1.1,0.025,1,0.029,0,0,NA,0,0,NA,yes,yes,NA,-0.14,0,-0.14,"dihydroorotate oxidase B, catalytic subunit (EC 1.3.3.1)/dihydropyrimidine dehydrogenase (NADP+) (EC 1.3.1.2)/dihydrouracil dehydrogenase (NAD+) (EC 1.3.1.1)",Catabolic,COG0167,nucleotide
+SPO1794,SPO1794,"formate dehydrogenase, gamma subunit",SPO_RS09125,1.2,0.05,0.94,0.053,0.87,0.067,0.9,0.12,0,0,0,0,0,0,yes,yes,yes,-0.35,-0.46,-0.41,formate dehydrogenase gamma subunit (EC 1.2.1.2),Catabolic,COG2864,Energy
+SPO1814,SPO1814,"TRAP dicarboxylate transporter, DctP subunit, putative",SPO_RS09230,1.2,0.025,0.99,0.039,1,0,1,0,0,0,0,0,0,0,yes,yes,yes,-0.28,-0.26,-0.26,"TRAP dicarboxylate transporter, DctP subunit, putative",Transport,COG1638,Carbon
+SPO1816,SPO1816,"TRAP dicarboxylate transporter, DctM subunit, putative",SPO_RS09240,1.1,0,0.96,0.026,0.96,0.012,0.96,0.021,NA,NA,0,0,0,0,NA,yes,yes,-0.19,-0.19,-0.19,"TRAP dicarboxylate transporter, DctM subunit, putative",Transport,COG1593,Carbon
+SPO1862,SPO1862,metFprotein-like protein,SPO_RS09465,0.91,0.027,1.1,0.028,0.95,0.07,0.98,0.045,0,0,NA,NA,NA,NA,yes,NA,NA,0.27,0.061,0.11,"metFprotein, homolog",Amphibolic,COG0685,AA
+SPO1870,purL,phosphoribosylformylglycinamidine synthase II,SPO_RS09505,0.05,0.041,0.41,0.074,0.26,0.09,0.5,0.05,NA,NA,NA,0,0,NA,NA,yes,NA,2.8,2.2,3.1,phosphoribosylformylglycinamidine synthase subunit II (EC 6.3.5.3),Anabolic,COG0046,nucleotide
+SPO1874,SPO1874,acyltransferase domain protein,SPO_RS09525,1,0.029,1.1,0.025,1,0.03,1,0.026,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,0,0,NA,,NA,NA
+SPO1875,murI,glutamate racemase,SPO_RS09530,0.82,0.051,1,0.041,0.96,0.024,1.1,0.04,NA,NA,NA,0,0,NA,NA,yes,NA,0.28,0.22,0.42,NA,,NA,NA
+SPO1884,SPO1884,S-methyltransferase component of split metH,SPO_RS09575,0,0,0,0,0.04,0.023,0.14,0.11,NA,NA,NA,0,0,NA,NA,yes,NA,0,2.3,3.9,methionine synthase I,Anabolic,COG0646,AA
+SPO1893,SPO1893,"ribonuclease, Rne/Rng family",SPO_RS09620,1.2,0.065,1.1,0.056,1,0.079,1,0.05,NA,NA,NA,0,0,NA,NA,yes,NA,-0.12,-0.26,-0.26,RNAse E (EC 3.1.26.12),Catabolic,COG1530,translation
+SPO1898,SPO1898,cytochrome P450 family protein,SPO_RS09640,1.2,0.048,1,0.044,1.1,0.052,1.1,0.057,0,0,NA,NA,NA,NA,yes,NA,NA,-0.26,-0.12,-0.12,NA,,NA,NA
+SPO1916,SPO1916,"aminotransferase, class V",SPO_RS09725,1,0.029,1,0.067,1.1,0.043,1,0.037,NA,NA,0,NA,NA,0,NA,NA,yes,0,0.14,0,"aminotransferase, class V",,COG0520,AA
+SPO1923,SPO1923,hypothetical protein,SPO_RS09760,1.2,0.029,1.1,0,1.1,0.025,1.1,0,0,0,0,0,0,0,yes,yes,yes,-0.12,-0.12,-0.12,Ala-tRNA(Pro) hydrolase (EC 3.1.1.-),,COG2872,translation
+SPO1928,SPO1928,Tat (twin-arginine translocation) pathway signal sequence domain protein,SPO_RS09790,1.1,0.025,1.1,0.025,1,0.025,1,0.029,NA,NA,0,0,0,0,NA,yes,yes,0,-0.14,-0.14,NA,,NA,NA
+SPO1929,SPO1929,"peptidoglycan binding protein, putative",SPO_RS09795,1.1,0.025,1,0.039,1,0.029,1,0.027,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO1932,SPO1932,beta-ketoacyl synthase family protein,SPO_RS09810,1.1,0.028,1,0.029,1.1,0.025,1,0.029,0,0,NA,0,0,NA,yes,yes,NA,-0.14,0,-0.14,3-oxoacyl-[acyl-carrier-protein] synthase II (EC 2.3.1.41),Anabolic,COG0304,lipids
+SPO1941,SPO1941,"transcriptional regulator, AraC family",SPO_RS09855,1,0.052,1,0.025,1.1,0.025,1.1,0,NA,NA,NA,0,0,NA,NA,yes,NA,0,0.14,0.14,NA,,NA,NA
+SPO1949,pstC,"phosphate ABC transporter, permease protein",SPO_RS09895,1.1,0.025,1,0.025,1,0.029,1,0.029,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,"phosphate ABC transporter membrane protein 1, PhoT family (TC 3.A.1.7.1)",Transport,COG0573,Inorganics
+SPO1950,pstA,"phosphate ABC transporter, permease protein",SPO_RS09900,1.1,0.025,1,0.025,1,0.025,1,0.033,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,-0.14,"phosphate ABC transporter membrane protein 2, PhoT family (TC 3.A.1.7.1)",Transport,COG0581,Inorganics
+SPO1973,aroQ,"3-dehydroquinate dehydratase, type II",SPO_RS10015,0,0,0.14,0.14,0,0,0,0,0,0,NA,NA,NA,NA,yes,NA,NA,3.9,0,0,3-dehydroquinate dehydratase (EC 4.2.1.10),Anabolic,COG0757,AA
+SPO1978,SPO1978,hypothetical protein,SPO_RS10040,1,0.005,0.82,0.051,0.91,0.077,0.93,0.034,0,0,NA,NA,NA,NA,yes,NA,NA,-0.28,-0.13,-0.1,NA,,NA,NA
+SPO1983,chpT,histidine phosphotransferase,SPO_RS10060,1,0.03,1.1,0.03,0.96,0.076,0.97,0.044,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,-0.058,-0.044,NA,,NA,NA
+SPO2028,SPO2028,HD domain protein,SPO_RS10290,1.1,0.025,1,0.029,1.1,0.025,1.1,0,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,0,0,HD domain protein,,COG1896,nucleotide
+SPO2029,SPO2029,glutamine amidotransferases class-II domain protein,SPO_RS10295,1,0.063,1,0.027,1,0.029,1.1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0,0,0.14,NA,,NA,NA
+SPO2038,SPO2038,metallo-beta-lactamase family protein,SPO_RS10340,1,0.029,1.1,0.041,1,0.05,1.1,0.068,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,0,0.14,NA,,NA,NA
+SPO2049,SPO2049,radical SAM domain protein,SPO_RS10395,1,0,0.92,0.035,0.96,0.014,0.92,0.012,NA,NA,0,0,0,0,NA,yes,yes,-0.12,-0.058,-0.12,NA,,NA,NA
+SPO2053,SPO2053,thermostable carboxypeptidase,SPO_RS10415,1,0.032,1,0.025,1.1,0.035,1.1,0.041,NA,NA,0,NA,NA,0,NA,NA,yes,0,0.14,0.14,carboxypeptidase Taq (EC:3.4.17.19). Metallo peptidase. MEROPS family M32,Catabolic,COG2317,AA
+SPO2069,SPO2069,"benzoate-coenzyme A ligase, putative",SPO_RS10495,1.1,0.041,1,0.037,0.98,0.012,1.1,0.033,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.17,0,"benzoate-coenzyme A ligase, putative",,COG0318,lipids
+SPO2073,SPO2073,hypothetical protein,SPO_RS10515,1.1,0.025,1,0.029,1,0.027,1.1,0.048,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,-0.14,0,NA,,NA,NA
+SPO2081,hfq,RNA-binding protein Hfq,SPO_RS10555,0.67,0.044,0.88,0.043,0.83,0.048,0.75,0.037,0,0,NA,NA,NA,NA,yes,NA,NA,0.39,0.3,0.16,NA,,NA,NA
+SPO2086,ntrY,nitrogen regulation protein ntrY,SPO_RS10580,0.75,0.039,0.9,0.043,0.72,0.045,0.8,0.06,0,0,NA,NA,NA,NA,yes,NA,NA,0.26,-0.058,0.092,NA,,NA,NA
+SPO2087,ntrC,nitrogen regulation protein NtrC,SPO_RS10585,0.065,0.065,0.31,0.14,0.5,0.06,0.18,0.13,NA,NA,0,NA,NA,0,NA,NA,yes,2.1,2.8,1.3,NA,,NA,NA
+SPO2099,cycF,cytochrome c-554,SPO_RS10645,1.1,0,0.97,0.077,0.99,0.01,1,0.037,0,0,NA,0,0,NA,yes,yes,NA,-0.18,-0.15,-0.14,cytochrome c-554,Catabolic,COG3909,Energy
+SPO2103,SPO2103,"antioxidant, AhpC/Tsa family",SPO_RS10665,1.1,0.033,1.1,0.025,1,0.029,1,0.029,NA,NA,0,0,0,0,NA,yes,yes,0,-0.14,-0.14,NA,,NA,NA
+SPO2108,SPO2108,trimethylamine methyltransferase family protein,SPO_RS10690,1.1,0.025,1.1,0.025,1.1,0,1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0,0,-0.14,trimethylamine methyltransferase family protein,Catabolic,COG5598,Coenzyme
+SPO2133,SPO2133,"outer membrane protein, putative",SPO_RS10815,1.2,0.048,1,0.038,1.1,0.041,1,0.05,0,0,NA,0,0,NA,yes,yes,NA,-0.26,-0.12,-0.26,NA,,NA,NA
+SPO2144,SPO2144,"aminotransferase, classes I and II",SPO_RS10870,1.1,0.049,0.97,0.01,1,0.037,0.96,0.015,0,0,NA,0,0,NA,yes,yes,NA,-0.18,-0.14,-0.19,hypothetical protein,,COG0436,AA
+SPO2150,trpD,anthranilate phosphoribosyltransferase,SPO_RS10900,0,0,0.11,0.11,0,0,0.045,0.045,0,0,NA,0,0,NA,yes,yes,NA,3.6,0,2.5,anthranilate phosphoribosyltransferase (EC 2.4.2.18),Anabolic,COG0547,AA
+SPO2151,trpC,indole-3-glycerol phosphate synthase,SPO_RS10905,0,0,0.2,0.2,0,0,0.16,0.16,0,0,NA,NA,NA,NA,yes,NA,NA,4.4,0,4.1,indole-3-glycerol phosphate synthase (EC 4.1.1.48),Anabolic,COG0134,AA
+SPO2161,SPO2161,hypothetical protein,SPO_RS10955,1.1,0.048,0.99,0.0048,0.98,0.011,1,0.025,0,0,0,0,0,0,yes,yes,yes,-0.15,-0.17,-0.14,NA,,NA,NA
+SPO2166,SPO2166,"lipoprotein, putative",SPO_RS10980,1.1,0.041,1.1,0.048,1.1,0.025,1,0.03,NA,NA,NA,0,0,NA,NA,yes,NA,0,0,-0.14,NA,,NA,NA
+SPO2168,purN,phosphoribosylglycinamide formyltransferase,SPO_RS10990,0.21,0.12,0.64,0.04,0.27,0.16,0.49,0.11,0,0,NA,NA,NA,NA,yes,NA,NA,1.6,0.35,1.2,formyltetrahydrofolate-dependent phosphoribosylglycinamide formyltransferase (EC 2.1.2.2),Anabolic,COG0299,nucleotide
+SPO2189,SPO2189,"transcriptional regulator, AsnC family",SPO_RS11095,0.91,0.03,0.98,0.0085,0.93,0.034,0.94,0.049,0,0,NA,NA,NA,NA,yes,NA,NA,0.11,0.031,0.046,NA,,NA,NA
+SPO2193,hutU,urocanate hydratase,SPO_RS11120,1.1,0.035,1,0.037,1,0.031,0.99,0.0071,NA,NA,NA,0,0,NA,NA,yes,NA,-0.14,-0.14,-0.15,urocanate hydratase (EC 4.2.1.49),Catabolic,COG2987,AA
+SPO2197,SPO2197,hypothetical protein,SPO_RS11140,1.1,0.033,0.97,0.026,0.98,0.042,0.95,0.028,0,0,NA,0,0,NA,yes,yes,NA,-0.18,-0.17,-0.21,NA,,NA,NA
+SPO2203,mmsA,methylmalonate-semialdehyde dehydrogenase,SPO_RS11170,1.1,0.025,1,0.031,1,0.0029,1,0.025,NA,NA,0,0,0,0,NA,yes,yes,-0.14,-0.14,-0.14,methylmalonate-semialdehyde dehydrogenase [acylating] (EC 1.2.1.27),Catabolic,COG1012,Energy
+SPO2213,mmsB-1,3-hydroxyisobutyrate dehydrogenase,SPO_RS11220,1.1,0.028,1,0.053,1,0.042,1.1,0.045,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.14,0,3-hydroxyisobutyrate dehydrogenase (EC 1.1.1.31),Catabolic,COG2084,lipids
+SPO2218,uvrA,UvrABC system protein A,SPO_RS11250,0.99,0.0075,1,0.035,0.98,0.0085,1.1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0.014,-0.014,0.15,NA,,NA,NA
+SPO2224,SPO2224,hypothetical protein,SPO_RS11280,1,0.0025,1,0.033,1,0.031,1.1,0.052,NA,NA,NA,0,0,NA,NA,yes,NA,0,0,0.14,NA,,NA,NA
+SPO2242,pdhC,"pyruvate dehydrogenase complex, E2 component, dihydrolipoamide acetyltransferase",SPO_RS11365,0.18,0.085,0.51,0.098,0.45,0.094,0.63,0.066,NA,NA,NA,0,0,NA,NA,yes,NA,1.5,1.3,1.8,"pyruvate dehydrogenase complex, E2 component, dihydrolipoamide acetyltransferase",Catabolic,COG0508,Energy
+SPO2251,orfg14,gene transfer agent,SPO_RS11420,0.85,0.042,0.47,0.16,0.8,0.061,0.85,0.29,0,0,NA,NA,NA,NA,yes,NA,NA,-0.84,-0.086,0,NA,,NA,NA
+SPO2270,SPO2270,putative protein TIGR00247,SPO_RS11510,1.2,0,1.1,0.041,1.1,0.041,1.1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,-0.12,-0.12,-0.12,NA,,NA,NA
+SPO2272,hisA2,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase 2 (EC 5.3.1.16),SPO_RS11520,0.97,0.021,1,0.036,1,0.059,0.9,0.0063,NA,NA,NA,0,0,NA,NA,yes,NA,0.044,0.044,-0.11,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase (EC 5.3.1.16),Anabolic,COG0106,AA
+SPO2287,SPO2287,autoinducer synthesis protein,SPO_RS11595,1,0.032,1.1,0.025,1.1,0,1.1,0,NA,NA,0,0,0,0,NA,yes,yes,0.14,0.14,0.14,NA,,NA,NA
+SPO2288,tig,trigger factor,SPO_RS11600,1.1,0.025,1.1,0.025,1.1,0.025,1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0,0,-0.14,NA,,NA,NA
+SPO2289,SPO2289,hypothetical protein,SPO_RS11605,1.1,0.043,1.1,0.025,1,0.029,1,0.042,NA,NA,0,NA,NA,0,NA,NA,yes,0,-0.14,-0.14,NA,,NA,NA
+SPO2307,SPO2307,hypothetical protein,SPO_RS11690,1.2,0.025,1.1,0.025,1.1,0,1.1,0.068,NA,NA,0,NA,NA,0,NA,NA,yes,-0.12,-0.12,-0.12,NA,,NA,NA
+SPO2326,SPO2326,hypothetical protein,SPO_RS11790,1.1,0.08,1,0.061,0.92,0.02,0.94,0.099,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.26,-0.22,NA,,NA,NA
+SPO2331,SPO2331,"efflux transporter, RND family, MFP subunit",SPO_RS11815,1.1,0.041,1,0.029,1,0.029,1.1,0.041,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,0,NA,,NA,NA
+SPO2336,SPO2336,lysM domain protein,SPO_RS22890,1,0.036,1,0.039,1.1,0.025,0.96,0.062,NA,NA,0,NA,NA,0,NA,NA,yes,0,0.14,-0.058,NA,,NA,NA
+SPO2337,SPO2337,decarboxylase family protein,SPO_RS11845,1.2,0.048,1,0.094,1.1,0.054,1,0.029,NA,NA,NA,0,0,NA,NA,yes,NA,-0.26,-0.12,-0.26,NA,,NA,NA
+SPO2340,sodB,"superoxide dismutase, Fe",SPO_RS11860,0.16,0.11,0.55,0.033,0.46,0.08,0.73,0.045,0,0,NA,0,0,NA,yes,yes,NA,1.7,1.5,2.1,"superoxide dismutase, Fe",,COG0605,Inorganics
+SPO2341,SPO2341,"methyltransferase, FkbM family",SPO_RS11865,1.1,0.025,0.91,0.066,0.96,0.015,1,0.042,NA,NA,0,0,0,0,NA,yes,yes,-0.27,-0.19,-0.14,NA,,NA,NA
+SPO2345,SPO2345,"sarcosine oxidase, alpha subunit family",SPO_RS11895,1.1,0.025,1,0.025,1.1,0.025,1.1,0.041,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,0,0,"sarcosine oxidase, alpha subunit family",Catabolic,COG0404,AA
+SPO2347,SPO2347,hypothetical protein,SPO_RS11910,1.1,0.025,1,0.048,1.1,0.035,1.1,0.05,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,0,0,NA,,NA,NA
+SPO2361,SPO2361,sensor histidine kinase/response regulator,SPO_RS11980,0.98,0.017,0.9,0.031,0.88,0.022,1,0.046,NA,NA,0,NA,NA,0,NA,NA,yes,-0.12,-0.15,0.029,NA,,NA,NA
+SPO2412,SPO2412,"aldolase, putative",SPO_RS12255,1.2,0.14,0.66,0.33,1.1,0.15,0.6,0.31,0,0,NA,0,0,NA,yes,yes,NA,-0.85,-0.12,-0.99,"aldolase, putative",,COG0684,translation
+SPO2413,SPO2413,"oxidoreductase, short chain dehydrogenase/reductase family",SPO_RS12260,0.94,0.059,0.75,0.26,1.1,0.055,1,0.093,NA,NA,0,NA,NA,0,NA,NA,yes,-0.32,0.22,0.088,"oxidoreductase, short chain dehydrogenase/reductase family",,COG1028,lipids
+SPO2474,eno,enolase,SPO_RS12565,0.2,0.096,0.48,0.071,0.48,0.069,0.49,0.033,NA,NA,NA,0,0,NA,NA,yes,NA,1.2,1.2,1.3,enolase (EC 4.2.1.11),Amphibolic,COG0148,Carbon
+SPO2478,SPO2478,RNA helicase,SPO_RS12585,1,0.029,1,0.029,1,0.029,1.1,0,NA,NA,NA,0,0,NA,NA,yes,NA,0,0,0.14,NA,,NA,NA
+SPO2483,anmK,Anhydro-N-acetylmuramic acid kinase (EC 2.7.1.170),SPO_RS12610,1.2,0.058,1.3,0.088,1.2,0.13,1,0.07,NA,NA,NA,0,0,NA,NA,yes,NA,0.11,0,-0.26,NA,,NA,NA
+SPO2488,SPO2488,"ABC transporter, ATP-binding protein",SPO_RS12630,1.1,0,1.1,0.04,1,0.03,1,0.045,NA,NA,0,NA,NA,0,NA,NA,yes,0,-0.14,-0.14,NA,,NA,NA
+SPO2511,SPO2511,"dnaK suppressor protein, putative",SPO_RS12750,0.088,0.088,0.61,0.072,0.3,0.2,0,0,0,0,NA,0,0,NA,yes,yes,NA,2.7,1.7,-3.3,"transcriptional regulator, TraR/DksA family",,COG1734,translation
+SPO2588,SPO2588,"N-acetylmuramoyl-L-alanine amidase, family 3",SPO_RS13130,1,0.032,1.1,0.045,0.96,0.023,1,0.11,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,-0.058,0,NA,,NA,NA
+SPO2608,SPO2608,"aldehyde dehydrogenase, putative",SPO_RS13230,1,0.037,0.84,0.046,0.98,0.045,0.95,0.017,0,0,NA,NA,NA,NA,yes,NA,NA,-0.25,-0.029,-0.073,"aldehyde dehydrogenase, putative",,COG1012,Energy
+SPO2612,SPO2612,"DNA-binding protein HU, putative",,1.1,0.041,1.1,0.025,1,0.03,1,0.03,NA,NA,0,0,0,0,NA,yes,yes,0,-0.14,-0.14,NA,,NA,NA
+SPO2626,SPO2626,"TRAP transporter, DctM subunit",SPO_RS13320,1.2,0.029,1,0.056,1,0.029,1,0.038,0,0,0,0,0,0,yes,yes,yes,-0.26,-0.26,-0.26,"TRAP transporter, DctM subunit",Transport,COG1593,Carbon
+SPO2627,SPO2627,"TRAP transporter, DctQ subunit",SPO_RS13325,1.1,0.051,0.92,0.05,1,0.062,0.66,0.22,0,0,NA,0,0,NA,yes,yes,NA,-0.26,-0.14,-0.73,"TRAP transporter, DctQ subunit",Transport,COG3090,Carbon
+SPO2630,SPO2630,C4-dicarboxylate transport sensor protein,SPO_RS13340,1.2,0.041,0.98,0.015,1.1,0.058,1.1,0.025,0,0,NA,NA,NA,NA,yes,NA,NA,-0.29,-0.12,-0.12,NA,,NA,NA
+SPO2633,SPO2633,hypothetical protein,SPO_RS13355,0,0,0.22,0.22,0,0,0.72,0.24,NA,NA,NA,0,0,NA,NA,yes,NA,4.5,0,6.2,NA,,NA,NA
+SPO2634,SPO2634,"sulfite reductase, putative",SPO_RS13360,0,0,0.27,0.16,0,0,0.59,0.086,0,0,NA,NA,NA,NA,yes,NA,NA,4.8,0,5.9,"sulfite reductase, putative",Anabolic,COG0155,Inorganics
+SPO2635,cysH,phosophoadenylyl-sulfate reductase,SPO_RS13365,0,0,0.78,0.084,0.17,0.17,0.52,0.18,NA,NA,0,NA,NA,0,NA,NA,yes,6.3,4.2,5.7,phosphoadenylylsulfate reductase (thioredoxin) (EC 1.8.4.8),Anabolic,COG0175,"AA,Coenzyme"
+SPO2647,SPO2647,hypothetical protein,SPO_RS13425,1.1,0.04,1,0.045,0.96,0.026,0.98,0.043,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.19,-0.17,NA,,NA,NA
+SPO2649,SPO2649,hypothetical protein,SPO_RS13435,1.1,0.048,1,0.029,1,0.005,1,0.031,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO2653,pyrC,Dihydroorotase (EC 3.5.2.3),SPO_RS13460,0.16,0.095,0,0,0.11,0.11,0.34,0.22,0,0,NA,NA,NA,NA,yes,NA,NA,-4.1,-0.5,1,dihydroorotase (EC 3.5.2.3),Anabolic,COG0418,nucleotide
+SPO2654,pyrE,orotate phosphoribosyltransferase,SPO_RS13465,0,0,0.28,0.16,0.16,0.1,0.74,0.041,0,0,NA,NA,NA,NA,yes,NA,NA,4.9,4.1,6.2,orotate phosphoribosyltransferase (EC 2.4.2.10),Anabolic,COG0461,nucleotide
+SPO2662,SPO2662,"aspartate racemase, putative",SPO_RS13505,0.8,0.043,0.96,0.026,0.88,0.046,0.77,0.14,0,0,NA,NA,NA,NA,yes,NA,NA,0.26,0.14,-0.054,NA,,NA,NA
+SPO2677,purF,amidophosphoribosyltransferase,SPO_RS13580,0.28,0.087,0.64,0.044,0.36,0.038,0.57,0.1,0,0,NA,NA,NA,NA,yes,NA,NA,1.2,0.35,1,amidophosphoribosyltransferase (EC 2.4.2.14),Anabolic,COG0034,nucleotide
+SPO2708,SPO2708,carnitine dehydratase,SPO_RS13735,1.1,0.057,0.94,0.04,0.98,0.058,0.95,0.078,0,0,NA,NA,NA,NA,yes,NA,NA,-0.22,-0.17,-0.21,aldehyde dehydrogenase (acceptor) (EC 1.2.99.3),Catabolic,COG1012,Energy
+SPO2713,secA2,Protein translocase subunit SecA 2,SPO_RS13760,0.98,0.073,0.9,0.093,0.73,0.043,0.83,0.14,NA,NA,0,NA,NA,0,NA,NA,yes,-0.12,-0.42,-0.24,NA,,NA,NA
+SPO2734,hsdS,"type I restriction-modification system, S subunit",SPO_RS13885,1,0.03,1.1,0.025,1,0.028,1,0.005,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,0,0,NA,,NA,NA
+SPO2753,SPO2753,"diguanylate cyclase, putative/response regulator",SPO_RS13985,0.73,0.062,0.87,0.048,0.93,0.02,0.93,0.038,NA,NA,0,NA,NA,0,NA,NA,yes,0.25,0.35,0.35,NA,,NA,NA
+SPO2791,acsA,acetyl-coenzyme A synthetase,SPO_RS14180,1.1,0.041,1,0.029,1.1,0.025,1,0.029,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,0,-0.14,acetyl-coenzyme A synthetase,Amphibolic,COG0365,lipids
+SPO2810,SPO2810,amidohydrolase family protein,SPO_RS14275,1,0.036,1.1,0.025,1,0.025,1.1,0.04,0,0,NA,0,0,NA,yes,yes,NA,0.14,0,0.14,NA,,NA,NA
+SPO2812,argE-1,acetylornithine deacetylase,SPO_RS14285,1.2,0.029,1.1,0.055,1,0.029,1,0.037,NA,NA,0,0,0,0,NA,yes,yes,-0.12,-0.26,-0.26,acetylornithine deacetylase,Anabolic,COG0624,AA
+SPO2813,SPO2813,"peptide/nickel/opine uptake family ABC transporter, ATP-binding protein, putative",SPO_RS14290,1.1,0.025,1,0.033,1,0.03,1,0.029,NA,NA,0,0,0,0,NA,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO2815,SPO2815,"peptide/nickel/opine uptake family ABC transporter, permease protein",SPO_RS14300,1.1,0.025,0.98,0.017,1,0.029,1,0.043,0,0,0,NA,NA,0,yes,NA,yes,-0.17,-0.14,-0.14,"peptide/nickel/opine uptake family ABC transporter, permease protein",Transport,COG0601,"AA,Inorganics"
+SPO2816,SPO2816,"peptide/nickel/opine uptake family ABC transporter, permease protein",SPO_RS14305,1.1,0.048,0.98,0.015,1,0.027,1,0.034,0,0,NA,NA,NA,NA,yes,NA,NA,-0.17,-0.14,-0.14,"peptide/nickel/opine uptake family ABC transporter, permease protein",Transport,COG1173,"AA,Inorganics"
+SPO2817,SPO2817,YeeE/YedE family protein,SPO_RS14310,1.2,0.029,1.1,0.048,1.1,0.025,1.1,0.025,NA,NA,0,0,0,0,NA,yes,yes,-0.12,-0.12,-0.12,NA,,NA,NA
+SPO2819,pntB,"NAD(P)+ transhydrogenase, beta subunit",SPO_RS14320,0.76,0.016,0.99,0.0048,1,0.039,1,0.026,0,0,0,NA,NA,0,yes,NA,yes,0.38,0.39,0.39,"NAD(P)+ transhydrogenase, beta subunit",Anabolic,COG1282,Energy
+SPO2820,pntA,"NAD(P) transhydrogenase, alpha subunit",SPO_RS14325,0.82,0.061,1,0.064,0.99,0.0025,1.1,0.045,NA,NA,NA,0,0,NA,NA,yes,NA,0.28,0.27,0.42,NAD(P) transhydrogenase subunit alpha,Anabolic,COG3288,Energy
+SPO2821,SPO2821,isoprenylcysteine carboxyl methyltransferase family protein,SPO_RS14330,0.94,0.013,1.1,0.061,1,0.005,1,0.028,0,0,0,NA,NA,0,yes,NA,yes,0.22,0.088,0.088,NA,,NA,NA
+SPO2848,SPO2848,hypothetical protein,SPO_RS14460,1.1,0,1,0.034,1.1,0.025,1.1,0.025,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,0,0,NA,,NA,NA
+SPO2852,SPO2852,czcN domain protein,SPO_RS14480,1.1,0.038,1,0.05,1.1,0,0.96,0.024,NA,NA,NA,0,0,NA,NA,yes,NA,-0.14,0,-0.19,NA,,NA,NA
+SPO2858,SPO2858,hypothetical protein,SPO_RS14510,0.81,0.071,0.94,0.032,0.97,0.015,1,0.037,NA,NA,0,0,0,0,NA,yes,yes,0.21,0.26,0.3,NA,,NA,NA
+SPO2889,mdoG,periplasmic glucan biosynthesis protein MdoG,SPO_RS14660,1.1,0.025,1,0.032,1,0.025,1,0.027,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO2894,SPO2894,pH adaption potassium efflux system protein,SPO_RS14685,0.068,0.052,0,0,0.33,0.033,0.22,0.13,0,0,NA,NA,NA,NA,yes,NA,NA,-3,2.1,1.6,"multisubunit potassium/proton antiporter, PhaC subunit (TC 2.A.63.1.1)",Transport,COG1006,Inorganics
+SPO2897,phaF,pH adaptation potassium efflux system protein PhaF,SPO_RS14700,0,0,0.062,0.062,0.12,0.12,0.23,0.23,NA,NA,0,0,0,0,NA,yes,yes,2.8,3.7,4.6,"multisubunit potassium/proton antiporter, PhaF subunit (TC 2.A.63.1.1)",Transport,COG2212,Inorganics
+SPO2906,SPO2906,hypothetical protein,SPO_RS14745,0.6,0.051,0.83,0.035,0.78,0.059,0.92,0.029,NA,NA,NA,0,0,NA,NA,yes,NA,0.46,0.37,0.61,NA,,NA,NA
+SPO2910,SPO2910,thioesterase family protein,SPO_RS14765,1.1,0.057,0.98,0.047,0.97,0.012,0.97,0.03,NA,NA,0,0,0,0,NA,yes,yes,-0.17,-0.18,-0.18,NA,,NA,NA
+SPO2915,SPO2915,acyl-CoA dehydrogenase family protein,SPO_RS14785,0.82,0.027,0.95,0.013,0.96,0.012,0.92,0.0085,0,0,NA,0,0,NA,yes,yes,NA,0.21,0.22,0.16,acyl-CoA dehydrogenase family protein,Catabolic,COG1960,lipids
+SPO2923,SPO2923,hypothetical protein,SPO_RS14825,1.1,0.048,1.1,0.045,0.96,0.1,0.98,0.017,NA,NA,NA,0,0,NA,NA,yes,NA,0,-0.19,-0.17,NA,,NA,NA
+SPO2929,deoA,thymidine phosphorylase,SPO_RS14855,1.1,0.041,1.1,0.048,1,0.029,1.1,0.025,NA,NA,0,NA,NA,0,NA,NA,yes,0,-0.14,0,thymidine phosphorylase (EC 2.4.2.4),Amphibolic,COG0213,nucleotide
+SPO2933,SPO2933,hypothetical protein,SPO_RS14875,1,0.038,0.92,0.029,0.99,0.0095,1.1,0.033,NA,NA,NA,0,0,NA,NA,yes,NA,-0.12,-0.014,0.14,NA,,NA,NA
+SPO2949,SPO2949,endoribonuclease L-PSP family protein,SPO_RS14955,1.2,0.048,0.88,0.036,1.1,0.025,1.1,0.052,0,0,NA,NA,NA,NA,yes,NA,NA,-0.44,-0.12,-0.12,NA,,NA,NA
+SPO2952,SPO2952,trkA domain protein,SPO_RS14970,0.5,0.047,0.92,0.033,0.7,0.037,0.95,0.031,0,0,0,0,0,0,yes,yes,yes,0.87,0.48,0.91,trkA domain protein,,COG0471,Carbon
+SPO2958,SPO2958,inositol monophosphatase family protein,SPO_RS15000,0.4,0.081,0.53,0.1,0.55,0.085,0.75,0.031,NA,NA,NA,0,0,NA,NA,yes,NA,0.4,0.45,0.89,inositol monophosphatase family protein,,COG0483,Carbon
+SPO2961,SPO2961,"transcriptional regulator, LysR family",SPO_RS15015,1,0.029,1.1,0.025,1.1,0.025,1.1,0.041,0,0,0,0,0,0,yes,yes,yes,0.14,0.14,0.14,NA,,NA,NA
+SPO2964,SPO2964,hypothetical protein,,1.1,0.025,0.98,0.014,1,0.028,1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,-0.17,-0.14,-0.14,NA,,NA,NA
+SPO2986,SPO2986,tellurite resistance protein,SPO_RS15135,1.2,0.05,1,0.039,1.1,0.051,1.1,0.048,0,0,NA,NA,NA,NA,yes,NA,NA,-0.26,-0.12,-0.12,NA,,NA,NA
+SPO2988,SPO2988,hypothetical protein,SPO_RS15145,1.1,0.041,1,0.025,1.1,0.038,0.96,0.019,NA,NA,NA,0,0,NA,NA,yes,NA,-0.14,0,-0.19,NA,,NA,NA
+SPO2989,SPO2989,cytochrome b562,SPO_RS15150,1.1,0.025,1.1,0.03,1.1,0.048,1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0,0,-0.14,cytochrome b562,Catabolic,COG3038,Energy
+SPO2995,SPO2995,"peptide/nickel/opine uptake family ABC transporter, periplasmic substrate-binding protein",SPO_RS15185,1,0.025,1.1,0.025,1.1,0.025,1.1,0,0,0,0,0,0,0,yes,yes,yes,0.14,0.14,0.14,"peptide/nickel/opine uptake family ABC transporter, periplasmic substrate-binding protein",Transport,COG0747,AA
+SPO3017,SPO3017,thioesterase family protein,SPO_RS15295,1.1,0.041,1.1,0.025,1,0.029,1.1,0.025,NA,NA,0,NA,NA,0,NA,NA,yes,0,-0.14,0,NA,,NA,NA
+SPO3019,SPO3019,"xanthine dehydrogenase family protein, large subunit",SPO_RS15305,1.1,0,1,0.029,1.1,0,1,0.032,0,0,NA,0,0,NA,yes,yes,NA,-0.14,0,-0.14,"xanthine dehydrogenase family protein, large subunit",Catabolic,COG1529,Energy
+SPO3024,SPO3024,"adenylate/guanylate cyclase/hydrolase, alpha/beta fold family",SPO_RS15330,1.1,0.025,1,0.038,1,0.029,1,0.043,NA,NA,0,0,0,0,NA,yes,yes,-0.14,-0.14,-0.14,"adenylate/guanylate cyclase/hydrolase, alpha/beta fold family",,COG0596,Coenzyme
+SPO3050,SPO3050,hypothetical protein,,0.64,0.1,0.91,0.1,0.9,0.066,0.88,0.046,NA,NA,0,0,0,0,NA,yes,yes,0.5,0.49,0.45,NA,,NA,NA
+SPO3051,SPO3051,"oxidoreductase, short-chain dehydrogenase/reductase family",SPO_RS15460,1.1,0.057,1,0.033,1,0.025,0.98,0.015,NA,NA,NA,0,0,NA,NA,yes,NA,-0.14,-0.14,-0.17,"oxidoreductase, short-chain dehydrogenase/reductase family",,COG1028,lipids
+SPO3052,SPO3052,hypothetical protein,SPO_RS15465,1.2,0.029,0.99,0.043,1,0.029,1.2,0.05,0,0,0,NA,NA,0,yes,NA,yes,-0.28,-0.26,0,NA,,NA,NA
+SPO3058,SPO3058,sulfate transporter family protein,SPO_RS15495,1,0.028,1.1,0.025,1,0.027,1.1,0,NA,NA,NA,0,0,NA,NA,yes,NA,0.14,0,0.14,sulfate transporter family protein,Transport,COG0659,Inorganics
+SPO3073,ctaE,"cytochrome c oxidase, subunit III",SPO_RS15570,0.62,0.025,0.84,0.018,0.78,0.0091,0.84,0.017,0,0,0,NA,NA,0,yes,NA,yes,0.43,0.33,0.43,"cytochrome c oxidase, subunit III",Catabolic,COG1845,Energy
+SPO3075,ctaB,Protoheme IX farnesyltransferase (EC 2.5.1.141) (Heme O synthase),SPO_RS15580,0.47,0.044,0.87,0.015,0.76,0.058,0.86,0.042,0,0,0,0,0,0,yes,yes,yes,0.87,0.68,0.86,protoheme IX farnesyltransferase,Catabolic,COG0109,"Coenzyme,Lipids"
+SPO3076,ctaC,"cytochrome c oxidase, subunit II",SPO_RS15585,0.59,0.026,0.8,0.016,0.82,0.036,0.83,0.019,NA,NA,0,0,0,0,NA,yes,yes,0.43,0.47,0.49,"cytochrome c oxidase, subunit II",Catabolic,COG1622,Energy
+SPO3088,ompA,Outer membrane protein OmpA,SPO_RS15650,1.1,0.038,0.99,0.0048,0.98,0.017,0.99,0.0058,0,0,0,0,0,0,yes,yes,yes,-0.15,-0.17,-0.15,NA,,NA,NA
+SPO3091,SPO3091,type II secretion system protein F (GspF),SPO_RS15665,1.1,0.055,0.99,0.0025,0.97,0.017,0.95,0.022,0,0,0,0,0,0,yes,yes,yes,-0.15,-0.18,-0.21,NA,,NA,NA
+SPO3100,SPO3100,hypothetical protein,SPO_RS15710,0.99,0.0075,1,0.031,0.99,0.0075,1.1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0.014,0,0.15,NA,,NA,NA
+SPO3115,ruvB,Holliday junction DNA helicase RuvB,SPO_RS15785,0.46,0.16,0.81,0.054,0.68,0.088,0.78,0.097,0,0,NA,NA,NA,NA,yes,NA,NA,0.8,0.55,0.75,NA,,NA,NA
+SPO3120,SPO3120,"ribosomal protein L11 methyltransferase, putative",SPO_RS15810,1,0.038,1.1,0,1,0.025,1.1,0.06,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,0,0.14,[LSU ribosomal protein L11P]-lysine N-methyltransferase (EC 2.1.1.-),,COG2264,translation
+SPO3121,SPO3121,MATE efflux family protein,SPO_RS15815,1.1,0.059,0.99,0.01,1,0.036,1,0.029,0,0,NA,NA,NA,NA,yes,NA,NA,-0.15,-0.14,-0.14,NA,,NA,NA
+SPO3152,SPO3152,MaoC domain protein,SPO_RS15970,1,0.029,1,0.029,1.1,0.025,1,0.029,NA,NA,0,NA,NA,0,NA,NA,yes,0,0.14,0,MaoC domain protein,,COG2030,lipids
+SPO3169,clpA,"ATP-dependent Clp protease, ATP-binding subunit ClpA",SPO_RS16055,0.47,0.023,0.53,0.054,0.49,0.038,0.63,0.027,NA,NA,NA,0,0,NA,NA,yes,NA,0.17,0.059,0.42,NA,,NA,NA
+SPO3171,SPO3171,OmpA domain protein,SPO_RS16065,0.98,0.01,1.1,0.055,1,0.053,0.93,0.025,0,0,NA,NA,NA,NA,yes,NA,NA,0.17,0.029,-0.075,NA,,NA,NA
+SPO3217,def-1,peptide deformylase,SPO_RS16295,0.78,0.039,0.89,0.042,0.86,0.016,0.95,0.02,NA,NA,NA,0,0,NA,NA,yes,NA,0.19,0.14,0.28,peptide deformylase,Catabolic,COG0242,translation
+SPO3224,cobC,cobalamin biosynthetic protein CobC,SPO_RS16330,0,0,0.6,0.32,0.54,0.32,0.71,0.14,NA,NA,NA,0,0,NA,NA,yes,NA,5.9,5.8,6.2,L-threonine O-3-phosphate decarboxylase (EC 4.1.1.81),Anabolic,COG0079,AA
+SPO3230,SPO3230,"aminotransferase, classes I and II",SPO_RS16360,1.1,0,1,0,1,0.026,1,0.028,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,"aminotransferase, classes I and II",,COG1167,AA
+SPO3256,rpmE,ribosomal protein L31,SPO_RS16490,0,0,0.14,0.12,0.14,0.084,0.25,0.088,NA,NA,0,NA,NA,0,NA,NA,yes,3.9,3.9,4.7,LSU ribosomal protein L31P,Anabolic,COG0254,translation
+SPO3296,SPO3296,AMP-binding enzyme,SPO_RS16690,0.87,0.014,0.94,0.025,0.94,0.013,0.94,0.021,NA,NA,0,NA,NA,0,NA,NA,yes,0.11,0.11,0.11,AMP-binding enzyme,,COG1022,lipids
+SPO3307,lkr,Lysine-ketoglutarate reductase,SPO_RS16745,1.1,0.025,1.1,0.025,1,0.029,1.1,0,NA,NA,0,NA,NA,0,NA,NA,yes,0,-0.14,0,"saccharopine dehydrogenase (NAD+, L-lysine-forming) (EC 1.5.1.7)",,COG0686,AA
+SPO3329,SPO3329,globin domain protein,SPO_RS16865,0.96,0.023,1,0.064,1.1,0.043,0.95,0.01,NA,NA,0,NA,NA,0,NA,NA,yes,0.058,0.19,-0.015,globin domain protein,,COG1017,Energy
+SPO3360,kbl,2-amino-3-ketobutyrate coenzyme A ligase,SPO_RS17020,1.1,0.025,1,0.032,1,0.032,0.98,0.0096,NA,NA,0,0,0,0,NA,yes,yes,-0.14,-0.14,-0.17,2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29),Amphibolic,COG0156,Coenzyme
+SPO3385,SPO3385,"glycosyl transferase, family 25",SPO_RS17145,1.1,0,1,0.029,1,0.03,1.1,0.025,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,0,NA,,NA,NA
+SPO3403,SPO3403,"DNA-binding protein, putative",SPO_RS17230,1.1,0.025,1,0.038,0.99,0.0048,1.1,0.049,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.15,0,NA,,NA,NA
+SPO3420,SPO3420,hypothetical protein,SPO_RS17315,0.96,0.021,1,0.035,0.95,0.019,1.1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0.058,-0.015,0.19,NA,,NA,NA
+SPO3423,SPO3423,thioredoxin,SPO_RS17330,1.1,0.025,1.1,0.025,1.1,0,1,0.029,NA,NA,NA,0,0,NA,NA,yes,NA,0,0,-0.14,NA,,NA,NA
+SPO3425,SPO3425,"exodeoxyribonuclease III, putative",SPO_RS17340,1,0.029,1,0.033,1.1,0.028,1,0.048,NA,NA,0,NA,NA,0,NA,NA,yes,0,0.14,0,NA,,NA,NA
+SPO3452,rnhB,ribonuclease HII,SPO_RS17475,1.1,0.025,1,0.031,1,0.029,1,0.029,NA,NA,0,0,0,0,NA,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO3474,SPO3474,"polyamine ABC transporter, permease protein",SPO_RS17595,0.98,0.022,1.1,0.025,1,0.038,0.99,0.0095,0,0,NA,NA,NA,NA,yes,NA,NA,0.17,0.029,0.014,"polyamine ABC transporter, permease protein",Transport,COG1176,AA
+SPO3479,glcE,"glycolate oxidase, GlcE subunit",SPO_RS17620,0.98,0.017,0.72,0.046,0.92,0.022,0.87,0.036,0,0,NA,NA,NA,NA,yes,NA,NA,-0.44,-0.09,-0.17,"glycolate oxidase, GlcE subunit",Catabolic,COG0277,Energy
+SPO3498,tuf-2,translation elongation factor Tu,SPO_RS17715,0.97,0.0075,0.96,0.022,0.89,0.0075,0.99,0.0058,NA,NA,0,NA,NA,0,NA,NA,yes,-0.015,-0.12,0.029,translation elongation factor 1A (EF-1A/EF-Tu),Anabolic,COG0050,translation
+SPO3541,SPO3541,"hydrolase, NUDIX family",SPO_RS17940,1.1,0.028,1,0.025,0.98,0.017,1,0.037,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.17,-0.14,"hydrolase, NUDIX family",,COG2816,nucleotide
+SPO3554,SPO3554,hypothetical protein,SPO_RS18005,1,0.032,1,0.025,1,0.025,1.1,0.03,NA,NA,NA,0,0,NA,NA,yes,NA,0,0,0.14,hypothetical protein,,COG0697,"AA,Carbon"
+SPO3561,xsc,sulfoacetaldehyde acetyltransferase,SPO_RS18040,0.39,0.051,0.75,0.038,0.47,0.074,0.68,0.024,0,0,NA,0,0,NA,yes,yes,NA,0.93,0.26,0.79,sulfoacetaldehyde acetyltransferase (EC 2.3.3.15),Catabolic,COG0028,"AA,Coenzyme"
+SPO3576,SPO3576,OmpA domain protein,SPO_RS18115,1.1,0.041,1.1,0.025,1,0.029,1.1,0.025,NA,NA,0,NA,NA,0,NA,NA,yes,0,-0.14,0,NA,,NA,NA
+SPO3579,SPO3579,"transcriptional regulator, MarR family",SPO_RS18130,1.1,0.025,1,0.029,1.1,0.025,1,0.029,0,0,NA,0,0,NA,yes,yes,NA,-0.14,0,-0.14,NA,,NA,NA
+SPO3581,nth,endonuclease III,SPO_RS18140,1.1,0.028,1,0.029,1,0.029,1.1,0.049,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,0,NA,,NA,NA
+SPO3582,SPO3582,"kinase, pfkB family",SPO_RS18145,1.1,0,1.1,0.025,1,0,1,0.029,NA,NA,0,0,0,0,NA,yes,yes,0,-0.14,-0.14,"kinase, pfkB family",,COG0524,Carbon
+SPO3584,SPO3584,"membrane protein, drug/metabolite transporter (DMT) family",SPO_RS18155,1.1,0.051,1,0.036,0.99,0.0075,1,0.048,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.15,-0.14,"membrane protein, drug/metabolite transporter (DMT) family",Transport,COG5006,AA
+SPO3604,SPO3604,"D-amino acid aminotransferase, putative",SPO_RS18260,0.85,0.027,0.97,0.0075,0.92,0.022,1,0.03,0,0,NA,NA,NA,NA,yes,NA,NA,0.19,0.11,0.23,"D-amino acid aminotransferase, putative",Amphibolic,COG0115,"AA,Coenzyme"
+SPO3609,linC-2,"2,5-dichloro-2,5-cyclohexadiene-1,4-diol dehydrogenase",SPO_RS18290,1,0.045,1,0.15,1,0.052,1.2,0.048,NA,NA,NA,0,0,NA,NA,yes,NA,0,0,0.26,short chain dehydrogenase,Catabolic,COG1028,lipids
+SPO3613,SPO3613,"transporter, LysE family",SPO_RS18310,1.1,0.03,1,0.027,1,0.029,1,0.025,NA,NA,0,NA,NA,0,NA,NA,yes,-0.14,-0.14,-0.14,"transporter, LysE family",Transport,COG1280,AA
+SPO3620,SPO3620,"sulfonate ABC transporter, periplasmic sulfonate-binding protein",SPO_RS18340,1.1,0.025,1,0.027,1,0.027,0.99,0.01,NA,NA,NA,0,0,NA,NA,yes,NA,-0.14,-0.14,-0.15,"sulfonate ABC transporter, periplamic sulfonate-binding protein",Transport,COG0715,Inorganics
+SPO3629,SPO3629,hypothetical protein,SPO_RS18385,1.1,0.028,0.98,0.044,1,0.034,1,0.034,NA,NA,0,0,0,0,NA,yes,yes,-0.17,-0.14,-0.14,16S rRNA (uracil1498-N3)-methyltransferase,,COG1385,translation
+SPO3631,SPO3631,OmpA domain protein,SPO_RS18395,1.1,0,1,0,1,0,1,0.025,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO3633,SPO3633,"molybdopterin converting factor, subunit 2",SPO_RS18405,0.68,0.019,0.9,0.041,0.8,0.038,0.85,0.049,0,0,NA,0,0,NA,yes,yes,NA,0.4,0.23,0.32,molybdopterin synthase subunit MoaE (EC 2.8.1.12),Anabolic,COG0314,Coenzyme
+SPO3634,moaD,"molybdopterin converting factor, subunit 1",SPO_RS18410,0.67,0.038,0.8,0.11,0.77,0.069,0.83,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0.25,0.2,0.3,molybdopterin synthase subunit MoaD (EC 2.8.1.12),Anabolic,COG1977,Coenzyme
+SPO3661,SPO3661,allophanate hydrolase family protein,SPO_RS18555,0.92,0.014,0.78,0.032,0.78,0.027,0.75,0.025,0,0,0,0,0,0,yes,yes,yes,-0.24,-0.24,-0.29,allophanate hydrolase family protein,Catabolic,COG2049,AA
+SPO3673a,SPO3673a,hypothetical protein,SPO_RS22970,1.1,0.025,1.1,0.025,1,0.029,1,0.025,NA,NA,0,0,0,0,NA,yes,yes,0,-0.14,-0.14,NA,,NA,NA
+SPO3684,SPO3684,"transcriptional regulator, LacI family",SPO_RS18690,0.88,0.0065,0.95,0.014,0.89,0.01,0.98,0.014,0,0,NA,0,0,NA,yes,yes,NA,0.11,0.016,0.15,NA,,NA,NA
+SPO3727,SPO3727,"VacJ lipoprotein, putative",SPO_RS18915,1.1,0,1,0.029,1,0,1,0.0025,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO3730,SPO3730,endoribonuclease L-PSP family protein,SPO_RS18930,1.1,0,1,0.036,1,0.025,1,0.029,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO3731,SPO3731,"glycerophosphoryl diester phosphodiesterase, putative",SPO_RS18935,1.1,0.025,1,0.039,1,0.025,1,0.025,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,"glycerophosphoryl diester phosphodiesterase, putative",,COG0584,lipids
+SPO3768,gltB,"glutamate synthase, large subunit",SPO_RS19125,0.2,0.012,0.4,0.017,0.33,0.042,0.36,0.023,0,0,NA,0,0,NA,yes,yes,NA,0.97,0.7,0.82,glutamate synthase (NADPH) large subunit (EC 1.4.1.13),Anabolic,COG0069,AA
+SPO3769,SPO3769,hypothetical protein,SPO_RS19130,0.18,0.033,0.56,0.025,0.36,0.056,0.38,0.1,0,0,NA,NA,NA,NA,yes,NA,NA,1.6,0.96,1,NA,,NA,NA
+SPO3789,SPO3789,4-carboxymuconolactone decarboxylase domain/alkylhydroperoxidase AhpD family core domain protein,SPO_RS19230,1.1,0.056,1,0.031,1,0.005,0.97,0.027,NA,NA,0,0,0,0,NA,yes,yes,-0.14,-0.14,-0.18,NA,,NA,NA
+SPO3794,SPO3794,hypothetical protein,SPO_RS22635,1.1,0.041,0.97,0.03,1,0.029,1,0.05,NA,NA,0,0,0,0,NA,yes,yes,-0.18,-0.14,-0.14,NA,,NA,NA
+SPO3804,dmdC,3-methylmercaptopropionyl-CoA dehydrogenase,SPO_RS19300,1.1,0.025,1,0.025,1.1,0.025,1.1,0,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,0,0,3-methylmercaptopropionyl-CoA dehydrogenase,Catabolic,COG1960,lipids
+SPO3805,dmdD,Methylthioacryloyl-CoA hydratase,SPO_RS19305,1.1,0.025,1.1,0.025,1,0.025,1.1,0,NA,NA,0,NA,NA,0,NA,NA,yes,0,-0.14,0,methylthioacryloyl-CoA hydratase,Catabolic,COG1024,lipids
+SPO3806,smpB,SsrA-binding protein,SPO_RS19310,0.7,0.031,0.86,0.046,0.81,0.029,0.91,0.033,NA,NA,NA,0,0,NA,NA,yes,NA,0.29,0.21,0.37,NA,,NA,NA
+SPO3810,gpmI,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase",SPO_RS19335,0.046,0.036,0.35,0.032,0.3,0.029,0.33,0.11,NA,NA,0,NA,NA,0,NA,NA,yes,2.7,2.5,2.6,phosphoglycerate mutase (EC 5.4.2.1),Amphibolic,COG0696,Carbon
+SPO3867,regB,sensor histidine kinase RegB,SPO_RS19625,0.76,0.021,0.87,0.019,0.88,0.015,0.86,0.013,0,0,0,0,0,0,yes,yes,yes,0.19,0.21,0.18,NA,,NA,NA
+SPO3873,SPO3873,"ATP-dependent DNA helicase, UvrD/Rep family",SPO_RS19655,0.71,0.035,0.81,0.026,0.76,0.01,0.86,0.032,0,0,NA,0,0,NA,yes,yes,NA,0.19,0.097,0.27,NA,,NA,NA
+SPO3901,SPO3901,"carbon monoxide dehydrogenase G protein, putative",SPO_RS18460,1.1,0.025,0.99,0.067,1,0.031,0.86,0.063,NA,NA,NA,0,0,NA,NA,yes,NA,-0.15,-0.14,-0.35,"carbon monoxide dehydrogenase G protein, putative",Catabolic,COG3427,Energy
+SPOA0002,miaB,(dimethylallyl)adenosine tRNA methylthiotransferase,SPO_RS19790,1.1,0.048,0.97,0.024,0.99,0.0071,0.97,0.03,0,0,0,0,0,0,yes,yes,yes,-0.18,-0.15,-0.18,tRNA-i(6)A37 thiotransferase enzyme MiaB,,COG0621,translation
+SPOA0007,SPOA0007,hypothetical protein,SPO_RS19815,0.45,0.22,1,0.15,0.96,0.13,0.74,0.29,NA,NA,0,NA,NA,0,NA,NA,yes,1.1,1.1,0.71,NA,,NA,NA
+SPOA0030,nqrC,Na(+)-translocating NADH-quinone reductase subunit C,SPO_RS19925,1.1,0.025,1,0.025,1,0.026,1,0.032,0,0,NA,NA,NA,NA,yes,NA,NA,-0.14,-0.14,-0.14,Na(+)-translocating NADH-quinone reductase subunit C,Catabolic,COG2869,Energy
+SPOA0031,nqrD,Na(+)-translocating NADH-quinone reductase subunit D,SPO_RS19930,1.1,0,1.1,0.025,1,0.028,1,0.025,NA,NA,0,0,0,0,NA,yes,yes,0,-0.14,-0.14,NADH-ubiquinone oxidoreductase,Catabolic,COG1347,Energy
+SPOA0037,SPOA0037,hypothetical protein,SPO_RS19960,1.2,0.048,1.1,0.025,1.1,0,1.1,0,NA,NA,0,0,0,0,NA,yes,yes,-0.12,-0.12,-0.12,NA,,NA,NA
+SPOA0042,SPOA0042,BKACE; β-keto acid cleavage enzyme group G4 (pca degradation),SPO_RS19985,1.1,0.048,0.94,0.03,0.98,0.012,1,0.028,0,0,0,NA,NA,0,yes,NA,yes,-0.22,-0.17,-0.14,NA,,NA,NA
+SPOA0067,SPOA0067,TetR family transcriptional regulator,SPO_RS20110,1,0.029,1,0.039,1.1,0.025,1,0.039,NA,NA,0,NA,NA,0,NA,NA,yes,0,0.14,0,NA,,NA,NA
+SPOA0073,arsC-2,arsenate reductase,SPO_RS20140,0.49,0.12,0.95,0.055,0.86,0.033,0.85,0.056,0,0,0,0,0,0,yes,yes,yes,0.94,0.8,0.78,NA,,NA,NA
+SPOA0088,SPOA0088,hypothetical protein,SPO_RS22660,1.1,0,0.98,0,0.99,0.0041,0.98,0.0048,0,0,NA,0,0,NA,yes,yes,NA,-0.17,-0.15,-0.17,NA,,NA,NA
+SPOA0096,SPOA0096,histone deacetylase/AcuC/AphA family protein,SPO_RS20295,1.1,0.025,1,0.025,1.1,0.025,1,0.029,0,0,NA,0,0,NA,yes,yes,NA,-0.14,0,-0.14,NA,,NA,NA
+SPOA0098,SPOA0098,"branched-chain amino acid ABC transporter, permease protein",SPO_RS20305,1,0.036,1.1,0.025,1,0.037,1,0.034,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,0,0,"amino acid/amide ABC transporter membrane protein 1, HAAT family (TC 3.A.1.4.-)",Transport,COG0559,AA
+SPOA0111,SPOA0111,"indolepyruvate oxidoreductase, IorA subunit",SPO_RS20385,1.1,0,1,0.005,1,0.027,1,0.033,NA,NA,0,0,0,0,NA,yes,yes,-0.14,-0.14,-0.14,"indolepyruvate oxidoreductase, IorA subunit, putative",Catabolic,COG4231,Energy
+SPOA0112,feaB,phenylacetaldehyde dehydrogenase,SPO_RS20390,0.92,0.016,0.98,0.0096,0.95,0.017,1,0.005,NA,NA,NA,0,0,NA,NA,yes,NA,0.09,0.046,0.12,aldehyde dehydrogenase (acceptor) (EC 1.2.99.3),Amphibolic,COG1012,Energy
+SPOA0138,SPOA0138,hypothetical protein,SPO_RS20530,1,0.03,1.1,0.025,1,0.029,1.1,0.025,0,0,NA,0,0,NA,yes,yes,NA,0.14,0,0.14,NA,,NA,NA
+SPOA0169,SPOA0169,MOSC domain-containing protein,SPO_RS20685,1.1,0.03,1.1,0.03,0.99,0.0071,1,0.025,NA,NA,0,NA,NA,0,NA,NA,yes,0,-0.15,-0.14,NA,,NA,NA
+SPOA0211,SPOA0211,Na/Pi-cotransporter family protein,SPO_RS20890,1.1,0.025,1,0.029,1,0.025,1,0.025,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,Na/Pi-cotransporter family protein,Transport,COG1283,Inorganics
+SPOA0212,SPOA0212,nitric oxide reductase F protein,SPO_RS20895,0.86,0.022,0.51,0.27,0.99,0.11,1.1,0.067,NA,NA,NA,0,0,NA,NA,yes,NA,-0.74,0.2,0.35,NA,,NA,NA
+SPOA0223,nirF,cytochrome cd1 nitrite reductase,SPO_RS20950,1.1,0.033,0.94,0.021,0.99,0.042,1,0.039,0,0,NA,NA,NA,NA,yes,NA,NA,-0.22,-0.15,-0.14,NA,,NA,NA
+SPOA0237,dctD-2,C4-dicarboxylate transport transcriptional regulatory protein DctD,SPO_RS21020,1.2,0.029,0.97,0.021,0.98,0.0082,0.99,0.0048,0,0,0,0,0,0,yes,yes,yes,-0.3,-0.29,-0.28,NA,,NA,NA
+SPOA0238,SPOA0238,"TRAP dicarboxylate transporter, DctP subunit",SPO_RS21025,1.2,0.025,1,0.037,1,0.029,1,0.025,0,0,0,0,0,0,yes,yes,yes,-0.26,-0.26,-0.26,"TRAP dicarboxylate transporter, DctP subunit",Transport,COG1638,Carbon
+SPOA0240,SPOA0240,"TRAP transporter, DctM subunit",SPO_RS21035,1.1,0.025,0.96,0.029,0.98,0.01,0.98,0.017,0,0,0,0,0,0,yes,yes,yes,-0.19,-0.17,-0.17,"TRAP transporter, DctM subunit",Transport,COG1593,Carbon
+SPOA0249,SPOA0249,"TRAP dicarboxylate transporter, DctP subunit",SPO_RS21080,0.86,0.023,0.92,0.023,0.95,0.029,0.94,0.023,NA,NA,NA,0,0,NA,NA,yes,NA,0.096,0.14,0.13,"TRAP dicarboxylate transporter, DctP subunit",Transport,COG1638,Carbon
+SPOA0252,SPOA0252,LacI family transcription regulator,SPO_RS21095,0.84,0.013,0.82,0.041,0.9,0.037,0.74,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,-0.034,0.098,-0.18,NA,,NA,NA
+SPOA0268,SPOA0268,methanethiol oxidation regulator,SPO_RS21175,1.1,0.025,1,0.026,1,0.025,1,0.029,NA,NA,0,0,0,0,NA,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPOA0292,psd,phosphatidylserine decarboxylase,SPO_RS21300,1,0.034,1.1,0.025,0.99,0.01,1,0.028,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,-0.014,0,phosphatidylserine decarboxylase,Anabolic,COG0688,lipids
+SPOA0302,SPOA0302,phage integrase family site specific recombinase,SPO_RS21350,1.1,0,1,0.064,1,0.042,1,0.025,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.14,-0.14,NA,,NA,NA
+SPOA0317,SPOA0317,AsnC family transcriptional regulator,SPO_RS21425,0.98,0.017,1,0.037,1,0.028,1.1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0.029,0.029,0.17,NA,,NA,NA
+SPOA0321,SPOA0321,glyoxalase family protein,SPO_RS21445,1.1,0.045,1,0.03,0.98,0.046,0.94,0.018,NA,NA,NA,0,0,NA,NA,yes,NA,-0.14,-0.17,-0.22,NA,,NA,NA
+SPOA0326,SPOA0326,LysR family transcriptional regulator,SPO_RS21470,1.1,0.048,1,0.052,0.96,0.05,0.98,0.0085,NA,NA,NA,0,0,NA,NA,yes,NA,-0.14,-0.19,-0.17,NA,,NA,NA
+SPOA0336,SPOA0336,LacI family transcription regulator,SPO_RS21540,1.3,0.025,0.92,0.012,1.1,0.028,0.93,0.022,0,0,NA,0,0,NA,yes,yes,NA,-0.49,-0.24,-0.48,NA,,NA,NA
+SPOA0342,SPOA0342,hypothetical protein,SPO_RS21570,1.1,0.025,1,0.029,1,0.029,1.1,0,0,0,0,NA,NA,0,yes,NA,yes,-0.14,-0.14,0,NA,,NA,NA
+SPOA0343,SPOA0343,hypothetical protein,SPO_RS21575,1,0.029,1.1,0.025,1,0.025,1,0.029,0,0,NA,NA,NA,NA,yes,NA,NA,0.14,0,0,NA,,NA,NA
+SPOA0367,SPOA0367,"ABC transporter, permease protein",SPO_RS21695,0.9,0.021,0.98,0.012,0.94,0.029,0.89,0.1,0,0,NA,NA,NA,NA,yes,NA,NA,0.12,0.062,-0.016,NA,,NA,NA
+SPOA0385,SPOA0385,hypothetical protein,SPO_RS21785,1,0.067,0.81,0.15,0.94,0.07,1.2,0.029,NA,NA,NA,0,0,NA,NA,yes,NA,-0.3,-0.088,0.26,hypothetical protein,,COG0665,AA
+SPOA0408,SPOA0408,hypothetical protein,SPO_RS21900,0.98,0.013,0.92,0.03,0.93,0.051,1.1,0.04,NA,NA,NA,0,0,NA,NA,yes,NA,-0.09,-0.075,0.17,NA,,NA,NA
+SPOA0413,SPOA0413,"xanthine dehydrogenase family protein, small subunit",SPO_RS21920,1.1,0.025,1,0.039,0.99,0.0058,1,0.046,0,0,0,0,0,0,yes,yes,yes,-0.14,-0.15,-0.14,"xanthine dehydrogenase family protein, small subunit",Catabolic,COG2080,Energy
+SPOA0422,SPOA0422,hypothetical protein,SPO_RS21965,0.73,0.045,0.92,0.11,0.86,0.026,0.97,0.05,NA,NA,NA,0,0,NA,NA,yes,NA,0.33,0.23,0.41,NA,,NA,NA
+SPOA0432,pcaB,"3-carboxy-cis,cis-muconate cycloisomerase",SPO_RS22015,1.1,0.041,1,0.029,1.1,0.025,1,0,0,0,NA,0,0,NA,yes,yes,NA,-0.14,0,-0.14,"3-carboxy-cis,cis-muconate cycloisomerase (EC 5.5.1.2)",Catabolic,COG0015,nucleotide
+SPOA0449,SPOA0449,phytanoyl-CoA dioxygenase,SPO_RS19780,0.85,0.031,0.82,0.061,0.94,0.0096,0.82,0.025,NA,NA,0,NA,NA,0,NA,NA,yes,-0.051,0.14,-0.051,NA,,NA,NA
+SPOA0451,SPOA0451,MarR family transcriptional regulator,SPO_RS22340,1.1,0.025,1,0.025,1,0.026,1,0.032,0,0,NA,0,0,NA,yes,yes,NA,-0.14,-0.14,-0.14,NA,,NA,NA
+SPO_Sp16SA,16S rRNA,,,0.97,0.0048,1,0,1,0.029,1.1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0.044,0.044,0.18,NA,,NA,NA
+SPO_Sp16SB,16S rRNA,,,0.96,0.0065,1,0.025,1,0.029,1.1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0.058,0.058,0.19,NA,,NA,NA
+SPO_Sp16SC,16S rRNA,,,0.96,0.0065,1,0.025,1,0.025,1.1,0.025,NA,NA,NA,0,0,NA,NA,yes,NA,0.058,0.058,0.19,NA,,NA,NA

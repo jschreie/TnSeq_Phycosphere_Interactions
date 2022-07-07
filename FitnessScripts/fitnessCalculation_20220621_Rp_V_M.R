@@ -57,8 +57,8 @@ expansion_fitnessCalc <- completeCommExpansion
 initial_treatmentColumns_meanFitnessCalc <- initial
 treatmentColumns_meanFitnessCalc <- all
 
-outputName_raw <- 'compCommFitness_raw_20220621.csv'
-outputName <- 'compCommFitness_20220621.csv'
+outputName_raw <- 'Data/compCommFitness_raw_20220701.csv'
+outputName <- 'Data/compCommFitness_20220701.csv'
 
 # calculating a fitness of a gene from sum of insertion reads
 
@@ -164,17 +164,14 @@ fitness$w_2[is.infinite(fitness$w_2)] <- NA
 fitness$w_3[is.infinite(fitness$w_3)] <- NA 
 fitness$w_4[is.infinite(fitness$w_4)] <- NA 
 
+fitness[, 2:5] <- round(fitness[,2:5], 2)
 write.csv(fitness, outputName_raw, row.names=FALSE)
 
 meanFit <- fitness %>% 
   pivot_longer(., cols=2:5, names_to='fit', values_to='W') %>% 
   group_by(spo) %>% 
   na.omit() %>% 
-  summarize(meanW=mean(W), semW=sd(W)/sqrt(length(W)))
-
-meanFit$meanW <- round(meanFit$meanW,3)
-meanFit$semW <- round(meanFit$semW,3)
+  summarize(meanW=round(mean(W), 2), semW=round(sd(W)/sqrt(length(W)), 2))
 
 
 write.csv(meanFit, outputName, row.names=FALSE)
-
