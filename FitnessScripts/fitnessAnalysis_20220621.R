@@ -13,22 +13,24 @@ compCommFitness <- fread('Data/compCommFitness_20220701.csv', header=TRUE)
 spoFunction <- fread('DSS3_annotations_April2020.csv', header=TRUE)
 
 meanFitness <- rpomAloneFitness %>% 
-  full_join(vibFitness, by='spo', suffix=c('_rpomAlone', '_vib'))  %>%   full_join(mariFitness, by='spo', suffix=c('_vib','_mari')) %>% 
+  full_join(vibFitness, by='spo', suffix=c('_rpomAlone', '_vib'))  %>%  
+  full_join(mariFitness, by='spo', suffix=c('_vib','_mari')) %>% 
   full_join(compCommFitness, by='spo', suffix=c('_mari', '_CC')) 
 meanFitness <- merge(meanFitness, spoFunction, by='spo')
 
 
 # puts all raw fitness values into a file called fitness_raw to be used for randomization
-rpomAloneFitness <- fread('Data/rpomAloneFitness_raw_20220701.csv', header=TRUE)
-vibFitness <- fread('Data/vibFitness_raw_20220701.csv', header=TRUE)
-mariFitness <- fread('Data/mariFitness_raw_20220701.csv', header=TRUE)
-compCommFitness <- fread('Data/compCommFitness_raw_20220701.csv', header=TRUE) 
-spoFunction <- fread('DSS3_annotations_April2020.csv', header=TRUE)
+rpomAloneFitness_raw <- fread('Data/rpomAloneFitness_raw_20220701.csv', header=TRUE)
+vibFitness_raw <- fread('Data/vibFitness_raw_20220701.csv', header=TRUE)
+mariFitness_raw <- fread('Data/mariFitness_raw_20220701.csv', header=TRUE)
+compCommFitness_raw <- fread('Data/compCommFitness_raw_20220701.csv', header=TRUE) 
 
 
-Fitness <- rpomAloneFitness %>% 
-  full_join(vibFitness, by='spo', suffix=c('_rpomAlone', '_vib'))  %>%   full_join(mariFitness, by='spo', suffix=c('_vib','_mari')) %>% 
-  full_join(compCommFitness, by='spo', suffix=c('_mari', '_CC')) 
+
+Fitness <- rpomAloneFitness_raw %>% 
+  full_join(vibFitness_raw, by='spo', suffix=c('_rpomAlone', '_vib'))  %>%   
+  full_join(mariFitness_raw, by='spo', suffix=c('_vib','_mari')) %>% 
+  full_join(compCommFitness_raw, by='spo', suffix=c('_mari', '_CC')) 
 
 
 
