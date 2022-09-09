@@ -371,36 +371,7 @@ allExp <- expansionCalc_noUncert(allBacteriaFlow[1]*rpomAllPercent[1], allBacter
 
 print(c('RpomAlone Expansion=', round(rpomAloneExp, 2),'Vibrio Expansion=', round(vibExp,2) , 'Marivivens Expansion=', round(mariExp,2), 'CompleteCommunity Expansion', round(allExp, 2)))
 ```
- 
-## Number of generations over 8 days
 
-
-```{r, echo=FALSE}
-
-
-
-#Calculating the # of generations from the FC data, for rpom Alone just use the flow data, for rpom in the other communities, use the %CFU rpom * FC data
-
-generations <- function(FC, percentRpom){
-  (log10(FC[5]*percentRpom[3]) - log10(FC[1]*percentRpom[1]))/0.301
-
-}
-
-
-generationTable <- matrix(nrow=4, ncol=2)
-generationTable[1, 1] <- 'rpomAlone Generations'
-generationTable[2, 1] <- 'Vibrio rpom Generations'
-generationTable[3, 1] <- 'Marivivens rpom Generations'
-generationTable[4, 1] <- 'Complete Comm rpom Generations'
-generationTable[1,2] <- round((log10(tnBacteriaFlow[5]) - log10(tnBacteriaFlow[1]))/0.301,2)
-generationTable[2,2] <- round(generations(vibBacteriaFlow, rpomVibPercent),2)
-generationTable[3,2] <- round(generations(mariBacteriaFlow, rpomMariPercent), 2)
-generationTable[4,2] <- round(generations(allBacteriaFlow, rpomAllPercent), 2)
-
-print(generationTable)
-
-paste('Mean Generations=', mean(as.numeric(generationTable[1:4, 2])))
-```
 
 ## Number of generations over 4 days
 ```{r, echo=FALSE}
@@ -438,8 +409,8 @@ paste('Mean Generations=', mean(as.numeric(gen4Table[1:4, 2])))
 ## Overview of fitness profiles
 ```{r, warning=FALSE, echo=FALSE, fig.align='center', fig.height=4, fig.width=9}
 meanFitness <- fread('Data/meanFitness_20220701.csv', header=TRUE)
-significantFitness <- fread('Data/significantFitness_Metabolism_20220706.csv', header=TRUE)
-table1 <- fread('Table1_20220718.csv', header=TRUE) %>% 
+significantFitness <- fread('Data/significantFitness_Metabolism_Grouped_20220713.csv', header=TRUE)
+table1 <- fread('Data/Table1_20220831.csv', header=TRUE) %>% 
   select(spo, gene, funct, sig_vib, sig_mari, sig_cc) %>% 
     inner_join(., significantFitness, by=c('spo', 'gene', 'funct', 'sig_mari', 'sig_vib', 'sig_cc'))
 
@@ -490,26 +461,6 @@ overallFitPlot(meanFitness$meanW_rpomAlone, meanFitness$meanW_CC, commSig$meanW_
 #dev.off()
 ```
 
-## Binomial test to compare proportion of increased vs decreased mutants
-
-```{r, echo=FALSE}
-vibSigIncrease <- length(vibSig$Vib_fold_diff[vibSig$Vib_fold_diff > 0 & !is.na(vibSig$Vib_fold_diff)])
-vibSigDecrease <- length(vibSig$Vib_fold_diff[vibSig$Vib_fold_diff < 0 & !is.na(vibSig$Vib_fold_diff)])
-vibTotal <- length(vibSig$Vib_fold_diff)
-
-
-mariSigIncrease <- length(mariSig$Mari_fold_diff[mariSig$Mari_fold_diff > 0 & !is.na(mariSig$Mari_fold_diff)])
-mariSigDecrease <- length(mariSig$Mari_fold_diff[mariSig$Mari_fold_diff < 0 & !is.na(mariSig$Mari_fold_diff)])
-mariTotal <- length(mariSig$Mari_fold_diff)
-
-commSigIncrease <- length(commSig$CC_fold_diff[commSig$CC_fold_diff > 0 & !is.na(commSig$CC_fold_diff)])
-commSigDecrease <- length(commSig$CC_fold_diff[commSig$CC_fold_diff < 0 & !is.na(commSig$CC_fold_diff)])
-commTotal <- length(commSig$CC_fold_diff)
-
-prop.test(c(vibSigIncrease, vibSigDecrease), c(vibTotal, vibTotal))
-prop.test(c(mariSigIncrease, mariSigDecrease), c(mariTotal, mariTotal))
-prop.test(c(commSigIncrease, commSigDecrease), c(commTotal, commTotal))
-```
 
 
 
@@ -525,31 +476,6 @@ hist(mariSig$Mari_fold_diff, seq(-6.5, 6.6, length.out = 125), col=mariColor, xl
 hist(commSig$CC_fold_diff, seq(-6.6, 6.6, length.out = 125), col=compCommColor, xlim=c(-6.5, 6.5), ylim=c(0,40), border='white', xlab='log2_FC Rp+V+M', main='')
 #dev.off()
 
-# wilcox.test(vib_inc_dW, cc_inc_dW, conf.int = TRUE)
-# wilcox.test(vib_inc_dW, mari_inc_dW, conf.int = TRUE)
-# wilcox.test(mari_inc_dW, cc_inc_dW, conf.int = TRUE)
-# median(vib_inc_dW)
-# median(mari_inc_dW)
-# median(cc_inc_dW)
-# 
-# wilcox.test(vib_dec_dW, cc_dec_dW, conf.int = TRUE)
-# wilcox.test(vib_dec_dW, mari_dec_dW, conf.int = TRUE)
-# wilcox.test(mari_dec_dW, cc_dec_dW, conf.int = TRUE)
-# median(vib_dec_dW)
-# median(mari_dec_dW)
-# median(cc_dec_dW)
-# 
-# 
-# 
-# diffTab <- data.table(Treatment='Rp+V', dW=vibSig$Vib_diff) %>% 
-#   rbind(data.table(Treatment='Rp+M', dW=mariSig$Mari_diff)) %>% 
-#   rbind(data.table(Treatment='Rp+V+M', dW=commSig$CC_diff))
-# 
-# #test of -dW
-# kruskal.test(diffTab$dW[diffTab$dW<0] ~ diffTab$Treatment[diffTab$dW<0])
-# 
-# #test of +dW
-# kruskal.test(diffTab$dW[diffTab$dW>0] ~ diffTab$Treatment[diffTab$dW>0])
 ```
 
 
@@ -624,7 +550,7 @@ detach(blankedGrowthCurve)
 
 # Growth on malate, spermidine, glycolate
 
-```{r}
+```{r, echo=FALSE, warning=FALSE}
 
 glycolate_OD <- fread('Data/Glycolate_Malate_GrowthCurves_CBS.csv') %>%  melt(., id=('Time'), variable.name='Well', value.name='OD600')
 glycolate_OD$Well <- as.integer(glycolate_OD$Well)
@@ -672,7 +598,7 @@ detach(glycolate_mean)
 ```
 
 
-```{r}
+```{r, echo=FALSE, warning=FALSE}
 ArgGln <- fread('Data/cbs_growth_arginine_gln_malonate.csv') %>% 
     pivot_longer(., cols=2:19, names_to='Organism', values_to='OD') %>% 
     separate(., col='Organism', into=c('Organism', 'Condition', 'Rep')) %>% 
@@ -683,7 +609,7 @@ attach(ArgGln)
 rpomArg <- Organism=='Rp' & Condition=='arginine'
 mariArg <- Organism=='Marivivens' & Condition=='arginine'
 vibArg <- Organism=='Vibrio' & Condition=='arginine'
-pdf('ArginineGrowth.pdf')
+#pdf('ArginineGrowth.pdf')
 plot(Time[rpomArg], mean_OD[rpomArg], type='n',  las=1, xlab='Time(h)', ylab='OD600', main='Arginine', bty='n', ylim=c(0, 0.2),xlim=c(0, 20),cex=1.5, col='gray80')
 OD(rpomArg, rpomColor)
 OD(vibArg, vibColor)
@@ -693,18 +619,18 @@ dev.off()
 rpomGln <- Organism=='Rp' & Condition=='glutamine'
 mariGln <- Organism=='Marivivens' & Condition=='glutamine'
 vibGln <- Organism=='Vibrio' & Condition=='glutamine'
-pdf('GlutamineGrowth.pdf')
+#pdf('GlutamineGrowth.pdf')
 plot(Time[rpomGln], mean_OD[rpomGln], type='n',  las=1, xlab='Time(h)', ylab='OD600', main='Glutamine', bty='n', ylim=c(0, 0.2),xlim=c(0, 20),cex=1.5, col='gray80')
 OD(rpomGln, rpomColor)
 OD(vibGln, vibColor)
 OD(mariGln, mariColor)
-dev.off()
+#dev.off()
 
 
 detach()
 ```
 
-```{r}
+```{r, echo=FALSE, warning=FALSE}
 GluRibose <- fread('Data/cbs_glutamate_ribose.csv')%>%  melt(., id=('Time'), variable.name='Well', value.name='OD600')
 
 GluRibose_layout <- fread('Data/cbs_glutamate_ribose_plateLayout.csv')
@@ -725,19 +651,19 @@ rpomGlu <- Organism=='Rpom' & Condition=='Glutamate'
 vibGlu <- Organism=='Vib' & Condition=='Glutamate'
 mariGlu <- Organism=='Mari' & Condition=='Glutamate'
 
-pdf('GlutamateGrowth.pdf')
+#pdf('GlutamateGrowth.pdf')
 plot(Time[rpomGlu], mean_OD[rpomGlu], type='n',  las=1, xlab='Time(h)', ylab='OD600', main='Glutamate', bty='n', ylim=c(0, 0.3),xlim=c(0, 20),cex=1.5, col='gray80')
 OD(rpomGlu, rpomColor)
 OD(vibGlu, vibColor)
 OD(mariGlu, mariColor)
-dev.off()
+#dev.off()
 
 
 detach()
 ```
 
 
-```{r}
+```{r, echo=FALSE, warning=FALSE}
 DMSP <- fread('Data/DSS3,HF1,HF70_DMSP_48-well.csv') %>% 
     pivot_longer(., cols=2:25, names_to='Organism', values_to='OD') %>% 
   na.omit() %>% 
@@ -769,12 +695,12 @@ attach(Asparagine)
 rpomAsparagine <- Organism=='DSS3' & Condition=='asparagine'
 mariAsparagine <- Organism=='HF1' & Condition=='asparagine'
 vibAsparagine <- Organism=='HF70' & Condition=='asparagine'
-pdf('Asparagine.pdf')
+#pdf('Asparagine.pdf')
 plot(Time[rpomAsparagine], mean_OD[rpomAsparagine], type='n',  las=1, xlab='Time(h)', ylab='OD600', main='Asparagine', bty='n', ylim=c(0, 0.2),xlim=c(0, 20), cex=1.5, col='gray80')
 OD(rpomAsparagine, rpomColor)
 OD(vibAsparagine, vibColor)
 OD(mariAsparagine, mariColor)
-dev.off()
+#dev.off()
 detach(Asparagine)
 
 

@@ -50,7 +50,7 @@ library(data.table)
 
 # x <- merge(significantFitness, metabolism, all=TRUE)
 
-metabolism <- fread('significantFitness_Metabolism_Grouped_20220713.csv')
+metabolism <- fread('Data/significantFitness_Metabolism_Grouped_20220713.csv')
 
 
 anabolic <- subset(metabolism, Metabolism == 'Anabolic') 
