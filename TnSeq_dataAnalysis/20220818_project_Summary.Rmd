@@ -433,8 +433,8 @@ overallFitPlot <- function(meanFitX=meanFitness$meanW_rpomAlone, meanFitY=meanFi
     axesCol <- 'gray25'
     plot(meanFitX, meanFitY, pch=16, col='grey90', xlab=xLab, ylab=yLab, las=1, bty='n', xaxt='n', yaxt='n',  cex=0.6, xlim=c(0,2), ylim=c(0,2), col.lab=axesCol)
     
-    points(SigFitY_X, SigFitY_Y, pch=16, col=alpha(ycol,0.3), cex=0.6)
-    points(SigTableX, SigTableY, pch=16,col=ycol, cex=0.6)
+    points(SigFitY_X, SigFitY_Y, pch=21, col=ycol, cex=0.6)
+    points(SigTableX, SigTableY, pch=16, col=ycol, cex=0.6)
     rug(SigFitY_X, side=1, pos=c(2,0), ticksize=0.1, lwd=0.15, col=rpomColor)
     rug(SigFitY_Y, side=2, col=ycol, pos=c(2,0), ticksize=0.1, lwd=0.15)
     axis(1, at=fitTicks, labels=fitLabs, col=axesCol, col.axis=axesCol)
@@ -548,7 +548,7 @@ legend(30, 0.3, legend=c('R. pomeroyi WT', 'Vibrio', 'Marivivens'), col=c(rpomCo
 detach(blankedGrowthCurve)
 ```
 
-# Growth on malate, spermidine, glycolate
+# Growth on glycolate
 
 ```{r, echo=FALSE, warning=FALSE}
 
@@ -614,7 +614,7 @@ plot(Time[rpomArg], mean_OD[rpomArg], type='n',  las=1, xlab='Time(h)', ylab='OD
 OD(rpomArg, rpomColor)
 OD(vibArg, vibColor)
 OD(mariArg, mariColor)
-dev.off()
+#dev.off()
 
 rpomGln <- Organism=='Rp' & Condition=='glutamine'
 mariGln <- Organism=='Marivivens' & Condition=='glutamine'
