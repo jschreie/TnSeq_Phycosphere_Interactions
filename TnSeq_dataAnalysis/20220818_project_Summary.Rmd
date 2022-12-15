@@ -301,6 +301,17 @@ oneMemberGrowthCurve(compCommMariTimeCFU, compCommMariCFU, semCompCommMariCFU, m
 
 
 #dev.off()
+
+#pdf('RpomAllConditions.pdf', useDingbats = FALSE, height=5, width=5)
+niceGrowthCurve(xAxis, yAxis, ylim, timeTicks=xAxis, timeLabs=xAxisLabs, popTicks=yAxis, popLabs=yAxisLab)
+oneMemberGrowthCurve(rpomAloneTimeCFU, rpomAloneCFU, semRpomAloneCFU, rpomColor,lineType=1, point=17)
+oneMemberGrowthCurve(vibRpomTimeCFU, vibRpomCFU, semVibRpomCFU, vibColor, lineType=1, point=17)
+oneMemberGrowthCurve(mariRpomTimeCFU, mariRpomCFU, semMariRpomCFU, mariColor, lineType=1, point=17)
+oneMemberGrowthCurve(compCommRpomTimeCFU, compCommRpomCFU, semCompCommRpomCFU, compCommColor, lineType=1, point=17)
+
+legend(1.2, 0.6e4, legend=c('Rp Alone' , 'Rp+V', 'Rp+M', 'Rp+V+M'), col=c(rpomColor, vibColor, mariColor, compCommColor), pch=c(17,17,17,15), cex=0.8, lty=1, bty='n', seg.len=3)
+
+#dev.off()
 ```
 
 ### Expansion Factors
@@ -432,16 +443,32 @@ overallFitPlot <- function(meanFitX=meanFitness$meanW_rpomAlone, meanFitY=meanFi
     segmentCol <- 'grey45'
     axesCol <- 'gray25'
     plot(meanFitX, meanFitY, pch=16, col='grey90', xlab=xLab, ylab=yLab, las=1, bty='n', xaxt='n', yaxt='n',  cex=0.6, xlim=c(0,2), ylim=c(0,2), col.lab=axesCol)
-    
     points(SigFitY_X, SigFitY_Y, pch=21, col=ycol, cex=0.6)
     points(SigTableX, SigTableY, pch=16, col=ycol, cex=0.6)
-    rug(SigFitY_X, side=1, pos=c(2,0), ticksize=0.1, lwd=0.15, col=rpomColor)
-    rug(SigFitY_Y, side=2, col=ycol, pos=c(2,0), ticksize=0.1, lwd=0.15)
+    rug(SigFitY_X, side=1, pos=c(2,0), ticksize=0.05, lwd=0.2, col=rpomColor)
+    rug(SigFitY_Y, side=2, col=ycol, pos=c(2,0), ticksize=0.05, lwd=0.2)
     axis(1, at=fitTicks, labels=fitLabs, col=axesCol, col.axis=axesCol)
-    axis(2, at=fitTicks, labels=fitLabs, col=axesCol, col.axis=axesCol)
+    axis(2, at=fitTicks, labels=fitLabs, col=axesCol, col.axis=axesCol, las=1)
     segments(x0=0, y0=0, x1=2, y1=2, col= segmentCol, lty=2, lwd=0.5)
     segments(x0=-1, y0=1, x1=1, y1=1, col=segmentCol, lty=2, lwd=0.5)
     text(0.5, 1.9, paste('rho=',round(x$estimate, 2)), cex=0.6)
+}
+
+rugGrouping <- function(sigX=vibSigTable$meanW_rpomAlone, sigY=vibSigTable$meanW_vib, sigGroup=vibSigTable$Group){
+  CompetitionCol <- '#50312F'
+  AltCol <- '#EDAE01'
+  CrossCol <- '#A10115'
+  ChemCol <- '#EC96A4'
+  lineWeight <- 0.5
+  rug(sigX[sigGroup=='Competition'], side=1, pos=c(2,0), ticksize=0.1, lwd=lineWeight, col=CompetitionCol)
+  rug(sigX[sigGroup=='Altered environment'], side=1, pos=c(2,0), ticksize=0.1, lwd=lineWeight, col=AltCol)
+  rug(sigX[sigGroup=='Cross-feeding'], side=1, pos=c(2,0), ticksize=0.1, lwd=lineWeight, col=CrossCol)
+  rug(sigX[sigGroup=='Antimicrobial/Efflux/Signaling'], side=1, pos=c(2,0), ticksize=0.1, lwd=lineWeight, col=ChemCol)
+
+   rug(sigY[sigGroup=='Competition'], side=2, pos=c(2,0), ticksize=0.1, lwd=lineWeight, col=CompetitionCol)
+  rug(sigY[sigGroup=='Altered environment'], side=2, pos=c(2,0), ticksize=0.1, lwd=lineWeight, col=AltCol)
+  rug(sigY[sigGroup=='Cross-feeding'], side=2, pos=c(2,0), ticksize=0.1, lwd=lineWeight, col=CrossCol)
+  rug(sigY[sigGroup=='Antimicrobial/Efflux/Signaling'], side=2, pos=c(2,0), ticksize=0.1, lwd=lineWeight, col=ChemCol)
 }
 
 print(c('rpomAlone against vibrio spearman:', cor.test(meanFitness$meanW_rpomAlone, meanFitness$meanW_vib, method='spearman')[3:4]))
@@ -449,15 +476,21 @@ print(c('rpomAlone against marivivens spearman:', cor.test(meanFitness$meanW_rpo
 print(c('rpomAlone against Complete Commuinity spearman:', cor.test(meanFitness$meanW_rpomAlone, meanFitness$meanW_CC, method='spearman')[3:4]))
 
 
-#pdf('fitnessOverview20220718.pdf', height=3, width=9,useDingbats=FALSE)
+#pdf('fitnessOverview20221212.pdf', height=3, width=9,useDingbats=FALSE)
 par(mfrow=c(1,4), mar=c(5,4,4,1))
 
 overallFitPlot(meanFitness$meanW_rpomAlone, meanFitness$meanW_vib, vibSig$meanW_rpomAlone, vibSig$meanW_vib, vibSigTable$meanW_rpomAlone, vibSigTable$meanW_vib, 'W(Rp)','W(Rp+V)', vibColor)
-
+rugGrouping(sigX=vibSigTable$meanW_rpomAlone, sigY=vibSigTable$meanW_vib, sigGroup=vibSigTable$Group)
 
 overallFitPlot(meanFitness$meanW_rpomAlone, meanFitness$meanW_mari, mariSig$meanW_rpomAlone, mariSig$meanW_mari,  mariSigTable$meanW_rpomAlone, mariSigTable$meanW_mari, 'W(Rp)','W(Rp+M)', mariColor)
+rugGrouping(sigX=mariSigTable$meanW_rpomAlone, sigY=mariSigTable$meanW_mari, sigGroup=mariSigTable$Group)
 
 overallFitPlot(meanFitness$meanW_rpomAlone, meanFitness$meanW_CC, commSig$meanW_rpomAlone, commSig$meanW_CC,commSigTable$meanW_rpomAlone, commSigTable$meanW_CC, 'W(Rp)','W(Rp+V+M)', compCommColor)
+rugGrouping(sigX=commSigTable$meanW_rpomAlone, sigY=commSigTable$meanW_CC, sigGroup=commSigTable$Group)
+
+plot(x=0.6,y=0.6,type='n', bty='n', xaxt='n', yaxt='n', xlim=c(0,2), ylim=c(0,2), xlab='', ylab='')
+legend(0, 1, legend=c('Competition', 'Cross-feeding', 'Chemically mediated interactions', 'Altered environment'), col=c('#50312F','#A10115', '#EDAE01','#EC96A4'), bty='n', lty=1, lwd=2, cex=0.7)
+
 #dev.off()
 ```
 
@@ -706,4 +739,25 @@ detach(Asparagine)
 
 ```
 
+```{r}
+aspartate <- fread('Data/DSS3,HF1,HF70_aspartate_48-well.csv') %>% 
+    pivot_longer(., cols=-1, names_to='Organism', values_to='OD') %>% 
+    na.omit() %>% 
+    separate(., col='Organism', into=c('Organism', 'Condition', 'Rep')) %>% 
+    group_by(Time, Organism, Condition) %>% 
+    summarize(mean_OD=mean(OD), sem_OD=sd(OD)/sqrt(length(OD)))
+
+attach(aspartate)
+rpomAspartate <- Organism=='DSS3' & Condition=='aspartate'
+mariAspartate <- Organism=='HF1' & Condition=='aspartate'
+vibAspartate <- Organism=='HF70' & Condition=='aspartate'
+#pdf('aspartate.pdf')
+plot(Time[rpomAsparagine], mean_OD[rpomAsparagine], type='n',  las=1, xlab='Time(h)', ylab='OD600', main='Aspartate', bty='n', ylim=c(0, 0.6),xlim=c(0, 20), cex=1.5, col='gray80')
+OD(rpomAsparagine, rpomColor)
+OD(vibAsparagine, vibColor)
+OD(mariAsparagine, mariColor)
+#dev.off()
+detach(aspartate)
+
+```
 

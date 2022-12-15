@@ -1,4 +1,4 @@
-﻿spo,gene,funct,Group,Category,Subcategory,sig_vib,sig_mari,sig_cc,log2_foldchange_Rp+V,log2_foldchange_Rp+M,log2_foldchange_Rp+V+M
+spo,gene,funct,Group,Category,Subcategory,sig_vib,sig_mari,sig_cc,log2_foldchange_Rp+V,log2_foldchange_Rp+M,log2_foldchange_Rp+V+M
 SPO3479,glcE,"glycolate oxidase, GlcE subunit",Competition,Carbon source,Glycolate,yes,NA,NA,-0.44,,
 SPO3805,dmdD,Methylthioacryloyl-CoA hydratase,Competition,Carbon source,DMSP,NA,yes,NA,,-0.11,
 SPO2708,SPO2708,carnitine dehydratase,Competition,Carbon/Nitrogen source,Carnitine,yes,NA,NA,-0.16,,
@@ -80,9 +80,3 @@ SPO0503,rpmD,ribosomal protein L30,Altered environment,Cell Cycle/Growth,Transcr
 SPO1443,rhlE,ATP-dependent RNA helicase RhlE,Altered environment,Cell Cycle/Growth,Transcription/Ribosome,yes,yes,yes,0.44,0.36,0.42
 SPO3256,rpmE,ribosomal protein L31,Altered environment,Cell Cycle/Growth,Transcription/Ribosome,NA,yes,NA,,3.9,
 SPO0691,era,GTP-binding protein Era,Altered environment,Cell Cycle/Growth,Division,yes,yes,NA,0.78,0.84,
-SPO0875,gap-2,"glyceraldehyde-3-phosphate dehydrogenase, type I",Altered environment,Metabolism,Glycolysis/Gluconeogenesis,NA,NA,yes,,,0.39
-SPO2474,eno,enolase,Altered environment,Metabolism,Glycolysis/Gluconeogenesis,NA,NA,yes,,,1.3
-SPO3810,gpmI,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase",Altered environment,Metabolism,Glycolysis/Gluconeogenesis,NA,yes,NA,,2.6,
-SPO0779,rpe,ribulose-phosphate 3-epimerase,Altered environment,Metabolism,PPP non-oxidative,yes,NA,NA,3.5,,
-SPO2242,pdhC,"pyruvate dehydrogenase complex, E2 component, dihydrolipoamide acetyltransferase",Altered environment,Metabolism,TCA,NA,NA,yes,,,1.8
-SPO1171,pyc,pyruvate carboxylase,Altered environment,Metabolism,TCA/Gluconeogenesis,NA,yes,NA,,-0.13,
