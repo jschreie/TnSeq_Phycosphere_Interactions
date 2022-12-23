@@ -761,3 +761,97 @@ detach(aspartate)
 
 ```
 
+
+# Cross feeding data
+```{r, echo=FALSE}
+
+plateOD <- fread('Data/20211122_SEB_mutantCure.csv') %>%  melt(., id=c('Time'), variable.name='Well', value.name='OD600')
+plateOD$Time <- round(plateOD$Time/60, 2)
+
+plateMap <- fread('Data/20211122_plateLayout.csv')
+
+growthData <- inner_join(plateOD, plateMap, by='Well') 
+
+# A function to calculate the mean and standard error of the mean for OD
+# This takes the growth data, groups the data by Time, Strain, and the Starting_dilution
+# Then summarizes the data to output a file with just the mean and the standard error for each 
+# strain at each time point 
+
+meanCells <- function(rawData) {
+    rawData <- rawData %>% 
+        na.omit() %>% 
+        group_by(Time, Strain, Substrate) %>% 
+        summarise(mean_OD=round(mean(OD600), 3), sem_OD = round(sd(OD600)/sqrt(length(OD600)),3))
+}
+
+growthCurves <- meanCells(growthData)
+
+
+# attach will make it so that I don't have to use the syntax of growthCurves$Strain, I can just call
+# Strain. It makes it easy to type/read, but if you have multiple tables you have to make sure to 
+# detach() at the end of what you are doing with one table
+attach(growthCurves)
+
+# Define each strains used for this plate
+purN <- Strain=='2168' 
+purF <- Strain=='2677_2' 
+WT <- Strain=='DSS3' 
+
+glucose_NSM <- Substrate=='Glucose_NegativeSM'
+HF1SM <- Substrate=='Glucose_HF1'
+HF70SM <- Substrate=='Glucose_HF70'
+DSS3SM <- Substrate=='Glucose_DSS3'
+
+glucose_ASW <- Substrate=='Glucose_ASW'
+dNTPs <- Substrate=='dNTP_ASW'
+adenosine <- Substrate=='Adenosine_ASW'
+
+
+
+# A function to plot the data that takes the strain as defined above, and a title for the plot
+# This will plot growth curves of the two starting dilutions for each strain
+strain_plot <- function(title='WT', strain, yLim=c(0, 0.2)) {
+    plot(Time[strain & glucose_ASW], mean_OD[strain & glucose_ASW], type='n',  las=1, xlab='Time(Hr)', ylab='OD600', main=title, bty='n', ylim=yLim)
+    segments(Time[strain & glucose_ASW], y0=mean_OD[strain & glucose_ASW]-sem_OD[strain & glucose_ASW], y1=mean_OD[strain & glucose_ASW]+sem_OD[strain & glucose_ASW], col=alpha('black', 0.3))
+    points(Time[strain & glucose_ASW], mean_OD[strain & glucose_ASW], pch=16, cex=0.2)
+    lines(Time[strain & glucose_ASW], mean_OD[strain & glucose_ASW], lwd=1)
+    
+}
+
+strain_points <- function(strain, substrate, color='black'){
+    segments(Time[strain & substrate], y0=mean_OD[strain & substrate]-sem_OD[strain & substrate], y1=mean_OD[strain & substrate]+sem_OD[strain & substrate], col=alpha(color, 0.3))
+    points(Time[strain & substrate], mean_OD[strain & substrate], pch=16, cex=0.2, col=color)
+    lines(Time[strain & substrate], mean_OD[strain & substrate], lwd=1, col=color)
+    
+}
+
+
+#pdf('MutantCuring_20211122.pdf')
+par(mfrow=c(2,2))
+strain_plot(title='DSS3 WT', strain=WT, yLim=c(0, 0.2))
+strain_points(WT, HF1SM, 'goldenrod3')
+strain_points(WT, HF70SM, 'green3')
+strain_points(WT, DSS3SM, 'blue2')
+legend(2, 0.2,  legend= c('Glucose/ASW', 'Glucose/HF1 SM', 'Glucose/HF70 SM', 'Glucose/DSS3 SM'), col=c('black', 'goldenrod3', 'green3', 'blue2'), cex=0.4, bty='n', lty=1)
+
+
+strain_plot(title='purN', strain=purN, yLim=c(0, 0.2))
+strain_points(purN, HF1SM, 'goldenrod3')
+strain_points(purN, HF70SM, 'green3')
+strain_points(purN, DSS3SM, 'blue2')
+strain_points(purN, adenosine, 'red2')
+strain_points(purN, dNTPs, 'pink')
+legend(2, 0.2,  legend= c('Glucose/ASW', 'Glucose/HF1 SM', 'Glucose/HF70 SM', 'Glucose/DSS3 SM', 'Glucose+Adenosine/ASW', 'Glucose+dNTPs/ASW'), col=c('black', 'goldenrod3', 'green3', 'blue2', 'red2', 'pink'), cex=0.4, bty='n', lty=1)
+
+
+strain_plot(title='purF', strain=purF, yLim=c(0, 0.2))
+strain_points(purF, HF1SM, 'goldenrod3')
+strain_points(purF, HF70SM, 'green3')
+strain_points(purF, DSS3SM, 'blue2')
+strain_points(purF, adenosine, 'red2')
+strain_points(purF, dNTPs, 'pink')
+legend(2, 0.2,  legend= c('Glucose/ASW', 'Glucose/HF1 SM', 'Glucose/HF70 SM', 'Glucose/DSS3 SM', 'Glucose+Adenosine/ASW', 'Glucose+dNTPs/ASW'), col=c('black', 'goldenrod3', 'green3', 'blue2', 'red2', 'pink'), cex=0.4, bty='n', lty=1)
+
+
+```
+
